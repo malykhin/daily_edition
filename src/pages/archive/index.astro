@@ -1,6 +1,6 @@
 ---
 import Base from '../../layouts/Base.astro';
 import { editions,formatDate } from '../../lib/editions';
-const base = import.meta.env.BASE_URL;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '') + '/';
 ---
 <Base title="Archive — The Daily Edition"><div class="hero"><span class="eyebrow">Every edition, preserved</span><h1>The archive.</h1><p>Yesterday's stories are still worth a second look.</p></div><ul class="archive-list">{editions.map(e=><li><a class="link" href={base+'edition/'+e.date+'/'}>{formatDate(e.date)}</a><span class="muted">{e.status==='sample'?'Preview':'Edition'} ↗</span></li>)}</ul></Base>
