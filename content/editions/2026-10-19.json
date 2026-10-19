@@ -1,79 +1,184 @@
 {
   "date": "2026-10-19",
-  "status": "sample",
-  "intro": "A sample issue to preview the design. The news and figures below are placeholders, not current reporting.",
+  "status": "published",
+  "intro": "Vancouver's election results remain unofficial, the AI infrastructure trade faces a major earnings test, and China's proposed AI export controls deserve attention. Monday edition, researched this morning.",
   "weather": {
-    "title": "Vancouver forecast",
-    "summary": "Live forecast will appear after the editorial pipeline is connected.",
-    "high": null,
-    "low": null
+    "title": "Cloudy with occasional rain",
+    "summary": "Monday forecast: around 14°C high and 6°C low, with periods of rain. Tuesday looks sunnier, roughly 16°C. Check the current forecast before heading out.",
+    "high": 14,
+    "low": 6
   },
   "stories": [
     {
-      "section": "THE LEAD",
-      "title": "Your morning briefing, without the noise",
-      "summary": "A curated front page with a few stories that matter, not an endless feed.",
-      "url": null,
-      "tag": "About this paper"
+      "section": "VANCOUVER · OCT 18",
+      "title": "Vancouver election: unofficial results published",
+      "summary": "City Hall has published unofficial 2026 municipal election results. Official certification is still pending, so treat the current council lineup as provisional.",
+      "url": "https://vancouver.ca/news-calendar/news.aspx",
+      "tag": "City Hall"
     },
     {
-      "section": "TECHNOLOGY",
-      "title": "Local AI, developer tools, and security",
-      "summary": "Changes relevant to self-hosted models, AI agents, robotics, and your own projects.",
-      "url": null,
-      "tag": "Coverage preview"
+      "section": "MARKETS · OCT 19",
+      "title": "AI stocks face a consequential earnings week",
+      "summary": "Investors are increasingly scrutinizing AI infrastructure spending, financing and free cash flow. Semiconductor shares have recently been under pressure; earnings and spending guidance are the signals to watch.",
+      "url": "https://www.investors.com/news/technology/ai-stocks-artificial-intelligence-stocks-news-october192026/",
+      "tag": "Risk watch"
     },
     {
-      "section": "VANCOUVER",
-      "title": "What changed around the city?",
-      "summary": "Local civic news, cultural announcements and things worth knowing before the weekend.",
-      "url": null,
-      "tag": "Coverage preview"
+      "section": "TECH POLICY · OCT 19",
+      "title": "US federal agency orders removal of DeepSeek technology",
+      "summary": "The Department of Homeland Security has directed removal of DeepSeek technology from federal civilian IT systems, highlighting procurement and trust issues around AI supply chains.",
+      "url": "https://www.wsj.com/tech/ai/dhs-orders-deepseek-technology-removed-from-federal-civilian-it-systems-060b6d3d",
+      "tag": "AI security"
+    },
+    {
+      "section": "OPEN MODELS · OCT 16",
+      "title": "China proposes export controls on sensitive AI technologies",
+      "summary": "The draft covers 23 AI technology categories, with public consultation through November 15. Public open-source technologies are reported to remain largely exempt; final wording matters.",
+      "url": "https://www.reuters.com/world/asia-pacific/china-proposes-adding-40-ai-biotech-solar-technologies-export-control-list-2026-10-16/",
+      "tag": "Self-hosted AI"
+    },
+    {
+      "section": "VANCOUVER · OCT 19",
+      "title": "Vancouver Writers Fest runs through October 25",
+      "summary": "More than 90 events with local and international authors are listed for the festival. A useful local cultural option for this week.",
+      "url": "https://www.wonderweek.ca/events/2026-10-19",
+      "tag": "This week"
     }
   ],
   "markets": [
     {
-      "name": "VEQT",
-      "value": "Awaiting data",
-      "change": ""
-    },
-    {
-      "name": "S&P 500",
-      "value": "Awaiting data",
-      "change": ""
-    },
-    {
       "name": "Bank of Canada",
-      "value": "Rate watch",
-      "change": ""
+      "value": "2.25%",
+      "change": "Policy decision Oct 28"
+    },
+    {
+      "name": "S&P/TSX",
+      "value": "Friday close",
+      "change": "Fresh Monday quote not verified"
+    },
+    {
+      "name": "S&P 500 / Nasdaq",
+      "value": "Earnings focus",
+      "change": "AI capex and financing risk"
+    },
+    {
+      "name": "Oil",
+      "value": "Inflation watch",
+      "change": "Energy costs remain a macro risk"
     }
   ],
   "events": [
     {
-      "date": "UPCOMING",
-      "title": "Concerts, festivals and talks",
-      "description": "New announcements worth putting in your calendar before they sell out.",
-      "url": null
+      "date": "OCT 18–25 · VANCOUVER",
+      "title": "Vancouver Writers Fest",
+      "description": "Happening this week across Vancouver; browse the sessions if you'd like an evening cultural event.",
+      "url": "https://www.wonderweek.ca/events/2026-10-19"
     },
     {
-      "date": "PLAN AHEAD",
-      "title": "Vancouver events radar",
-      "description": "Looking 2–12 weeks ahead, not just at what's happening tonight.",
-      "url": null
+      "date": "NOV 1 · 7 PM · COMMODORE BALLROOM",
+      "title": "Parra for Cuva",
+      "description": "Electronic music show in downtown Vancouver. Confirm venue and tickets before booking.",
+      "url": "https://vancouverevents.org/concerts/november/"
+    },
+    {
+      "date": "NOV 4 ONWARD · CONCORD PACIFIC PLACE",
+      "title": "Cirque du Soleil — LUZIA",
+      "description": "November performances listed in Vancouver. Check official scheduling and ticket availability.",
+      "url": "https://vancouverevents.org/november/"
+    },
+    {
+      "date": "NOV 16 – DEC 24 · JACK POOLE PLAZA",
+      "title": "Vancouver Christmas Market",
+      "description": "Plan an evening at the waterfront holiday market. Dates from the 2026 festival calendar.",
+      "url": "https://www.vancouvertourism.org/vancouver-events-and-festivals/"
+    },
+    {
+      "date": "NOV 19–22 · EAST VANCOUVER",
+      "title": "Eastside Culture Crawl",
+      "description": "A free studio-opening weekend with hundreds of local artists. Save the dates.",
+      "url": "https://www.vancouvertourism.org/vancouver-events-and-festivals/"
+    },
+    {
+      "date": "NOV 27 – JAN 3 · VANDUSEN",
+      "title": "Festival of Lights",
+      "description": "Botanical-garden lights season. Plan in advance for popular evenings.",
+      "url": "https://www.vancouvertourism.org/vancouver-events-and-festivals/"
     }
   ],
   "watchers": [
     {
-      "name": "Market risk",
-      "status": "Awaiting first assessment"
+      "name": "Bank of Canada",
+      "status": "Next decision Oct 28; monitor inflation and energy prices"
     },
     {
-      "name": "Bank of Canada",
-      "status": "Awaiting first assessment"
+      "name": "Market / recession risk",
+      "status": "AI spending and debt scrutiny elevated; no crash prediction"
     },
     {
       "name": "Murmur · Nekoni · Embedible",
-      "status": "Promotion opportunities to monitor"
+      "status": "No verified new promotion deadline this morning"
+    },
+    {
+      "name": "Vancouver election",
+      "status": "Unofficial results published; watch for final confirmation"
+    }
+  ],
+  "meetups": [
+    {
+      "date": "OCT 21 · 5:30 PM · SFU SEGAL CENTRE",
+      "title": "Vancouver Physical AI Workshop",
+      "description": "Robotics and sensor datasets, vision model evaluation, hands-on work. Very relevant to your robotics projects; work email required for workshop access.",
+      "url": "https://www.eventbrite.com/e/oct-21-vancouver-physical-ai-workshop-and-meetup-tickets-1998341651674"
+    },
+    {
+      "date": "OCT 25 · NOON · ONLINE",
+      "title": "Vancouver Robotics Club",
+      "description": "Show-and-tell of robotics and electronics builds; an easy venue to discuss your Raspberry Pi robot.",
+      "url": "https://www.meetup.com/vancouverroboticsclub/"
+    },
+    {
+      "date": "NOV 2–3 · UBC · VANCOUVER",
+      "title": "Global Summit AI Vancouver",
+      "description": "Two-day AI conference with agents, AI infrastructure, engineering and startup discussions. Evaluate ticket price before committing.",
+      "url": "https://www.eventbrite.ca/e/global-summit-ai-vancouver-2026-fall-tickets-1992152242986"
+    },
+    {
+      "date": "NOV 9 · 5:30 PM · BEAUMONT STUDIOS",
+      "title": "AI Builders Guild",
+      "description": "Free builder-focused meetup with demos and talks. Strong fit for meeting potential collaborators and showing Nekoni or Embedible.",
+      "url": "https://www.eventbrite.com/e/ai-builders-guild-vancouver-build-demo-connect-tickets-2002478930386"
+    },
+    {
+      "date": "NOV 19 · JW MARRIOTT PARQ",
+      "title": "Official Cybersecurity Summit Vancouver",
+      "description": "Enterprise security leaders and practitioners; registration is subject to approval.",
+      "url": "https://cyberriskalliance.swoogo.com/Vancouver-2026"
+    },
+    {
+      "date": "NOV 25 · 7 PM · SPACE CENTRE",
+      "title": "Vancouver AI Community Meetup",
+      "description": "Local AI community demos, short talks, and networking. Good opportunity to connect with builders and possibly demo a project.",
+      "url": "https://bc-ai.ca/communities/vancouver-ai"
+    }
+  ],
+  "dining": [
+    {
+      "date": "OPENING OCT 23 · GASTOWN",
+      "title": "The Moon: intimate martini bar and restaurant",
+      "description": "A new 27-seat dining room and dedicated martini bar at 59 Powell St, with chef Felix Maristany (formerly Kissa Tanto). A promising spot to try for cocktails and a quieter dinner.",
+      "url": "https://dailyhive.com/vancouver/the-moon-vancouver"
+    },
+    {
+      "date": "2026 MICHELIN GUIDE · OCT 6",
+      "title": "AnnaLena becomes Vancouver's first two-star restaurant",
+      "description": "Michelin has awarded the restaurant a second star. Worth considering for a special dinner; a notable shift in the city's fine-dining scene.",
+      "url": "https://guide.michelin.com/en/article/michelin-guide-ceremony/every-michelin-starred-restaurant-in-vancouver-for-2026"
+    },
+    {
+      "date": "NEW SEASONAL MENU · THROUGH JAN 5",
+      "title": "Published on Main launches 12-course Harvest menu",
+      "description": "A $170-per-person tasting menu featuring autumn ingredients such as wild mushrooms, quince, and sunchoke. Listed as available through January 5, 2027.",
+      "url": "https://www.opentable.ca/r/published-on-main-vancouver"
     }
   ]
 }
