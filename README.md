@@ -24,3 +24,5 @@ Site: https://malykhin.github.io/daily_edition/
 ## Privacy
 
 This repository and GitHub Pages site are public. Do not put private financial, calendar, personal or authentication data in edition files.
+
+GitHub Pages source configured to GitHub Actions on October 18, 2026. A commit to main triggers a deployment.
