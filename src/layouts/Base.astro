@@ -1,6 +1,6 @@
 ---
 const { title = 'The Daily Edition', description = 'A personal daily newspaper, curated for Vancouver.' } = Astro.props;
-const base = import.meta.env.BASE_URL;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '') + '/';
 ---
 <!doctype html>
 <html lang="en">
@@ -57,7 +57,7 @@ const base = import.meta.env.BASE_URL;
       .market-row,.watch-row{grid-template-columns:minmax(0,1fr);gap:4px}
       .watch-row>span:last-child,.market-figure{align-items:flex-start;text-align:left}
     }
-  </style>
+    .market-heading{display:block;font-family:'Playfair Display',Georgia,serif;font-size:1.5rem;font-weight:700;letter-spacing:-.025em;line-height:1.2;margin:24px 0 12px;color:#252923}\n    @media(max-width:720px){.market-heading{font-size:1.45rem;margin:28px 0 14px}}\n  </style>
 </head>
 <body>
 <header class="site-header"><div class="wrap header-inner"><a class="logo" href={base}>The Daily Edition.</a><nav aria-label="Main navigation"><a href={base}>Today</a><a href={base + 'events/'}>Events</a><a href={base + 'archive/'}>Archive</a></nav></div></header>
