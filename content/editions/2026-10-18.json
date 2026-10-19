@@ -123,5 +123,43 @@
       "name": "Vancouver civic results",
       "status": "Official confirmation due Oct 21"
     }
+  ],
+  "meetups": [
+    {
+      "date": "OCT 21 · 5:30 PM · SFU SEGAL CENTRE",
+      "title": "Vancouver Physical AI Workshop",
+      "description": "Robotics and sensor datasets, vision model evaluation, hands-on work. Very relevant to your robotics projects; work email required for workshop access.",
+      "url": "https://www.eventbrite.com/e/oct-21-vancouver-physical-ai-workshop-and-meetup-tickets-1998341651674"
+    },
+    {
+      "date": "OCT 25 · NOON · ONLINE",
+      "title": "Vancouver Robotics Club",
+      "description": "Show-and-tell of robotics and electronics builds; an easy venue to discuss your Raspberry Pi robot.",
+      "url": "https://www.meetup.com/vancouverroboticsclub/"
+    },
+    {
+      "date": "NOV 2–3 · UBC · VANCOUVER",
+      "title": "Global Summit AI Vancouver",
+      "description": "Two-day AI conference with agents, AI infrastructure, engineering and startup discussions. Evaluate ticket price before committing.",
+      "url": "https://www.eventbrite.ca/e/global-summit-ai-vancouver-2026-fall-tickets-1992152242986"
+    },
+    {
+      "date": "NOV 9 · 5:30 PM · BEAUMONT STUDIOS",
+      "title": "AI Builders Guild",
+      "description": "Free builder-focused meetup with demos and talks. Strong fit for meeting potential collaborators and showing Nekoni or Embedible.",
+      "url": "https://www.eventbrite.com/e/ai-builders-guild-vancouver-build-demo-connect-tickets-2002478930386"
+    },
+    {
+      "date": "NOV 19 · JW MARRIOTT PARQ",
+      "title": "Official Cybersecurity Summit Vancouver",
+      "description": "Enterprise security leaders and practitioners; registration is subject to approval.",
+      "url": "https://cyberriskalliance.swoogo.com/Vancouver-2026"
+    },
+    {
+      "date": "NOV 25 · 7 PM · SPACE CENTRE",
+      "title": "Vancouver AI Community Meetup",
+      "description": "Local AI community demos, short talks, and networking. Good opportunity to connect with builders and possibly demo a project.",
+      "url": "https://bc-ai.ca/communities/vancouver-ai"
+    }
   ]
 }
