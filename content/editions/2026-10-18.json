@@ -1,0 +1,136 @@
+{
+  "date": "2026-10-18",
+  "status": "published",
+  "intro": "Vancouver has an unofficial election result; oil-driven inflation is back on the Bank of Canada's radar; and AI infrastructure financing is looking shakier. Your Sunday evening edition, researched October 18.",
+  "weather": {
+    "title": "Cloudy · 10°C now",
+    "summary": "Sunday 14°/8°, mostly cloudy. Monday 14°/6° with periods of rain (55% daytime chance). Tuesday turns sunny at 16°/6°; Wednesday 16°/7°, cloudier later.",
+    "high": 14,
+    "low": 8
+  },
+  "stories": [
+    {
+      "section": "VANCOUVER · OCT 18",
+      "title": "Pete Fry wins Vancouver mayoral race in unofficial results",
+      "summary": "The City reports Green candidate Pete Fry at 98,494 votes. The newly elected council spans COPE, Green, OneCity and ABC candidates. Official results and plebiscite outcomes are due October 21.",
+      "url": "https://vancouver.ca/news-calendar/unofficial-2026-vancouver-election-results-oct-2026.aspx",
+      "tag": "Local lead"
+    },
+    {
+      "section": "ECONOMY · OCT 17",
+      "title": "Bank of Canada warns oil shock could lift inflation",
+      "summary": "Governor Tiff Macklem anticipates a sharply higher inflation forecast amid sustained energy costs. Markets reportedly expect no October 28 move, but pricing for next year is more hawkish. Keep an eye on the Monetary Policy Report.",
+      "url": "https://www.reuters.com/world/americas/bank-canada-sees-sharply-higher-inflation-outlook-oil-surges-macklem-says-2026-10-17/",
+      "tag": "Rate watch"
+    },
+    {
+      "section": "TECH · OCT 16",
+      "title": "Linus Torvalds submits AI-assisted Linux kernel patch",
+      "summary": "An AI-assisted change tackles multicore cache contention. A reported 23× synthetic speedup is not a claim of real-world production gains; interesting signal for AI-assisted systems engineering.",
+      "url": "https://www.tomshardware.com/software/linux/linus-torvalds-posts-his-first-llm-assisted-patch-to-the-linux-kernel-after-issuing-clear-pro-ai-directives-the-bossman-makes-use-of-ai-tooling-himself",
+      "tag": "Engineering"
+    },
+    {
+      "section": "AI · OCT 18",
+      "title": "AI data-center buildout runs into financing and delivery pressure",
+      "summary": "The FT reports delays and viability questions across planned US data centers. This reinforces the need to watch infrastructure debt and capex sustainability, not just model benchmarks.",
+      "url": "https://www.ft.com/content/9ea5a37d-15c9-4d5b-94d6-719048c9cd3c",
+      "tag": "AI infrastructure"
+    },
+    {
+      "section": "OPEN MODELS · OCT 16",
+      "title": "China proposes controls on some AI technology exports",
+      "summary": "Draft rules cover sensitive AI technologies; public consultation runs through November 15. Open-source and publicly available technologies reportedly remain mostly unrestricted, making the final scope worth following.",
+      "url": "https://www.reuters.com/world/asia-pacific/china-proposes-adding-40-ai-biotech-solar-technologies-export-control-list-2026-10-16/",
+      "tag": "Self-hosted AI"
+    },
+    {
+      "section": "VANCOUVER · OCT 1",
+      "title": "Georgia Viaduct maintenance disrupts traffic",
+      "summary": "The City warns of fall lane reductions and a three-month Main Street exit ramp closure. Worth considering for downtown driving.",
+      "url": "https://vancouver.ca/news-calendar/news.aspx",
+      "tag": "City mobility"
+    }
+  ],
+  "markets": [
+    {
+      "name": "Bank of Canada policy rate",
+      "value": "2.25%",
+      "change": "Next decision Oct 28"
+    },
+    {
+      "name": "S&P/TSX · Fri close",
+      "value": "36,176.55",
+      "change": "+0.11%"
+    },
+    {
+      "name": "US equities · Friday",
+      "value": "Soft",
+      "change": "S&P 500 / Nasdaq weekly losses"
+    },
+    {
+      "name": "VEQT",
+      "value": "No verified quote",
+      "change": "Sunday · markets closed"
+    },
+    {
+      "name": "Brent crude",
+      "value": "Near US$110",
+      "change": "Friday energy shock"
+    }
+  ],
+  "events": [
+    {
+      "date": "NOV 1 · 7 PM · COMMODORE BALLROOM",
+      "title": "Parra for Cuva",
+      "description": "Electronic music show in downtown Vancouver. Confirm venue and tickets before booking.",
+      "url": "https://vancouverevents.org/concerts/november/"
+    },
+    {
+      "date": "NOV 4 ONWARD · CONCORD PACIFIC PLACE",
+      "title": "Cirque du Soleil — LUZIA",
+      "description": "November performances listed in Vancouver. Check official scheduling and ticket availability.",
+      "url": "https://vancouverevents.org/november/"
+    },
+    {
+      "date": "NOV 16 – DEC 24 · JACK POOLE PLAZA",
+      "title": "Vancouver Christmas Market",
+      "description": "Plan an evening at the waterfront holiday market. Dates from the 2026 festival calendar.",
+      "url": "https://www.vancouvertourism.org/vancouver-events-and-festivals/"
+    },
+    {
+      "date": "NOV 19–22 · EAST VANCOUVER",
+      "title": "Eastside Culture Crawl",
+      "description": "A free studio-opening weekend with hundreds of local artists. Save the dates.",
+      "url": "https://www.vancouvertourism.org/vancouver-events-and-festivals/"
+    },
+    {
+      "date": "NOV 27 – JAN 3 · VANDUSEN",
+      "title": "Festival of Lights",
+      "description": "Botanical-garden lights season. Plan in advance for popular evenings.",
+      "url": "https://www.vancouvertourism.org/vancouver-events-and-festivals/"
+    }
+  ],
+  "watchers": [
+    {
+      "name": "BoC decision",
+      "status": "Oct 28 · inflation risks rising"
+    },
+    {
+      "name": "Equity / recession risk",
+      "status": "AI financing concern; no crash prediction"
+    },
+    {
+      "name": "VEQT",
+      "status": "No verified weekend price; monitor next session"
+    },
+    {
+      "name": "Murmur · Nekoni · Embedible",
+      "status": "No vetted new promotion deadline in this edition"
+    },
+    {
+      "name": "Vancouver civic results",
+      "status": "Official confirmation due Oct 21"
+    }
+  ]
+}
