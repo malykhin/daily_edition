@@ -69,11 +69,6 @@
       "change": "S&P 500 / Nasdaq weekly losses"
     },
     {
-      "name": "VEQT",
-      "value": "No verified quote",
-      "change": "Sunday · markets closed"
-    },
-    {
       "name": "Brent crude",
       "value": "Near US$110",
       "change": "Friday energy shock"
@@ -119,10 +114,6 @@
     {
       "name": "Equity / recession risk",
       "status": "AI financing concern; no crash prediction"
-    },
-    {
-      "name": "VEQT",
-      "status": "No verified weekend price; monitor next session"
     },
     {
       "name": "Murmur · Nekoni · Embedible",
