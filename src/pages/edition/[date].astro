@@ -1,0 +1,8 @@
+---
+import Base from '../../layouts/Base.astro';
+import EditionView from '../../components/EditionView.astro';
+import { editions } from '../../lib/editions';
+export function getStaticPaths(){return editions.map(edition=>({params:{date:edition.date},props:{edition}}));}
+const {edition}=Astro.props;
+---
+<Base title={edition.date+' — The Daily Edition'}><EditionView edition={edition}/></Base>
