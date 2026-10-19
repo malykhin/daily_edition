@@ -1,0 +1,16 @@
+{
+  "name": "The Daily Edition",
+  "short_name": "Daily Edition",
+  "start_url": "/daily_edition/",
+  "display": "standalone",
+  "background_color": "#f4f0e9",
+  "theme_color": "#25382e",
+  "icons": [
+    {
+      "src": "/daily_edition/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
