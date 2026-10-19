@@ -1,0 +1,6 @@
+---
+import Base from '../layouts/Base.astro';
+import EditionView from '../components/EditionView.astro';
+import { latest } from '../lib/editions';
+---
+<Base title="The Daily Edition — Today's Paper"><EditionView edition={latest}/></Base>
