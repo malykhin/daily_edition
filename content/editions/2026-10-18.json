@@ -161,5 +161,25 @@
       "description": "Local AI community demos, short talks, and networking. Good opportunity to connect with builders and possibly demo a project.",
       "url": "https://bc-ai.ca/communities/vancouver-ai"
     }
+  ],
+  "dining": [
+    {
+      "date": "OPENING OCT 23 · GASTOWN",
+      "title": "The Moon: intimate martini bar and restaurant",
+      "description": "A new 27-seat dining room and dedicated martini bar at 59 Powell St, with chef Felix Maristany (formerly Kissa Tanto). A promising spot to try for cocktails and a quieter dinner.",
+      "url": "https://dailyhive.com/vancouver/the-moon-vancouver"
+    },
+    {
+      "date": "2026 MICHELIN GUIDE · OCT 6",
+      "title": "AnnaLena becomes Vancouver's first two-star restaurant",
+      "description": "Michelin has awarded the restaurant a second star. Worth considering for a special dinner; a notable shift in the city's fine-dining scene.",
+      "url": "https://guide.michelin.com/en/article/michelin-guide-ceremony/every-michelin-starred-restaurant-in-vancouver-for-2026"
+    },
+    {
+      "date": "NEW SEASONAL MENU · THROUGH JAN 5",
+      "title": "Published on Main launches 12-course Harvest menu",
+      "description": "A $170-per-person tasting menu featuring autumn ingredients such as wild mushrooms, quince, and sunchoke. Listed as available through January 5, 2027.",
+      "url": "https://www.opentable.ca/r/published-on-main-vancouver"
+    }
   ]
 }
