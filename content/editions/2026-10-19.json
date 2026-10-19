@@ -1,0 +1,79 @@
+{
+  "date": "2026-10-19",
+  "status": "sample",
+  "intro": "A sample issue to preview the design. The news and figures below are placeholders, not current reporting.",
+  "weather": {
+    "title": "Vancouver forecast",
+    "summary": "Live forecast will appear after the editorial pipeline is connected.",
+    "high": null,
+    "low": null
+  },
+  "stories": [
+    {
+      "section": "THE LEAD",
+      "title": "Your morning briefing, without the noise",
+      "summary": "A curated front page with a few stories that matter, not an endless feed.",
+      "url": null,
+      "tag": "About this paper"
+    },
+    {
+      "section": "TECHNOLOGY",
+      "title": "Local AI, developer tools, and security",
+      "summary": "Changes relevant to self-hosted models, AI agents, robotics, and your own projects.",
+      "url": null,
+      "tag": "Coverage preview"
+    },
+    {
+      "section": "VANCOUVER",
+      "title": "What changed around the city?",
+      "summary": "Local civic news, cultural announcements and things worth knowing before the weekend.",
+      "url": null,
+      "tag": "Coverage preview"
+    }
+  ],
+  "markets": [
+    {
+      "name": "VEQT",
+      "value": "Awaiting data",
+      "change": ""
+    },
+    {
+      "name": "S&P 500",
+      "value": "Awaiting data",
+      "change": ""
+    },
+    {
+      "name": "Bank of Canada",
+      "value": "Rate watch",
+      "change": ""
+    }
+  ],
+  "events": [
+    {
+      "date": "UPCOMING",
+      "title": "Concerts, festivals and talks",
+      "description": "New announcements worth putting in your calendar before they sell out.",
+      "url": null
+    },
+    {
+      "date": "PLAN AHEAD",
+      "title": "Vancouver events radar",
+      "description": "Looking 2–12 weeks ahead, not just at what's happening tonight.",
+      "url": null
+    }
+  ],
+  "watchers": [
+    {
+      "name": "Market risk",
+      "status": "Awaiting first assessment"
+    },
+    {
+      "name": "Bank of Canada",
+      "status": "Awaiting first assessment"
+    },
+    {
+      "name": "Murmur · Nekoni · Embedible",
+      "status": "Promotion opportunities to monitor"
+    }
+  ]
+}
