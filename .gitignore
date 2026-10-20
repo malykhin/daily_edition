@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.astro/
+__pycache__/
+*.pyc
+.publisher-work/
+.env
+.env.*
+auth.json
+acceptance-result.json

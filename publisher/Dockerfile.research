@@ -1,0 +1,10 @@
+# Supply your existing, tested Codex CLI image, pinned by digest.
+ARG CODEX_BASE
+FROM ${CODEX_BASE}
+# The existing image must provide python3 >=3.10, tzdata, TLS CAs and the Codex CLI.
+# Fail the build if prerequisites are missing; never install a second AI client.
+RUN python3 -c 'from zoneinfo import ZoneInfo; ZoneInfo("America/Vancouver")' && codex --version
+COPY publisher/ /opt/publisher/
+ENV PYTHONDONTWRITEBYTECODE=1 PYTHONUNBUFFERED=1 HOME=/tmp CODEX_HOME=/auth
+USER 1000:1000
+ENTRYPOINT ["python3", "/opt/publisher/publisher.py"]

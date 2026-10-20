@@ -1,0 +1,112 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: daily-edition
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: codex-auth
+  namespace: daily-edition
+spec:
+  accessModes: [ReadWriteOnce]
+  resources:
+    requests:
+      storage: 1Gi
+---
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: daily-edition
+  namespace: daily-edition
+spec:
+  suspend: true # Only enable after the documented live acceptance gate passes.
+  schedule: '0 7 * * *'
+  timeZone: America/Vancouver
+  concurrencyPolicy: Forbid
+  startingDeadlineSeconds: 1800
+  successfulJobsHistoryLimit: 7
+  failedJobsHistoryLimit: 14
+  jobTemplate:
+    spec:
+      backoffLimit: 0 # Research is costly; require visible, deliberate retries.
+      activeDeadlineSeconds: 4200
+      template:
+        metadata:
+          labels:
+            app: daily-edition
+        spec:
+          restartPolicy: Never
+          automountServiceAccountToken: false
+          securityContext:
+            runAsNonRoot: true
+            runAsUser: 1000
+            runAsGroup: 1000
+            fsGroup: 1000
+            seccompProfile:
+              type: RuntimeDefault
+          initContainers:
+            - name: initialize
+              image: daily-edition-runtime:REPLACE_WITH_IMMUTABLE_TAG
+              args: [prepare]
+              env:
+                - {name: PRODUCT_CONTEXT_FILE, value: /config/products.md}
+              resources:
+                requests: {cpu: 100m, memory: 128Mi}
+                limits: {cpu: '1', memory: 512Mi}
+              securityContext:
+                allowPrivilegeEscalation: false
+                readOnlyRootFilesystem: true
+                capabilities: {drop: [ALL]}
+              volumeMounts:
+                - {name: work, mountPath: /work}
+                - {name: temp, mountPath: /tmp}
+                - {name: products, mountPath: /config, readOnly: true}
+            - name: research
+              image: daily-edition-research:REPLACE_WITH_IMMUTABLE_TAG
+              args: [research]
+              env:
+                - {name: CODEX_HOME, value: /auth}
+                - {name: HOME, value: /tmp}
+              resources:
+                requests: {cpu: 250m, memory: 512Mi}
+                limits: {cpu: '2', memory: 2Gi}
+              securityContext:
+                allowPrivilegeEscalation: false
+                readOnlyRootFilesystem: true
+                capabilities: {drop: [ALL]}
+              volumeMounts:
+                - {name: work, mountPath: /work}
+                - {name: temp, mountPath: /tmp}
+                - {name: auth, mountPath: /auth}
+          containers:
+            - name: publish
+              image: daily-edition-runtime:REPLACE_WITH_IMMUTABLE_TAG
+              args: [publish]
+              env:
+                - {name: GITHUB_TOKEN_FILE, value: /github/token}
+                - {name: VERIFY_PAGES, value: '1'}
+              resources:
+                requests: {cpu: 100m, memory: 128Mi}
+                limits: {cpu: '1', memory: 512Mi}
+              securityContext:
+                allowPrivilegeEscalation: false
+                readOnlyRootFilesystem: true
+                capabilities: {drop: [ALL]}
+              volumeMounts:
+                - {name: work, mountPath: /work}
+                - {name: temp, mountPath: /tmp}
+                - {name: github, mountPath: /github, readOnly: true}
+          volumes:
+            - name: work
+              emptyDir: {sizeLimit: 512Mi}
+            - name: temp
+              emptyDir: {sizeLimit: 128Mi}
+            - name: auth
+              persistentVolumeClaim: {claimName: codex-auth}
+            - name: github
+              secret:
+                secretName: daily-edition-github
+                defaultMode: 0440
+            - name: products
+              configMap: {name: daily-edition-products}

@@ -1,0 +1,37 @@
+# Run only while no publisher Job is active. Delete after login/maintenance.
+apiVersion: v1
+kind: Pod
+metadata:
+  name: codex-auth-maintenance
+  namespace: daily-edition
+spec:
+  restartPolicy: Never
+  automountServiceAccountToken: false
+  securityContext:
+    runAsNonRoot: true
+    runAsUser: 1000
+    runAsGroup: 1000
+    fsGroup: 1000
+    seccompProfile: {type: RuntimeDefault}
+  containers:
+    - name: codex
+      image: daily-edition-research:REPLACE_WITH_IMMUTABLE_TAG
+      command: [python3, -c, 'import time; time.sleep(3600)']
+      env:
+        - {name: CODEX_HOME, value: /auth}
+        - {name: HOME, value: /tmp}
+      securityContext:
+        allowPrivilegeEscalation: false
+        readOnlyRootFilesystem: true
+        capabilities: {drop: [ALL]}
+      resources:
+        requests: {cpu: 100m, memory: 128Mi}
+        limits: {cpu: '1', memory: 512Mi}
+      volumeMounts:
+        - {name: auth, mountPath: /auth}
+        - {name: temp, mountPath: /tmp}
+  volumes:
+    - name: auth
+      persistentVolumeClaim: {claimName: codex-auth}
+    - name: temp
+      emptyDir: {}

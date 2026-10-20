@@ -1,0 +1,5 @@
+*
+!publisher/
+!publisher/**
+publisher/**/__pycache__/
+publisher/**/*.pyc
