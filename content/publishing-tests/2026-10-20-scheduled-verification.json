@@ -1,0 +1,102 @@
+{
+  "date": "2026-10-20",
+  "status": "test",
+  "intro": "Vancouver's election results await certification, alternative AI accelerators are gaining developer tooling, and tomorrow's physical-AI workshop offers a practical robotics session. This is an unattended publishing verification, not a public daily edition.",
+  "weather": {
+    "title": "Mainly sunny in Vancouver",
+    "summary": "The Weather Network's October 20 forecast lists a high near 13°C and low near 7°C, with a 30% probability of precipitation. Forecast checked October 20; conditions may change. Source: https://www.theweathernetwork.com/en/city/ca/british-columbia/vancouver/14-days",
+    "high": 13,
+    "low": 7
+  },
+  "stories": [
+    {
+      "section": "VANCOUVER · OCT 18",
+      "title": "Unofficial civic results put Pete Fry first",
+      "summary": "The City of Vancouver reports Pete Fry with 98,494 votes in the mayoral race. The Chief Election Officer expects to declare official results, including plebiscites, by October 21 at 4 p.m.",
+      "url": "https://vancouver.ca/news-calendar/unofficial-2026-vancouver-election-results-oct-2026.aspx",
+      "tag": "Local"
+    },
+    {
+      "section": "AI ENGINEERING · OCT 19",
+      "title": "Amazon introduces TorchNeuron for PyTorch on Trainium",
+      "summary": "Reuters reports Amazon's open-source TorchNeuron aims to reduce PyTorch code changes when moving to its Trainium accelerators, challenging Nvidia CUDA's developer lock-in.",
+      "url": "https://www.reuters.com/business/retail-consumer/amazon-says-its-ai-chips-will-work-with-popular-coding-language-challenging-2026-10-19/",
+      "tag": "Developer tooling"
+    },
+    {
+      "section": "MARKETS · OCT 19",
+      "title": "AI-linked stocks rebound, but financing concerns remain",
+      "summary": "Reuters reports a rebound in semiconductor and AI infrastructure shares on Monday after last week's selloff. Financing costs and upcoming earnings remain central risks.",
+      "url": "https://www.reuters.com/world/asia-pacific/us-chip-stocks-rise-after-steepest-weekly-selloff-months-2026-10-19/",
+      "tag": "Markets"
+    },
+    {
+      "section": "DINING · OCT 19",
+      "title": "The Moon plans Gastown opening on October 23",
+      "summary": "The Georgia Straight reports a 27-seat dining room, an 11-seat chef's counter and a separate martini bar at 59 Powell Street.",
+      "url": "https://www.straight.com/food/moon-is-bringing-martinis-late-nights-and-a-new-dining-experience-to-gastown",
+      "tag": "New opening"
+    }
+  ],
+  "markets": [
+    {
+      "name": "Bank of Canada policy rate",
+      "value": "2.25%",
+      "change": "Next scheduled decision October 28; https://www.bankofcanada.ca/2025/08/bank-canada-publishes-2026-schedule-policy-interest-rate-announcements-other-major-publications/"
+    },
+    {
+      "name": "Nasdaq",
+      "value": "Monday rebound",
+      "change": "Reuters October 19: AI and semiconductor shares recovered; https://www.reuters.com/world/asia-pacific/us-chip-stocks-rise-after-steepest-weekly-selloff-months-2026-10-19/"
+    },
+    {
+      "name": "Inflation / recession watch",
+      "value": "Elevated uncertainty",
+      "change": "BoC survey reports weaker business outlook and higher inflation expectations; https://www.reuters.com/business/canadian-firms-outlooks-dimmed-after-trade-talks-collapse-boc-survey-finds-2026-10-19/"
+    }
+  ],
+  "events": [
+    {
+      "date": "OCT 21 · 5:30–8:30 PM · VANCOUVER",
+      "title": "Vancouver Physical AI Workshop",
+      "description": "Voxel51 and Nebius host a hands-on robotics and computer-vision workshop at SFU Segal Centre, 515 W Hastings. Registration and laptop required.",
+      "url": "https://voxel51.com/events/vancouver-physical-ai-workshop-and-meetup-october-21-2026"
+    }
+  ],
+  "watchers": [
+    {
+      "name": "Vancouver election",
+      "status": "Official results expected by October 21 at 4 p.m.; https://vancouver.ca/news-calendar/unofficial-2026-vancouver-election-results-oct-2026.aspx"
+    },
+    {
+      "name": "AI infrastructure financing",
+      "status": "Watch credit conditions and earnings after volatile semiconductor trading; https://www.reuters.com/world/asia-pacific/us-chip-stocks-rise-after-steepest-weekly-selloff-months-2026-10-19/"
+    },
+    {
+      "name": "Bank of Canada",
+      "status": "October 28 policy decision; https://www.bankofcanada.ca/2025/08/bank-canada-publishes-2026-schedule-policy-interest-rate-announcements-other-major-publications/"
+    }
+  ],
+  "meetups": [
+    {
+      "date": "OCT 21 · 5:30 PM · SFU SEGAL CENTRE",
+      "title": "Voxel51 / Nebius Physical AI Meetup",
+      "description": "DROID robotics dataset, FiftyOne curation and YOLO11n model evaluation; work/university/government email required for workshop access.",
+      "url": "https://voxel51.com/events/vancouver-physical-ai-workshop-and-meetup-october-21-2026"
+    }
+  ],
+  "dining": [
+    {
+      "date": "OPENS OCT 23 · GASTOWN",
+      "title": "The Moon Martini Bar & Restaurant",
+      "description": "New 27-seat restaurant with a chef's counter and separate martini bar at 59 Powell Street; opening reported October 19. Reservations not checked.",
+      "url": "https://www.straight.com/food/moon-is-bringing-martinis-late-nights-and-a-new-dining-experience-to-gastown"
+    },
+    {
+      "date": "2026 MICHELIN GUIDE",
+      "title": "AnnaLena",
+      "description": "Promoted to two Michelin stars in the 2026 Vancouver selection, the city's first two-star restaurant; availability not checked.",
+      "url": "https://www.michelin.com/en/publications/products-and-services/michelin-guide-vancouver-2026-selection"
+    }
+  ]
+}
