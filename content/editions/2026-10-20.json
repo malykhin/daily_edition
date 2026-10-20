@@ -1,0 +1,130 @@
+{
+  "date": "2026-10-20",
+  "status": "published",
+  "intro": "Sunny Vancouver morning; City Hall's election outcome awaits certification; AI security and infrastructure costs dominate the tech and markets conversation. Your Tuesday briefing, compiled October 20.",
+  "weather": {
+    "title": "Sunny · 8°C this morning",
+    "summary": "Today sunny, 15°/7°C, dry. Wednesday 16°/8°C with increasing cloud and possible rain overnight. Thursday partly sunny 13°/7°C; Friday 13°/7°C, rain risk overnight.",
+    "high": 15,
+    "low": 7
+  },
+  "stories": [
+    {
+      "section": "VANCOUVER · OCT 20",
+      "title": "Vancouver election: final declaration due tomorrow",
+      "summary": "Unofficial results show Pete Fry leading the mayoral vote with 98,494. Official results and plebiscite decisions are expected Wednesday, October 21, by 4 PM.",
+      "url": "https://vancouver.ca/news-calendar/unofficial-2026-vancouver-election-results-oct-2026.aspx",
+      "tag": "City Hall"
+    },
+    {
+      "section": "AI SECURITY · OCT 19–20",
+      "title": "US federal agencies ordered to remove DeepSeek technology",
+      "summary": "DHS directed federal civilian systems to remove DeepSeek products and affected third-party services, citing supply-chain and data security. China has challenged the move. Important distinction: this is a US federal procurement restriction, not a general ban on running local models.",
+      "url": "https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19/",
+      "tag": "Local-model ecosystem"
+    },
+    {
+      "section": "AI INFRA · OCT 19",
+      "title": "Amazon targets CUDA lock-in with TorchNeuron",
+      "summary": "Amazon says its new open-source TorchNeuron software enables PyTorch workloads to run on Trainium chips with fewer modifications. Watch whether alternative accelerators really become practical for model training.",
+      "url": "https://www.reuters.com/business/retail-consumer/amazon-says-its-ai-chips-will-work-with-popular-coding-language-challenging-2026-10-19/",
+      "tag": "Developer tools"
+    },
+    {
+      "section": "MARKETS · OCT 20",
+      "title": "Inflation and oil put renewed pressure on equity markets",
+      "summary": "TSX opened 0.22% lower at 35,849.64, with miners weak and inflation concerns persisting. US futures were softer before the open. Intraday levels can change.",
+      "url": "https://www.reuters.com/business/tsx-futures-dip-inflation-expectations-us-trade-tensions-weigh-2026-10-20/",
+      "tag": "Macro watch"
+    },
+    {
+      "section": "ROBOTICS · OCT 20",
+      "title": "Physical AI gets another push from Nvidia's industrial pitch",
+      "summary": "Jensen Huang urged German manufacturers to apply AI to physical industries and robotics rather than view it as a replacement for manufacturing. Relevant to the robotics tooling and edge-compute ecosystem.",
+      "url": "https://apnews.com/article/f024c1e0d181677a19468657907a9025",
+      "tag": "Robotics"
+    }
+  ],
+  "markets": [
+    {
+      "name": "Bank of Canada",
+      "value": "2.25%",
+      "change": "Next rate decision Oct 28"
+    },
+    {
+      "name": "S&P/TSX",
+      "value": "35,849.64",
+      "change": "At open · −0.22%"
+    },
+    {
+      "name": "US equity futures",
+      "value": "Lower",
+      "change": "AI/energy risks; pre-market"
+    },
+    {
+      "name": "Recession watch",
+      "value": "Caution",
+      "change": "No specific crash forecast"
+    }
+  ],
+  "events": [
+    {
+      "date": "OCT 21 · 5:30–8:30 PM · SFU SEGAL CENTRE",
+      "title": "Vancouver Physical AI Workshop",
+      "description": "Hands-on robotics data and computer vision workshop. Bring a laptop; advance registration required.",
+      "url": "https://voxel51.com/events/vancouver-physical-ai-workshop-and-meetup-october-21-2026"
+    },
+    {
+      "date": "NOV 19 · JW MARRIOTT PARQ",
+      "title": "Official Cybersecurity Summit",
+      "description": "Security networking and enterprise talks. Verify admission requirements before attending.",
+      "url": "https://cyberriskalliance.swoogo.com/Vancouver-2026"
+    }
+  ],
+  "watchers": [
+    {
+      "name": "Bank of Canada",
+      "status": "Oct 28 decision; energy-linked inflation risk"
+    },
+    {
+      "name": "Market risk",
+      "status": "TSX weaker at open; AI capex and financing concerns"
+    },
+    {
+      "name": "Murmur · Nekoni · Embedible",
+      "status": "No verified fresh promotion deadline today"
+    },
+    {
+      "name": "Vancouver civic",
+      "status": "Election certification due Oct 21"
+    }
+  ],
+  "meetups": [
+    {
+      "date": "OCT 21 · 5:30–8:30 PM · 515 W HASTINGS ST",
+      "title": "Voxel51 / Nebius Physical AI Workshop",
+      "description": "Curate DROID robotics recordings in FiftyOne, train and evaluate YOLO11n detectors. High relevance to your ROS/robotics experiments. Register in advance.",
+      "url": "https://voxel51.com/events/vancouver-physical-ai-workshop-and-meetup-october-21-2026"
+    },
+    {
+      "date": "NOV 19 · JW MARRIOTT PARQ",
+      "title": "Vancouver Cybersecurity Summit",
+      "description": "Enterprise security and industry contacts; verify registration and eligibility.",
+      "url": "https://cyberriskalliance.swoogo.com/Vancouver-2026"
+    }
+  ],
+  "dining": [
+    {
+      "date": "SPECIAL DINNER · MAIN STREET",
+      "title": "Published on Main",
+      "description": "The Michelin-starred restaurant lists both à la carte and Harvest tasting reservations. A good special-occasion option, but no verified new change to the menu today.",
+      "url": "https://publishedonmain.com/"
+    },
+    {
+      "date": "OPENING ANNOUNCEMENT · GASTOWN · OCT 23",
+      "title": "The Moon Martini Bar & Restaurant",
+      "description": "A new intimate dining room and martini bar on Powell Street has been announced. Check opening-day reservations before visiting.",
+      "url": "https://dailyhive.com/vancouver/the-moon-vancouver"
+    }
+  ]
+}
