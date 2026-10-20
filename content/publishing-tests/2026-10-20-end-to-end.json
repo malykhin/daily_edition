@@ -1,6 +1,73 @@
 {
   "date": "2026-10-20",
   "status": "test",
-  "kind": "minimal-json-write-diagnostic",
-  "message": "GitHub connector JSON publishing test"
+  "intro": "AI infrastructure financing is under scrutiny as oil prices rise; Vancouver's physical AI workshop takes place tomorrow. Test edition, not published.",
+  "weather": {
+    "title": "Forecast not verified",
+    "summary": "No reliable live Vancouver forecast confirmed in this run; consult Environment Canada.",
+    "high": null,
+    "low": null
+  },
+  "stories": [
+    {
+      "section": "MARKETS · OCT 20",
+      "title": "Oil and AI valuations pressure markets",
+      "summary": "Reuters reports Brent above $111 and renewed pressure on AI infrastructure equities.",
+      "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-10-20/",
+      "tag": "Markets"
+    },
+    {
+      "section": "TECH · OCT 19",
+      "title": "AI stocks rebounded after last week's selloff",
+      "summary": "Reuters reports gains in chip and infrastructure names amid continuing financing concerns.",
+      "url": "https://www.reuters.com/world/asia-pacific/us-chip-stocks-rise-after-steepest-weekly-selloff-months-2026-10-19/",
+      "tag": "AI"
+    }
+  ],
+  "markets": [
+    {
+      "name": "Brent crude",
+      "value": "Above US$111",
+      "change": "Reuters intraday Oct 20; not a live quote"
+    },
+    {
+      "name": "AI infrastructure",
+      "value": "Volatile",
+      "change": "Financing and earnings risk"
+    }
+  ],
+  "events": [
+    {
+      "date": "OCT 21 · 5:30 PM",
+      "title": "Vancouver Physical AI Workshop",
+      "description": "SFU Segal Centre; registration required.",
+      "url": "https://voxel51.com/events/vancouver-physical-ai-workshop-and-meetup-october-21-2026"
+    }
+  ],
+  "watchers": [
+    {
+      "name": "AI financing",
+      "status": "Watch upcoming earnings and credit conditions"
+    },
+    {
+      "name": "Vancouver weather",
+      "status": "Current forecast not verified"
+    }
+  ],
+  "meetups": [
+    {
+      "date": "OCT 21 · 5:30 PM",
+      "title": "Voxel51 / Nebius Physical AI",
+      "description": "Hands-on robotics data and computer vision workshop; work or university email required.",
+      "url": "https://voxel51.com/events/vancouver-physical-ai-workshop-and-meetup-october-21-2026"
+    }
+  ],
+  "dining": [
+    {
+      "date": "OCT 2026",
+      "title": "AnnaLena",
+      "description": "Michelin's Vancouver 2026 guide reports two stars; reservation availability not checked.",
+      "url": "https://guide.michelin.com/en/article/michelin-guide-ceremony/every-michelin-starred-restaurant-in-vancouver-for-2026"
+    }
+  ]
 }
