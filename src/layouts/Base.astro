@@ -6,7 +6,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '') + '/';
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#f4f0e9" />
   <meta name="description" content={description} />
   <link rel="icon" href={base + 'favicon.svg'} type="image/svg+xml" />
@@ -64,16 +64,10 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '') + '/';
     /* Long unbroken source URLs in generated copy must never widen the page. */
     .story-grid>*,.feature-grid>*{min-width:0}
     .summary,.story p,.event p,.market-change,.watch-row>span:last-child,.notice{overflow-wrap:anywhere}
-    /* Keep the header clear of the status bar and the footer clear of rounded corners and floating toolbars. */
-    .site-header{padding-top:calc(12px + env(safe-area-inset-top))}
-    .footer{padding-bottom:calc(72px + env(safe-area-inset-bottom))}
-    .wrap{padding-left:max(24px,env(safe-area-inset-left));padding-right:max(24px,env(safe-area-inset-right))}
-    @media(max-width:720px){
-      /* In-app browsers overlay their own blur and rounded corners without reporting safe-area insets. */
-      .site-header{padding-top:calc(30px + env(safe-area-inset-top))}
-      .footer{padding-bottom:calc(140px + env(safe-area-inset-bottom))}
-      .wrap{padding-left:max(18px,env(safe-area-inset-left));padding-right:max(18px,env(safe-area-inset-right))}
-    }
+    /* A little breathing room so browser blur and rounded screen corners don't clip the edges. */
+    .site-header{padding-top:20px}
+    .footer{padding-bottom:53px}
+    @media(max-width:720px){.site-header{padding-top:18px}}
   </style>
 </head>
 <body>
