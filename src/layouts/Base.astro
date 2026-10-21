@@ -61,6 +61,9 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '') + '/';
     }
     .market-heading{display:block;font-family:'Playfair Display',Georgia,serif;font-size:1.5rem;font-weight:700;letter-spacing:-.025em;line-height:1.2;margin:24px 0 12px;color:#252923}
     @media(max-width:720px){.market-heading{font-size:1.45rem;margin:28px 0 14px}}
+    /* Long unbroken source URLs in generated copy must never widen the page. */
+    .story-grid>*,.feature-grid>*{min-width:0}
+    .summary,.story p,.event p,.market-change,.watch-row>span:last-child,.notice{overflow-wrap:anywhere}
   </style>
 </head>
 <body>
