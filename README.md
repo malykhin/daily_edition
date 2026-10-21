@@ -17,6 +17,8 @@ Sample editions are **not live reporting**. All market data, weather, events and
 
 Keep source URLs as plain text in edition JSON. The site renders URLs in narrative text as labeled hyperlinks (for example, Open-Meteo or Environment Canada), preserving their full destinations without displaying long query strings. No HTML or Markdown is required.
 
+The Events page combines upcoming arts/culture events and technical meetups from the latest edition, hides past dated listings, and shows an explicit empty state when nothing is verified.
+
 ## Publish
 
 In repository Settings → Pages, choose **GitHub Actions** as the build/deploy source. The workflow uses `withastro/action` and `actions/deploy-pages`.

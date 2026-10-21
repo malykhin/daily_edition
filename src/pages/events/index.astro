@@ -1,6 +1,33 @@
 ---
 import LinkedText from '../../components/LinkedText.astro';
 import Base from '../../layouts/Base.astro';
-import { latest } from '../../lib/editions';
+import { formatDate, latest } from '../../lib/editions';
+
+const today = new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Vancouver' }).format(new Date());
+const upcoming = (items: NonNullable<typeof latest.events>) => items.filter((item) => {
+  const date = item.date.match(/^\d{4}-\d{2}-\d{2}/)?.[0];
+  return !date || date >= today;
+});
+const sections = [
+  { title: 'Arts & culture', items: upcoming(latest.events ?? []) },
+  { title: 'Meetups & conferences', items: upcoming(latest.meetups ?? []) },
+].filter((section) => section.items.length > 0);
 ---
-<Base title="Vancouver Events — The Daily Edition"><div class="hero"><span class="eyebrow">Your calendar radar</span><h1>What's next.</h1><p>Events worth planning around, surfaced ahead of time.</p></div>{latest.status==='sample'&&<aside class="notice">These are illustrative event categories, not actual event announcements.</aside>}<div class="feature-grid"><section>{(latest.events??[]).map(e=><article class="event"><small>{e.date}</small><h3>{e.url?<a class="link" href={e.url}>{e.title} ↗</a>:e.title}</h3><p><LinkedText text={e.description}/></p></article>)}</section><section class="panel"><span class="eyebrow">Coming soon</span><h3>Don't miss the announcement.</h3><p class="summary">New events and on-sale notices can be included as soon as the research and publication workflow is connected.</p></section></div></Base>
+<Base title="Vancouver Events — The Daily Edition">
+  <div class="hero">
+    <span class="eyebrow">Your calendar radar</span>
+    <h1>What's next.</h1>
+    <p>Upcoming Vancouver events and meetups from the {formatDate(latest.date)} edition.</p>
+  </div>
+  {latest.status === 'sample' && <aside class="notice">These are illustrative event categories, not actual event announcements.</aside>}
+  {sections.length > 0 ? <div class:list={{ 'feature-grid': sections.length > 1 }}>
+    {sections.map((section) => <section>
+      <div class="section-head"><h2>{section.title}</h2></div>
+      {section.items.map((event) => <article class="event">
+        <small>{event.date}</small>
+        <h3>{event.url ? <a class="link" href={event.url} target="_blank" rel="noopener noreferrer">{event.title} ↗</a> : event.title}</h3>
+        <p><LinkedText text={event.description}/></p>
+      </article>)}
+    </section>)}
+  </div> : <aside class="notice">No verified upcoming events are listed in the latest edition. Check back after the next daily update.</aside>}
+</Base>
