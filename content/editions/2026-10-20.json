@@ -1,130 +1,77 @@
 {
   "date": "2026-10-20",
   "status": "published",
-  "intro": "Sunny Vancouver morning; City Hall's election outcome awaits certification; AI security and infrastructure costs dominate the tech and markets conversation. Your Tuesday briefing, compiled October 20.",
+  "intro": "Tuesday’s edition leads with a browser security update and two Canadian economic releases that reward a closer reading. Gasoline explains much of September’s inflation acceleration, while the timing of business interviews complicates an apparent improvement in confidence. Markets below use Tuesday’s reported closing session. For dinner planning, Vij’s has announced a closure next week.",
   "weather": {
-    "title": "Sunny · 8°C this morning",
-    "summary": "Today sunny, 15°/7°C, dry. Wednesday 16°/8°C with increasing cloud and possible rain overnight. Thursday partly sunny 13°/7°C; Friday 13°/7°C, rain risk overnight.",
-    "high": 15,
-    "low": 7
+    "title": "Wednesday warmer, then cooler",
+    "summary": "2026-10-20: 13.6/4.8°C. 2026-10-21: 15.8/8.1°C. 2026-10-22: 12.6/9.0°C. 2026-10-23: 11.9/7.2°C. Wednesday has the highest forecast maximum of these four days, followed by lower daytime temperatures Thursday and Friday. These daily temperature data do not specify cloud, rain or wind conditions. Source: https://api.open-meteo.com/v1/forecast?latitude=49.2827&longitude=-123.1207&daily=temperature_2m_max,temperature_2m_min&timezone=America%2FVancouver&forecast_days=4",
+    "high": 13.6,
+    "low": 4.8
   },
   "stories": [
     {
-      "section": "VANCOUVER · OCT 20",
-      "title": "Vancouver election: final declaration due tomorrow",
-      "summary": "Unofficial results show Pete Fry leading the mayoral vote with 98,494. Official results and plebiscite decisions are expected Wednesday, October 21, by 4 PM.",
-      "url": "https://vancouver.ca/news-calendar/unofficial-2026-vancouver-election-results-oct-2026.aspx",
-      "tag": "City Hall"
+      "section": "TECHNOLOGY · Cybersecurity",
+      "title": "Firefox update closes a certificate-blocking gap",
+      "summary": "Mozilla’s October 20 security advisory identifies Firefox 158.0.1 as a high-impact update. One consequential change concerns compromised intermediate eMudhra certificates. Mozilla distributed a OneCRL block through RemoteSettings on October 17; the browser release now includes that updated block list itself. This extends the protection to installations where policy disables RemoteSettings or the network prevents its delivery. For people maintaining managed browsers, that distinction makes checking the installed version useful even when centrally distributed security settings normally arrive automatically. The advisory also lists incorrect SVG boundary conditions, uninitialized memory in the audio component and a PDF-viewer denial-of-service issue, with different severity ratings. Apply the appropriate Firefox update and check that it completed. The certificate fix addresses a specific distribution gap; the advisory does not establish that all the listed vulnerabilities have been exploited. Its practical message is straightforward: receiving an earlier remote block and installing the patched browser are separate mechanisms for delivering this protection.",
+      "url": "https://www.mozilla.org/en-US/security/advisories/mfsa2026-111/",
+      "tag": "Browser maintenance"
     },
     {
-      "section": "AI SECURITY · OCT 19–20",
-      "title": "US federal agencies ordered to remove DeepSeek technology",
-      "summary": "DHS directed federal civilian systems to remove DeepSeek products and affected third-party services, citing supply-chain and data security. China has challenged the move. Important distinction: this is a US federal procurement restriction, not a general ban on running local models.",
-      "url": "https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19/",
-      "tag": "Local-model ecosystem"
+      "section": "ECONOMY · Inflation",
+      "title": "September’s price pressure is concentrated in fuel",
+      "summary": "Statistics Canada’s October 19 release puts annual inflation at 3.1% in September, up from 3.0% in August. Gasoline prices accelerated to 27.8% above a year earlier, compared with 22.8% in August. Excluding gasoline, inflation slowed to 2.2% from 2.4%. That split matters for household budgeting: the headline acceleration does not describe an equal increase in pressure across every spending category. Grocery inflation slowed to 1.7% from 2.8%, although grocery prices remained 33.0% above September 2020. Fresh vegetables were cheaper than a year earlier, while beef continued to show a substantial annual increase. Overall consumer prices rose 0.1% during September, or 0.4% after seasonal adjustment. Those monthly measures answer a different question from the annual headline and should not be interchanged. The report offers a more specific picture than a general claim that everything is accelerating: fuel pressure strengthened while several other categories moderated. Slower inflation still means prices are rising, unless a category’s measured change is negative.",
+      "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/261019/dq261019a-eng.pdf",
+      "tag": "September CPI"
     },
     {
-      "section": "AI INFRA · OCT 19",
-      "title": "Amazon targets CUDA lock-in with TorchNeuron",
-      "summary": "Amazon says its new open-source TorchNeuron software enables PyTorch workloads to run on Trainium chips with fewer modifications. Watch whether alternative accelerators really become practical for model training.",
-      "url": "https://www.reuters.com/business/retail-consumer/amazon-says-its-ai-chips-will-work-with-popular-coding-language-challenging-2026-10-19/",
-      "tag": "Developer tools"
-    },
-    {
-      "section": "MARKETS · OCT 20",
-      "title": "Inflation and oil put renewed pressure on equity markets",
-      "summary": "TSX opened 0.22% lower at 35,849.64, with miners weak and inflation concerns persisting. US futures were softer before the open. Intraday levels can change.",
-      "url": "https://www.reuters.com/business/tsx-futures-dip-inflation-expectations-us-trade-tensions-weigh-2026-10-20/",
-      "tag": "Macro watch"
-    },
-    {
-      "section": "ROBOTICS · OCT 20",
-      "title": "Physical AI gets another push from Nvidia's industrial pitch",
-      "summary": "Jensen Huang urged German manufacturers to apply AI to physical industries and robotics rather than view it as a replacement for manufacturing. Relevant to the robotics tooling and edge-compute ecosystem.",
-      "url": "https://apnews.com/article/f024c1e0d181677a19468657907a9025",
-      "tag": "Robotics"
+      "section": "ECONOMY · Business conditions",
+      "title": "Business optimism improved before renewed trade friction",
+      "summary": "The Bank of Canada’s October 19 Business Outlook Survey reports improved third-quarter sentiment and sales expectations. Its timing is essential: interviews ran August 6–September 2, and about three-quarters preceded the breakdown in Canada–US trade talks and new Canadian counter-tariffs. Subsequent responses point to weaker export and investment outlooks, alongside renewed pressure on costs and inflation expectations. Hiring intentions remained soft, with most firms planning unchanged staffing. Investment intentions eased slightly but remained robust, supported at some businesses by demand and commodity prices. For readers monitoring recession risk, this combination warrants more care than either an all-clear or an imminent-downturn claim. The survey captures business expectations at particular moments, and later developments can change their meaning. Its earlier improvement and later deterioration should be read together. Neither the headline sentiment reading nor the recession-planning share below establishes whether Canada is currently in recession.",
+      "url": "https://www.bankofcanada.ca/2026/10/business-outlook-survey-third-quarter-of-2026/",
+      "tag": "Interview timing"
     }
   ],
   "markets": [
     {
-      "name": "Bank of Canada",
+      "name": "S&P/TSX Composite",
+      "value": "36,107.96",
+      "change": "2026-10-20 regular-session close: +179.33 points, reported by Baystreet. Source: https://baystreet.ca/marketupdates/15462/TSX-Leaps-to-Close-Tuesday"
+    },
+    {
+      "name": "S&P 500",
+      "value": "7,712.67",
+      "change": "2026-10-20 regular-session close: +21.94 points, reported by Baystreet. Source: https://baystreet.ca/marketupdates/15462/TSX-Leaps-to-Close-Tuesday"
+    },
+    {
+      "name": "Nasdaq Composite",
+      "value": "26,424.82",
+      "change": "2026-10-20 regular-session close: -6.07 points, reported by Baystreet. Source: https://baystreet.ca/marketupdates/15462/TSX-Leaps-to-Close-Tuesday"
+    },
+    {
+      "name": "Bank of Canada policy rate",
       "value": "2.25%",
-      "change": "Next rate decision Oct 28"
+      "change": "As of 2026-10-20; policy setting from the 2026-09-02 announcement, unchanged. Next scheduled decision and Monetary Policy Report: 2026-10-28. Source: https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/"
     },
     {
-      "name": "S&P/TSX",
-      "value": "35,849.64",
-      "change": "At open · −0.22%"
+      "name": "Canadian inflation",
+      "value": "3.1% year over year",
+      "change": "September 2026 monthly statistical release, published 2026-10-19: up from August’s 3.0%. Source: https://www150.statcan.gc.ca/n1/daily-quotidien/261019/dq261019a-eng.pdf"
     },
     {
-      "name": "US equity futures",
-      "value": "Lower",
-      "change": "AI/energy risks; pre-market"
-    },
-    {
-      "name": "Recession watch",
-      "value": "Caution",
-      "change": "No specific crash forecast"
+      "name": "Recession indicator",
+      "value": "6% of firms planning or budgeting for recession",
+      "change": "2026-10-19 Q3 survey release; August 6–September 2 interviews. Down from 17%; expectations measure, not recession probability. Source: https://www.bankofcanada.ca/2026/10/business-outlook-survey-third-quarter-of-2026/"
     }
   ],
-  "events": [
-    {
-      "date": "OCT 21 · 5:30–8:30 PM · SFU SEGAL CENTRE",
-      "title": "Vancouver Physical AI Workshop",
-      "description": "Hands-on robotics data and computer vision workshop. Bring a laptop; advance registration required.",
-      "url": "https://voxel51.com/events/vancouver-physical-ai-workshop-and-meetup-october-21-2026"
-    },
-    {
-      "date": "NOV 19 · JW MARRIOTT PARQ",
-      "title": "Official Cybersecurity Summit",
-      "description": "Security networking and enterprise talks. Verify admission requirements before attending.",
-      "url": "https://cyberriskalliance.swoogo.com/Vancouver-2026"
-    }
-  ],
-  "watchers": [
-    {
-      "name": "Bank of Canada",
-      "status": "Oct 28 decision; energy-linked inflation risk"
-    },
-    {
-      "name": "Market risk",
-      "status": "TSX weaker at open; AI capex and financing concerns"
-    },
-    {
-      "name": "Murmur · Nekoni · Embedible",
-      "status": "No verified fresh promotion deadline today"
-    },
-    {
-      "name": "Vancouver civic",
-      "status": "Election certification due Oct 21"
-    }
-  ],
-  "meetups": [
-    {
-      "date": "OCT 21 · 5:30–8:30 PM · 515 W HASTINGS ST",
-      "title": "Voxel51 / Nebius Physical AI Workshop",
-      "description": "Curate DROID robotics recordings in FiftyOne, train and evaluate YOLO11n detectors. High relevance to your ROS/robotics experiments. Register in advance.",
-      "url": "https://voxel51.com/events/vancouver-physical-ai-workshop-and-meetup-october-21-2026"
-    },
-    {
-      "date": "NOV 19 · JW MARRIOTT PARQ",
-      "title": "Vancouver Cybersecurity Summit",
-      "description": "Enterprise security and industry contacts; verify registration and eligibility.",
-      "url": "https://cyberriskalliance.swoogo.com/Vancouver-2026"
-    }
-  ],
+  "events": [],
+  "meetups": [],
   "dining": [
     {
-      "date": "SPECIAL DINNER · MAIN STREET",
-      "title": "Published on Main",
-      "description": "The Michelin-starred restaurant lists both à la carte and Harvest tasting reservations. A good special-occasion option, but no verified new change to the menu today.",
-      "url": "https://publishedonmain.com/"
-    },
-    {
-      "date": "OPENING ANNOUNCEMENT · GASTOWN · OCT 23",
-      "title": "The Moon Martini Bar & Restaurant",
-      "description": "A new intimate dining room and martini bar on Powell Street has been announced. Check opening-day reservations before visiting.",
-      "url": "https://dailyhive.com/vancouver/the-moon-vancouver"
+      "date": "2026-10-27 · Vij’s, 3106 Cambie Street",
+      "title": "Vij’s announces a Tuesday closure",
+      "description": "Vij’s official website lists October 27 as a closure for a private event, with regular hours resuming the following day. Account for that interruption before arranging dinner at the Cambie Street restaurant next week. The website lists normal opening time as 5:30 p.m. daily, but the dated closure takes precedence for that Tuesday. This is a verified availability change rather than a public event or a new-menu announcement.",
+      "url": "https://www.vijs.ca/"
     }
-  ]
+  ],
+  "watchers": []
 }
