@@ -19,8 +19,10 @@ const { edition } = Astro.props as { edition: Edition };
   <section class="panel"><span class="eyebrow">Outside your door</span><h3 style="font-size:2rem;margin:14px 0 10px">{edition.weather?.title??'Vancouver weather'}</h3><p class="summary">{edition.weather?.summary??'Forecast not yet available.'}</p>{edition.weather?.high!=null&&<p class="eyebrow">High {edition.weather.high}° · Low {edition.weather.low}°</p>}</section>
   <section><h3 class="market-heading">The market tape</h3>{(edition.markets??[]).map(m=><div class="market-row"><strong>{m.name}</strong><div class="market-figure"><span class="market-value">{m.value}</span>{m.change&&<span class="market-change">{m.change}</span>}</div></div>)}</section>
 </div>
+{(edition.events?.length??0)>0&&<>
 <div class="section-head"><h2>Plan your city</h2><span>03 / Vancouver radar</span></div>
-<section class="feature-grid"><div>{(edition.events??[]).map(event=><article class="event"><small>{event.date}</small><strong>{event.url?<a class="link" href={event.url} target="_blank" rel="noopener noreferrer">{event.title} ↗</a>:event.title}</strong><p>{event.description}</p></article>)}</div><div class="panel"><span class="eyebrow">Under observation</span><h3 style="margin:12px 0">Your watchers</h3>{(edition.watchers??[]).map(w=><div class="watch-row"><strong>{w.name}</strong><span class="muted">{w.status}</span></div>)}</div></section>
+<section>{(edition.events??[]).map(event=><article class="event"><small>{event.date}</small><strong>{event.url?<a class="link" href={event.url} target="_blank" rel="noopener noreferrer">{event.title} ↗</a>:event.title}</strong><p>{event.description}</p></article>)}</section>
+</>}
 
 {(edition.meetups?.length??0)>0&&<><div class="section-head"><h2>Meetups & conferences</h2><span>04 / Worth attending</span></div><section class="feature-grid"><div>{(edition.meetups??[]).filter((_,i)=>i%2===0).map(e=><article class="event"><small>{e.date}</small><strong><a class="link" href={e.url} target="_blank" rel="noopener noreferrer">{e.title} ↗</a></strong><p>{e.description}</p></article>)}</div><div>{(edition.meetups??[]).filter((_,i)=>i%2===1).map(e=><article class="event"><small>{e.date}</small><strong><a class="link" href={e.url} target="_blank" rel="noopener noreferrer">{e.title} ↗</a></strong><p>{e.description}</p></article>)}</div></section></>}
 
