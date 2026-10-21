@@ -1,0 +1,79 @@
+{
+  "date": "2026-10-21",
+  "status": "published",
+  "intro": "Wednesday brings a consequential Thunderbird security update, provincial drug-toxicity findings and a Canadian consumer survey showing stronger financial confidence alongside weaker spending plans. November planning includes an orchestral evening and practical cybersecurity sessions. Market figures below are dated observations, with Tuesday’s completed session providing the equity benchmarks.",
+  "weather": {
+    "title": "Sun today; rain expected Saturday",
+    "summary": "2026-10-21: 13.8/4.9°C, sunny then mixed cloud. 2026-10-22: 10.8/7.0°C, mixed sun and cloud. 2026-10-23: 12.1/6.0°C, mixed sun and cloud. 2026-10-24: 10.8/7.2°C, periods of rain. Daily maxima/minima use the supplied Open-Meteo forecast; conditions use Environment Canada’s October 21 morning forecast. The providers’ temperature predictions differ. Temperatures: https://api.open-meteo.com/v1/forecast?latitude=49.2827&longitude=-123.1207&daily=temperature_2m_max,temperature_2m_min&timezone=America%2FVancouver&forecast_days=4 Conditions: https://weather.gc.ca/en/location/index.html?coords=49.246,-123.116",
+    "high": 13.8,
+    "low": 4.9
+  },
+  "stories": [
+    {
+      "section": "TECHNOLOGY · Cybersecurity",
+      "title": "Thunderbird fixes password exposure during Exchange setup",
+      "summary": "Mozilla’s October 20 advisory identifies Thunderbird 153.5.1 as a high-impact security update. During Exchange account setup, an AutoDiscover request sent over unencrypted HTTP incorrectly included the credentials entered by the user, allowing a network attacker to obtain the password. Another fix addresses incoming XMPP requests that could trigger outgoing chat commands, including messages or contact-setting changes, without user interaction. That vulnerability affects XMPP chat accounts specifically. Malformed authentication challenges from malicious POP3 or SMTP servers could also expose uninitialized memory through NTLM responses or crash the application. These are distinct exposures with different configuration requirements, rather than a claim that simply reading any email compromises an account. Users on this release branch should install the patched version and confirm the update after restarting. The advisory does not establish that these vulnerabilities were exploited against particular users.",
+      "url": "https://www.mozilla.org/en-US/security/advisories/mfsa2026-115/",
+      "tag": "Mail-client security"
+    },
+    {
+      "section": "LOCAL · Public health",
+      "title": "Coroners report 239 drug-toxicity deaths in July and August",
+      "summary": "The province’s October 14 bulletin reports preliminary counts of 113 deaths from unregulated drug toxicity in July and 126 in August. Vancouver Coastal and Fraser health authorities each recorded 68 deaths across those two months. Together, those authorities account for 54% of the province’s reported drug-toxicity deaths so far in 2026. People aged 30–59 account for 69% of this year’s deaths, and males account for 76%. The geographic distinction matters: Vancouver Coastal’s figure covers a health authority and cannot be treated as a City of Vancouver count. This release adds newly checked public-health information to the edition, although the deaths occurred during summer. The findings remain preliminary and may be revised as investigations proceed.",
+      "url": "https://news.gov.bc.ca/releases/2026PSSG0071-001124",
+      "tag": "Preliminary findings"
+    },
+    {
+      "section": "ECONOMY · Households",
+      "title": "Improved confidence meets weaker spending intentions",
+      "summary": "The Bank of Canada’s October 19 consumer survey supplies a household counterpart to yesterday’s business coverage. Respondents reported better financial health, citing financial-asset gains and greater confidence in the labour market. Yet spending plans weakened from already subdued levels as high prices and uncertainty continued to weigh on consumers. Labour-market perceptions improved slightly overall but remained below the survey average; perceptions deteriorated among workers in sectors where AI poses greater task-replacement risks. Long-term inflation expectations rose toward elevated shorter-term expectations. The online survey ran August 5–27, with roughly three-quarters of responses collected before the August 21 breakdown in Canada–US trade talks. Follow-up interviews continued into September. These findings measure perceptions and intentions, rather than actual consumption or inflation: feeling financially stronger did not automatically translate into willingness to spend.",
+      "url": "https://www.bankofcanada.ca/2026/10/canadian-survey-of-consumer-expectations-third-quarter-of-2026/",
+      "tag": "Consumer expectations"
+    }
+  ],
+  "markets": [
+    {
+      "name": "S&P/TSX Composite",
+      "value": "36,107.96",
+      "change": "2026-10-20 regular-session close: +179.33 points; last verified completed session. Source: https://baystreet.ca/marketupdates/15462/TSX-Leaps-to-Close-Tuesday"
+    },
+    {
+      "name": "S&P 500",
+      "value": "7,712.67",
+      "change": "2026-10-20 regular-session close: +21.94 points; a closing benchmark rather than a Wednesday live quote. Source: https://baystreet.ca/marketupdates/15462/TSX-Leaps-to-Close-Tuesday"
+    },
+    {
+      "name": "Nasdaq Composite",
+      "value": "26,424.82",
+      "change": "2026-10-20 regular-session close: -6.07 points, diverging from gains in the other two benchmarks. Source: https://baystreet.ca/marketupdates/15462/TSX-Leaps-to-Close-Tuesday"
+    },
+    {
+      "name": "Bank of Canada policy rate",
+      "value": "2.25%",
+      "change": "As of 2026-10-21; unchanged at the 2026-09-02 policy announcement. Administrative setting, not a trading-session price. Next decision and Monetary Policy Report: October 28. Source: https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/"
+    },
+    {
+      "name": "Recession indicator",
+      "value": "6% of firms planning or budgeting for recession",
+      "change": "2026-10-19 official Q3 survey release; August 6–September 2 observation period, not a trading session. Down from 17%, but later tariff developments weakened outlooks. This expectations measure is neither a recession probability nor a recession determination. Source: https://www.bankofcanada.ca/2026/10/business-outlook-survey-third-quarter-of-2026/"
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-11-06 · 7:30 p.m. · Orpheum, Vancouver",
+      "title": "Prokofiev’s Cinderella at the VSO",
+      "description": "The orchestra’s organizer page verifies the date, Orpheum venue and ticket link. Antony Hermus conducts Scriabin’s Rêverie, Shostakovich’s First Violin Concerto with Kevin Zhu, and Prokofiev’s Cinderella Suite. Allow approximately two hours, including one intermission. The program features the ballet’s orchestral suite; November 7 is also listed.",
+      "url": "https://secure.vancouversymphony.ca/7347/7395"
+    }
+  ],
+  "meetups": [
+    {
+      "date": "2026-11-19 · 8 a.m.–6 p.m. PST · JW Marriott Parq Vancouver, 39 Smithe Street",
+      "title": "Cybersecurity summit: quantum migration and agent security",
+      "description": "The organizer verifies registration, venue and agenda. Detail beyond the earlier calendar listing includes choosing a first application for post-quantum migration, preparing identity systems for quantum-safe operation, and securing agentic AI. These sessions make the conference relevant to infrastructure and security practitioners assessing implementation dependencies. Admission is reserved for active enterprise cybersecurity and IT practitioners, and registrations undergo review.",
+      "url": "https://cyberriskalliance.swoogo.com/Vancouver-2026"
+    }
+  ],
+  "dining": [],
+  "watchers": []
+}
