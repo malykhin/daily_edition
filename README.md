@@ -11,9 +11,11 @@ npm run dev
 
 ## Add an edition
 
-Create a new JSON file at `content/editions/YYYY-MM-DD.json` following the sample schema. The latest date becomes the front page. Committing a new edition automatically triggers a GitHub Pages deployment once Pages is configured.
+Create a new JSON file at `content/editions/YYYY-MM-DD.json` following the sample schema. The latest edition with `status: "published"` becomes the front page. Committing a new edition automatically triggers a GitHub Pages deployment once Pages is configured.
 
-The sample edition is **not live reporting**. Until publishing is automated, all market data, weather, event and news fields must be researched and verified before publishing.
+Sample editions are **not live reporting**. All market data, weather, events and news must be researched and verified before publishing.
+
+Keep source URLs as plain text in edition JSON. The site renders URLs in narrative text as labeled hyperlinks (for example, Open-Meteo or Environment Canada), preserving their full destinations without displaying long query strings. No HTML or Markdown is required.
 
 ## Publish
 

@@ -1,0 +1,42 @@
+---
+interface Props {
+  text: string;
+}
+
+const { text } = Astro.props;
+const sourceNames: Record<string, string> = {
+  'api.open-meteo.com': 'Open-Meteo',
+  'weather.gc.ca': 'Environment Canada',
+  'bankofcanada.ca': 'Bank of Canada',
+  'statcan.gc.ca': 'Statistics Canada',
+  'www150.statcan.gc.ca': 'Statistics Canada',
+  'baystreet.ca': 'Baystreet',
+};
+const parts = text.split(/(https?:\/\/[^\s<>"']+)/g).flatMap((part) => {
+  if (!/^https?:\/\//.test(part)) return [{ text: part, href: '' }];
+
+  let href = part.replace(/[.,;!]+$/, '');
+  while (href.endsWith(')') && (href.match(/\)/g)?.length ?? 0) > (href.match(/\(/g)?.length ?? 0)) {
+    href = href.slice(0, -1);
+  }
+  try {
+    const url = new URL(href);
+    const host = url.hostname.replace(/^www\./, '');
+    return [
+      { text: sourceNames[host] ?? host, href },
+      { text: part.slice(href.length), href: '' },
+    ];
+  } catch {
+    return [{ text: part, href: '' }];
+  }
+});
+---
+{parts.map((part) => part.href ? <a class="source-link" href={part.href} target="_blank" rel="noopener noreferrer">{part.text}</a> : part.text)}
+
+<style>
+  .source-link {
+    text-decoration: underline;
+    text-underline-offset: 0.15em;
+    overflow-wrap: anywhere;
+  }
+</style>
