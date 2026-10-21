@@ -69,7 +69,9 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '') + '/';
     .footer{padding-bottom:calc(72px + env(safe-area-inset-bottom))}
     .wrap{padding-left:max(24px,env(safe-area-inset-left));padding-right:max(24px,env(safe-area-inset-right))}
     @media(max-width:720px){
-      .site-header{padding-top:calc(14px + env(safe-area-inset-top))}
+      /* In-app browsers overlay their own blur and rounded corners without reporting safe-area insets. */
+      .site-header{padding-top:calc(30px + env(safe-area-inset-top))}
+      .footer{padding-bottom:calc(140px + env(safe-area-inset-bottom))}
       .wrap{padding-left:max(18px,env(safe-area-inset-left));padding-right:max(18px,env(safe-area-inset-right))}
     }
   </style>
