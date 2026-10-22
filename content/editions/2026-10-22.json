@@ -1,0 +1,79 @@
+{
+  "date": "2026-10-22",
+  "status": "published",
+  "intro": "Thursday brings a defined public-health alert for Vancouver’s West End and a separate Firefox security update for Android users. Wednesday’s completed market session provides the financial snapshot, while November planning includes the Vancouver Symphony Orchestra and a specialist workshop on internet infrastructure. Tonight’s dining option is a six-course Italian wine dinner.",
+  "weather": {
+    "title": "Cool days, warmer nights toward Sunday",
+    "summary": "2026-10-22: 10.8/5.5°C; conditions unavailable. 2026-10-23: 11.8/5.3°C; conditions unavailable. 2026-10-24: 10.5/7.5°C; conditions unavailable. 2026-10-25: 12.5/8.9°C; conditions unavailable. Saturday has the lowest daytime maximum in this four-day outlook; Sunday has the highest maximum and warmest overnight minimum. These temperature-only data do not establish cloud, rain or wind conditions. Source: https://api.open-meteo.com/v1/forecast?latitude=49.2827&longitude=-123.1207&daily=temperature_2m_max,temperature_2m_min&timezone=America%2FVancouver&forecast_days=4",
+    "high": 10.8,
+    "low": 5.5
+  },
+  "stories": [
+    {
+      "section": "LOCAL · Public health",
+      "title": "Confirmed rabies case prompts West End exposure assessment",
+      "summary": "Vancouver Coastal Health has confirmed rabies in a skunk that bit several people downtown, the Canadian Press reported October 21. The people already identified as bitten have been assessed and received vaccinations and immunoglobulin to prevent infection. The public request has a specific exposure window: anyone bitten or scratched by a sick or unusually behaving skunk in the West End between September 22 and October 17 should contact Vancouver Coastal Health for assessment. Anyone living outside the region should contact their own health authority. The report also distinguishes potentially infectious contact from other encounters: the virus can pass through bites or scratches, but exposure to skunk spray, urine or feces does not transmit it. The newly confirmed case and assessment request are the actionable developments for residents.",
+      "url": "https://vancouver.citynews.ca/2026/10/21/skunk-in-downtown-vancouver-that-bit-people-tests-positive-for-rabies/",
+      "tag": "Exposure window"
+    },
+    {
+      "section": "TECHNOLOGY · Cybersecurity",
+      "title": "Firefox for Android gets a separate high-impact security fix",
+      "summary": "Mozilla’s October 21 advisory identifies Firefox for Android 158.0.2 as the patched release for CVE-2026-113470. Mozilla rates the vulnerability high impact and places the cryptographic issue in the component responsible for security block lists, allow lists and other state. Android users should check their installed Firefox version and complete the available update. This is a distinct mobile-browser development following the desktop Firefox and Thunderbird advisories covered earlier this week; checking one application does not establish that another has been updated. The published advisory is brief, naming the affected component and linking a bug reference. It does not provide enough detail to describe a reliable attack sequence or establish that exploitation has occurred. The useful action is therefore version verification and updating, without treating the sparse technical description as evidence of a broader compromise.",
+      "url": "https://www.mozilla.org/en-US/security/advisories/mfsa2026-116/",
+      "tag": "Android maintenance"
+    }
+  ],
+  "markets": [
+    {
+      "name": "S&P/TSX Composite",
+      "value": "36,324.99",
+      "change": "2026-10-21 regular-session close: +217.03 points. Eight of 12 sectors advanced, led by financials, technology and industrials; consumer discretionary, telecommunications and staples declined. Source: https://baystreet.ca/marketupdates/15466/Stocks-Leap-to-End-Wednesday"
+    },
+    {
+      "name": "S&P 500",
+      "value": "7,757.71",
+      "change": "2026-10-21 regular-session close: +45.14 points. This completed-session reading is Wednesday’s reported finish, not a Thursday live quote or futures indication. Source: https://baystreet.ca/marketupdates/15466/Stocks-Leap-to-End-Wednesday"
+    },
+    {
+      "name": "Nasdaq Composite",
+      "value": "26,702.86",
+      "change": "2026-10-21 regular-session close: +278.04 points, or 1.1%. Technology shares contributed to Wednesday’s advance. Source: https://baystreet.ca/marketupdates/15466/Stocks-Leap-to-End-Wednesday"
+    },
+    {
+      "name": "Bank of Canada policy rate",
+      "value": "2.25%",
+      "change": "As of 2026-10-22; official policy setting, latest announcement 2026-09-02, unchanged. The next scheduled decision and Monetary Policy Report are October 28. The overnight-rate target differs from individual borrowing rates. Source: https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/"
+    },
+    {
+      "name": "Recession indicators",
+      "value": "Soft hiring intentions; most surveyed firms plan unchanged staffing",
+      "change": "2026-10-19 quarterly survey release; interviews 2026-08-06 to 2026-09-02. Most firms reported spare capacity. Later responses showed tariffs weakening export and investment outlooks. These business indicators warrant monitoring but do not establish that a recession is occurring. Source: https://www.bankofcanada.ca/2026/10/business-outlook-survey-third-quarter-of-2026/"
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-11-06 · 7:30 p.m. · Orpheum, Vancouver",
+      "title": "Cinderella closes an evening of orchestral contrasts",
+      "description": "The Vancouver Symphony Orchestra’s official 2026 program confirms Antony Hermus conducting and Kevin Zhu performing Shostakovich’s First Violin Concerto. Scriabin’s Rêverie opens the concert, followed by the concerto and Prokofiev’s Cinderella Suite. The approximately two-hour performance includes one intermission. The organizer links a dedicated November 6 ticket page and also lists a November 7 performance. Select the intended evening when booking; the program page verifies the schedule but does not establish remaining seat availability.",
+      "url": "https://secure.vancouversymphony.ca/7347/7395"
+    }
+  ],
+  "meetups": [
+    {
+      "date": "2026-11-09 · Morris J. Wosk Centre For Dialogue, SFU, 580 W Hastings St, Vancouver, BC V6B 5K3, Canada",
+      "title": "DNS-OARC’s two-day workshop welcomes infrastructure specialists",
+      "description": "The organizer confirms the main workshop runs November 9–10, 2026, with in-person and remote participation. Its focus is DNS operations, research, security and stability, and attendance is open to interested nonmembers. Standard registration costs US$600 in person or US$200 remotely; the listed registration deadline is November 10. Registration is required for either format, and the linked organizer page supplies the Eventbrite registration route. The broader November 8–11 calendar includes additional activities, so distinguish the two workshop days when arranging attendance.",
+      "url": "https://indico.dns-oarc.net/event/58/page/377-registration"
+    }
+  ],
+  "dining": [
+    {
+      "date": "2026-10-22 · 6:30 p.m. · La Terrazza, 1088 Cambie Street, Vancouver",
+      "title": "Ruffino wine dinner offers six courses tonight",
+      "description": "La Terrazza’s official event page lists a six-course dinner paired with Italian wines for Thursday, October 22, at 6:30 p.m. The stated price is $300 per person, including tax and gratuity. An RSVP form appears on the same page. The restaurant describes seating as limited but does not display remaining availability, so an RSVP request should not be treated as a confirmed reservation. This is a dated special dinner for tonight’s planning.",
+      "url": "https://laterrazza.ca/special-event/"
+    }
+  ],
+  "watchers": []
+}
