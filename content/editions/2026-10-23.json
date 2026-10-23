@@ -1,90 +1,124 @@
 {
   "date": "2026-10-23",
   "status": "published",
-  "intro": "Friday brings fresh evidence of stronger late-summer retail spending in Vancouver, plus highway diversions affecting Fraser Valley travel this weekend. A coding-agent case study offers practical lessons for keeping automated repository work accountable. Thursday’s market closes, November music and infrastructure learning, and a newly documented fall menu round out the morning.",
+  "intro": "Friday brings urgent PHP patches, new routes for running PyTorch on alternative chips, and a change in stewardship for agent skills. Vancouver’s housing report card is weak; November planning offers handmade gifts, security discussions and Scotch pairings.",
   "weather": {
     "title": "Vancouver four-day forecast",
-    "summary": "2026-10-23: 12.2/6.5°C; Overcast. 2026-10-24: 11.5/5.6°C; Slight rain. 2026-10-25: 11.5/8.3°C; Slight rain. 2026-10-26: 13.6/8.2°C; Clear sky. Source: https://api.open-meteo.com/v1/forecast?latitude=49.2827&longitude=-123.1207&daily=temperature_2m_max,temperature_2m_min,weather_code&timezone=America%2FVancouver&forecast_days=4",
-    "high": 12.2,
-    "low": 6.5
+    "summary": "2026-10-23: 11.6/6.1°C; Overcast. 2026-10-24: 12.8/5.8°C; Overcast. 2026-10-25: 11.4/8.3°C; Dense drizzle. 2026-10-26: 12.7/7.7°C; Overcast. Source: https://api.open-meteo.com/v1/forecast?latitude=49.2827&longitude=-123.1207&daily=temperature_2m_max,temperature_2m_min,weather_code&timezone=America%2FVancouver&forecast_days=4",
+    "high": 11.6,
+    "low": 6.1
   },
   "stories": [
     {
-      "section": "LOCAL · Consumer economy",
-      "title": "Vancouver retail sales rose 2.1% in August",
-      "summary": "Statistics Canada’s October 23 release reports a 2.1% monthly increase in retail sales across the Vancouver census metropolitan area. British Columbia recorded the same increase, led by motor vehicle and parts dealers. National sales rose 1.2% to $74.6 billion, with gains in all nine subsectors; sales volumes also increased 1.2%. These seasonally adjusted figures establish a stronger August, rather than describing current October spending. The distinction between dollars and volumes matters: the national advance was not simply a reflection of higher prices. September’s preliminary national estimate suggests another increase, but remains subject to revision.",
-      "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/261023/dq261023a-eng.htm",
-      "tag": "Released today"
+      "section": "TECHNOLOGY · Cybersecurity",
+      "title": "PHP releases urgent fixes for remote-code execution",
+      "summary": "PHP’s October 21 security releases fix two critical vulnerabilities that can permit unauthenticated remote-code execution. Administrators should install 8.5.12, 8.4.27, 8.3.36 or 8.2.35, or obtain their vendor’s patched package; the project says mitigations provide incomplete protection.",
+      "url": "https://www.php.net/",
+      "tag": "Patch now"
     },
     {
-      "section": "LOCAL · Regional travel",
-      "title": "Abbotsford highway off-ramps close tonight and through much of the weekend",
-      "summary": "A provincial advisory published October 22 confirms closures of the westbound Highway 1 off-ramps to Fraser Highway and Mount Lehman Road. The first runs from 9 p.m. Friday, October 23, until 7 a.m. Saturday. Both ramps close again at 9 p.m. Saturday until 5 a.m. Monday, October 26. Drivers will be diverted through Clearbrook Road while crews complete drainage, utility work and paving. Account for the diversion when arranging weekend journeys between Vancouver and the Fraser Valley that use these exits. The ministry advises allowing extra travel time and following posted signs. Weather and site conditions can alter the schedule.",
-      "url": "https://news.gov.bc.ca/releases/2026TT0105-001130",
-      "tag": "Weekend diversions"
+      "section": "TECHNOLOGY · Open standards",
+      "title": "Agent Skills moves to the Agentic AI Foundation",
+      "summary": "Anthropic announced October 22 that it is donating the Agent Skills standard, name, domain and GitHub organization to the Linux Foundation’s Agentic AI Foundation. Developers can continue using or contributing to the standard without joining the foundation.",
+      "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+      "tag": "Project governance"
     },
     {
-      "section": "TECHNOLOGY · Coding agents",
-      "title": "Architecture Guardian shows why automated agents need a visible quiet-day outcome",
-      "summary": "GitHub Agentic Workflows’ October 22 case study describes a scheduled agent that reviews recent Go and JavaScript changes for structural problems, including oversized functions and import cycles. Its controls restrict shell access, cap daily AI spending and stop repeated denied actions. Reports expire after two days, and an existing open report prevents duplicates. The documented October 21 run explicitly skipped scanning because no relevant source files had changed. For developers, the useful lesson is to preserve an auditable explanation when an agent does nothing, alongside limits on spending and issue creation. The reported runs produced no issues or pull requests, so they demonstrate operational controls without establishing defect-detection performance.",
-      "url": "https://github.github.com/gh-aw/blog/2026-10-22-agent-of-the-day/",
-      "tag": "Agent operations"
+      "section": "TECHNOLOGY · AI infrastructure",
+      "title": "AWS opens TorchNeuron’s public beta",
+      "summary": "AWS launched an open-source native PyTorch backend for Trainium on October 20. TorchNeuron supports eager execution, torch.compile and custom operators, giving developers a route to test existing models on Trainium2 and Trainium3 hardware while retaining familiar PyTorch interfaces.",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-announce-native-pytorch-support-trainium/",
+      "tag": "Public beta"
+    },
+    {
+      "section": "TECHNOLOGY · Model training",
+      "title": "Google publishes TorchTitan training recipes for TPUs",
+      "summary": "Google’s October 20 announcement introduces a TPU-adapted TorchTitan fork, developed with Meta, for distributed model training. Published recipes cover dense, mixture-of-experts and diffusion models, offering teams concrete starting points for evaluating PyTorch training on Google Cloud TPUs.",
+      "url": "https://developers.googleblog.com/integrating-torchtpu-into-torchtitan-and-optimizing-models-for-tpu/",
+      "tag": "Developer tools"
+    },
+    {
+      "section": "LOCAL · Housing",
+      "title": "Housing plans receive poor marks in regional poll",
+      "summary": "A Canada Pulse Insights poll released through CityNews gives municipal housing plans a C-minus across three B.C. regions. In Metro Vancouver, 38% assigned a failing grade, while parks received a B, showing a sharp divide between residents’ assessments.",
+      "url": "https://vancouver.citynews.ca/2026/10/23/bc-quality-of-life-poll/",
+      "tag": "Resident sentiment"
+    },
+    {
+      "section": "LOCAL · Road safety",
+      "title": "Child released from hospital after East Vancouver collision",
+      "summary": "A seven-year-old struck Thursday near East Pender Street and Victoria Drive suffered minor injuries and has left hospital, police reported Friday. Officers witnessed the collision; the driver remained at the scene and cooperated with investigators.",
+      "url": "https://vancouver.citynews.ca/2026/10/23/east-vancouver-girl-hit-by-car/",
+      "tag": "Grandview-Woodland"
+    },
+    {
+      "section": "ECONOMY · Digital trade",
+      "title": "Canada and EU advance digital-trade negotiations",
+      "summary": "Canada and the European Union are negotiating rules covering electronic contracts, paperless trade and cross-border data flows ahead of next week’s Montreal summit. Trade Minister Maninder Sidhu says an agreement is close; businesses should await the final terms.",
+      "url": "https://vancouver.citynews.ca/2026/10/23/canada-eu-working-on-digital-trade-agreement-ahead-of-summit-next-week/",
+      "tag": "Trade talks"
     }
   ],
   "markets": [
     {
       "name": "S&P/TSX Composite",
       "value": "35,973.45",
-      "change": "2026-10-22 regular-session close: -351.54 points, or approximately 1%. Gold, materials and information technology weighed on the index, although eight of 12 subgroups advanced. Source: https://www.baystreet.ca/marketupdates/15470/TSX-Plunges-from-Recent-Peaks"
+      "change": "2026-10-22 regular-session close: -351.54 points, or 1%. Resource and technology shares declined. Source: https://baystreet.ca/marketupdates/15470/TSX-Plunges-from-Recent-Peaks"
     },
     {
       "name": "S&P 500",
       "value": "7,663.43",
-      "change": "2026-10-22 regular-session close: -93.74 points, or 1.2%. Most US stocks advanced despite the benchmark’s decline, illustrating the influence of technology weakness on the headline result. Source: https://abcnews.com/Business/wireStory/major-us-stock-indexes-fared-thursday-10222026-137490327"
+      "change": "2026-10-22 regular-session close: -93.74 points, amid renewed concern about AI spending. Source: https://baystreet.ca/marketupdates/15470/TSX-Plunges-from-Recent-Peaks"
     },
     {
       "name": "Nasdaq Composite",
       "value": "26,008.86",
-      "change": "2026-10-22 regular-session close: -694 points, or 2.6%. Thursday’s completed session supplies the morning comparison; this is not a Friday live quote. Source: https://abcnews.com/Business/wireStory/major-us-stock-indexes-fared-thursday-10222026-137490327"
+      "change": "2026-10-22 regular-session close: -694 points, or 2.6%, as technology shares sold off. Source: https://baystreet.ca/marketupdates/15470/TSX-Plunges-from-Recent-Peaks"
     },
     {
       "name": "Bank of Canada policy rate",
       "value": "2.25%",
-      "change": "As of 2026-10-23; official policy setting from the 2026-09-02 announcement, unchanged. The next scheduled decision and Monetary Policy Report are October 28. The overnight target differs from individual borrowing rates. Source: https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/"
+      "change": "As of 2026-10-23; official policy setting, latest announcement 2026-09-02. Next scheduled decision: October 28. Source: https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/"
     },
     {
       "name": "Canadian inflation",
       "value": "3.1% year over year",
-      "change": "September 2026 monthly CPI reading, officially released 2026-10-19. Excluding gasoline, annual inflation was 2.2%; fuel therefore explains an important difference between the two measures. Source: https://www150.statcan.gc.ca/n1/daily-quotidien/261019/dq261019a-eng.pdf"
+      "change": "September 2026 monthly release, published 2026-10-19: up from 3.0% in August; excluding gasoline, 2.2%. Source: https://www150.statcan.gc.ca/n1/daily-quotidien/261019/dq261019a-eng.pdf"
     },
     {
       "name": "Recession indicators",
-      "value": "August retail volumes +1.2% month over month",
-      "change": "2026-10-23 monthly statistical release: stronger retail volumes provide a positive demand signal. September’s preliminary sales estimate is +0.7%, subject to revision. One spending indicator cannot establish whether the wider economy is in recession. Source: https://www150.statcan.gc.ca/n1/daily-quotidien/261023/dq261023a-eng.htm"
+      "value": "Soft hiring intentions; widespread spare capacity",
+      "change": "2026-10-19 quarterly survey release; August 6–September 2 interviews. Most firms planned unchanged staffing. Expectations do not establish a recession. Source: https://www.bankofcanada.ca/2026/10/business-outlook-survey-third-quarter-of-2026/"
     }
   ],
   "events": [
     {
-      "date": "2026-11-20 · 7:30 p.m. · Orpheum, Vancouver",
-      "title": "Jens Lindemann joins the VSO for swing and songbook classics",
-      "description": "The orchestra’s official program and ticket page confirm the date, time and Orpheum venue. Matt Catingub conducts, with trumpeter Jens Lindemann featured in music inspired by Duke Ellington, Oscar Peterson and Nat King Cole. The approximately two-hour performance includes one intermission. The linked ticket page provides seat selection for November 20; the organizer also lists a separate November 21 performance.",
-      "url": "https://secure.vancouversymphony.ca/7353/7407"
+      "date": "2026-11-11 to 2026-11-15 · Vancouver Convention Centre West, 1055 Canada Place",
+      "title": "Circle Craft brings five days of Canadian handmade work",
+      "description": "Browse ceramics, jewellery, textiles and gourmet food from Canadian artisans, alongside live music and demonstrations. The organizer’s ticket platform confirms the November dates; children 12 and under enter free, and visitors can collect a readmission pass before leaving.",
+      "url": "https://gatehopper.com/events/circle-craft-holiday-market"
     }
   ],
   "meetups": [
     {
-      "date": "2026-11-25 · VCC Downtown Campus, 250 W Pender Street, Vancouver",
-      "title": "VanTUG begins an infrastructure and identity learning series",
-      "description": "VanTUG’s official calendar confirms November 25, 2026 for Modern Enterprise Infrastructure & Identity Foundations. The linked organizer registration page verifies the VCC downtown venue and offers registration. This is an advance-planning option for practitioners working with enterprise infrastructure and identity. A session time was not visible in the accessible registration text.",
-      "url": "https://luma.com/z359cnb4"
+      "date": "2026-10-28 to 2026-10-29 · Fairmont Waterfront Hotel, 900 Canada Place, Vancouver",
+      "title": "Security summit examines infrastructure and economic resilience",
+      "description": "Reboot’s two-day summit combines cybersecurity, critical infrastructure and national-security discussions with panels and networking. Regular registration is $995 plus GST and includes two lunches and refreshment breaks. The booking page confirms both dates and the Fairmont Waterfront venue.",
+      "url": "https://www.tickettailor.com/events/rebootcommunicationsltd/2113950"
     }
   ],
   "dining": [
     {
-      "date": "2026-10-22 report · SUYO Modern Peruvian, 3475 Main Street, Vancouver",
-      "title": "SUYO’s fall menu pairs seafood with autumn ingredients",
-      "description": "Foodgressing’s October 22 account documents the new seasonal menu, including scallop-and-prawn ceviche, fried sunchokes with smoked kohlrabi purée, and Iberico pork with Andean potato, peanuts, chocolate and autumn greens. Cocktails and zero-proof drinks also feature. The report verifies the offering and address but gives no menu end date or current prices.",
-      "url": "https://foodgressing.com/suyo-modern-peruvian-vancouver-new-fall-menu/"
+      "date": "2026-10-23 · Boulevard Kitchen & Oyster Bar, 845 Burrard Street",
+      "title": "Chris Turyk pours wines from the edges of the map",
+      "description": "Tonight’s sommelier evening features wines from Vancouver Island, Etna, Corsica, Hokkaido and the Canary Islands. Chef Roger Ma creates two dishes inspired by the selections, with additional pairings available from Boulevard’s menu. Use the restaurant’s reservation route to enquire.",
+      "url": "https://boulevardvancouver.ca/culinary-events-vancouver/sommelier-wine-event/"
+    },
+    {
+      "date": "2026-11-05 · Notch8, Fairmont Hotel Vancouver",
+      "title": "The Macallan anchors November’s Scotch dinner",
+      "description": "Notch8’s autumn Scotch series continues November 5 with The Macallan. The restaurant describes a multi-course seasonal menu paired with distinguished whiskies and provides a dedicated booking link. Check that experience’s reservation details before arranging a special-occasion evening.",
+      "url": "https://www.notch8-dining.com/event/scotch-dinner-series-1/"
     }
   ],
   "watchers": []
