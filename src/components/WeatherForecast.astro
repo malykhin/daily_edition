@@ -9,7 +9,7 @@ const days = matches.slice(0, 4).map((match, i) => {
   const detail = summary.slice((match.index ?? 0) + match[0].length, end).split(/[.!]/)[0];
   // Only use explicitly stated conditions next to a dated forecast.
   const condition = /unavailable|not supplied|not establish|do not|does not/i.test(detail)
-    ? '' : detail.match(/\b(?:mostly cloudy|partly cloudy|mixed sun and cloud|mixed cloud|periods of rain|sunny|cloudy|rain|snow|clear|showers|overcast|fog)\b/i)?.[0] ?? '';
+    ? '' : detail.match(/\b(?:Thunderstorm with slight hail|Thunderstorm with heavy hail|Dense freezing drizzle|Light freezing drizzle|Moderate rain showers|Violent rain showers|Slight snow showers|Mixed sun and cloud|Light freezing rain|Depositing rime fog|Slight rain showers|Heavy freezing rain|Heavy snow showers|Heavy thunderstorm|Moderate snowfall|Moderate drizzle|Slight snowfall|Periods of rain|Heavy snowfall|Dense drizzle|Mostly cloudy|Partly cloudy|Light drizzle|Moderate rain|Thunderstorm|Mainly clear|Snow grains|Slight rain|Mixed cloud|Heavy rain|Clear sky|Overcast|Showers|Cloudy|Clear|Sunny|Rain|Snow|Fog)\b/i)?.[0] ?? '';
   return { date: match[1], high: Number(match[2]), low: Number(match[3]), condition };
 });
 const fallback = days.length === 0;

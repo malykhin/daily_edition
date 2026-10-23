@@ -3,10 +3,10 @@
   "status": "published",
   "intro": "Thursday brings a defined public-health alert for Vancouver’s West End and a separate Firefox security update for Android users. Wednesday’s completed market session provides the financial snapshot, while November planning includes the Vancouver Symphony Orchestra and a specialist workshop on internet infrastructure. Tonight’s dining option is a six-course Italian wine dinner.",
   "weather": {
-    "title": "Cool days, warmer nights toward Sunday",
-    "summary": "2026-10-22: 10.8/5.5°C; conditions unavailable. 2026-10-23: 11.8/5.3°C; conditions unavailable. 2026-10-24: 10.5/7.5°C; conditions unavailable. 2026-10-25: 12.5/8.9°C; conditions unavailable. Saturday has the lowest daytime maximum in this four-day outlook; Sunday has the highest maximum and warmest overnight minimum. These temperature-only data do not establish cloud, rain or wind conditions. Source: https://api.open-meteo.com/v1/forecast?latitude=49.2827&longitude=-123.1207&daily=temperature_2m_max,temperature_2m_min&timezone=America%2FVancouver&forecast_days=4",
-    "high": 10.8,
-    "low": 5.5
+    "title": "Vancouver four-day forecast",
+    "summary": "2026-10-22: 12.4/6.8°C; Overcast. 2026-10-23: 12.0/5.7°C; Overcast. 2026-10-24: 10.2/6.4°C; Slight rain. 2026-10-25: 10.4/9.0°C; Moderate drizzle. Source: https://api.open-meteo.com/v1/forecast?latitude=49.2827&longitude=-123.1207&daily=temperature_2m_max,temperature_2m_min,weather_code&timezone=America%2FVancouver&forecast_days=4",
+    "high": 12.4,
+    "low": 6.8
   },
   "stories": [
     {
