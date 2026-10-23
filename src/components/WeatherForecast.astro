@@ -45,7 +45,8 @@ const calendarDate = (value: string) => new Date(value + 'T12:00:00Z').toLocaleD
   time{display:flex;flex-direction:column;gap:3px}
   time strong{font-size:.85rem}
   time>span{font-size:.7rem;color:#61695d}
-  .temperatures{display:flex;flex-wrap:wrap;gap:7px;font-size:1.25rem;font-weight:700;font-variant-numeric:tabular-nums;margin:12px 0 0}
+  .temperatures{display:grid;grid-template-columns:minmax(0,1fr);gap:7px;font-size:1.25rem;font-weight:700;line-height:1.25;font-variant-numeric:tabular-nums;margin:12px 0 0}
+  .temperatures>span{display:block;white-space:nowrap}
   .low{color:#737b6c;font-weight:400}
   .conditions{font-size:.72rem;line-height:1.4;color:#61695d;margin:8px 0 0;text-transform:capitalize}
   .forecast-note,.forecast-source{font-size:.7rem;line-height:1.5;color:#61695d;margin:16px 0 0}

@@ -17,7 +17,7 @@ Sample editions are **not live reporting**. All market data, weather, events and
 
 Keep source URLs as plain text in edition JSON. The site renders URLs in narrative text as labeled hyperlinks (for example, Open-Meteo or Environment Canada), preserving their full destinations without displaying long query strings. No HTML or Markdown is required.
 
-Weather is displayed as a compact four-day forecast with Celsius highs/lows and labeled source links. Daily conditions appear beside temperatures, using sourced weather descriptions. The publisher fetches Open-Meteo weather codes as well as highs/lows; older editions without conditions remain unchanged. Older editions without dated forecast pairs show their available daily temperatures instead.
+Weather is displayed as a compact four-day forecast with Celsius highs/lows and labeled source links. Highs and lows use separate aligned rows across all four days. Daily conditions appear below temperatures, using sourced weather descriptions. The publisher fetches Open-Meteo weather codes as well as highs/lows; older editions without conditions remain unchanged. Older editions without dated forecast pairs show their available daily temperatures instead.
 
 The Events page combines upcoming arts/culture events and technical meetups from the latest edition, hides past dated listings, and shows an explicit empty state when nothing is verified.
 
