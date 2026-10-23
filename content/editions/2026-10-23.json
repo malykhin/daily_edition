@@ -1,0 +1,91 @@
+{
+  "date": "2026-10-23",
+  "status": "published",
+  "intro": "Friday brings fresh evidence of stronger late-summer retail spending in Vancouver, plus highway diversions affecting Fraser Valley travel this weekend. A coding-agent case study offers practical lessons for keeping automated repository work accountable. Thursday’s market closes, November music and infrastructure learning, and a newly documented fall menu round out the morning.",
+  "weather": {
+    "title": "Vancouver four-day forecast",
+    "summary": "2026-10-23: 12.2/6.5°C; Overcast. 2026-10-24: 11.5/5.6°C; Slight rain. 2026-10-25: 11.5/8.3°C; Slight rain. 2026-10-26: 13.6/8.2°C; Clear sky. Source: https://api.open-meteo.com/v1/forecast?latitude=49.2827&longitude=-123.1207&daily=temperature_2m_max,temperature_2m_min,weather_code&timezone=America%2FVancouver&forecast_days=4",
+    "high": 12.2,
+    "low": 6.5
+  },
+  "stories": [
+    {
+      "section": "LOCAL · Consumer economy",
+      "title": "Vancouver retail sales rose 2.1% in August",
+      "summary": "Statistics Canada’s October 23 release reports a 2.1% monthly increase in retail sales across the Vancouver census metropolitan area. British Columbia recorded the same increase, led by motor vehicle and parts dealers. National sales rose 1.2% to $74.6 billion, with gains in all nine subsectors; sales volumes also increased 1.2%. These seasonally adjusted figures establish a stronger August, rather than describing current October spending. The distinction between dollars and volumes matters: the national advance was not simply a reflection of higher prices. September’s preliminary national estimate suggests another increase, but remains subject to revision.",
+      "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/261023/dq261023a-eng.htm",
+      "tag": "Released today"
+    },
+    {
+      "section": "LOCAL · Regional travel",
+      "title": "Abbotsford highway off-ramps close tonight and through much of the weekend",
+      "summary": "A provincial advisory published October 22 confirms closures of the westbound Highway 1 off-ramps to Fraser Highway and Mount Lehman Road. The first runs from 9 p.m. Friday, October 23, until 7 a.m. Saturday. Both ramps close again at 9 p.m. Saturday until 5 a.m. Monday, October 26. Drivers will be diverted through Clearbrook Road while crews complete drainage, utility work and paving. Account for the diversion when arranging weekend journeys between Vancouver and the Fraser Valley that use these exits. The ministry advises allowing extra travel time and following posted signs. Weather and site conditions can alter the schedule.",
+      "url": "https://news.gov.bc.ca/releases/2026TT0105-001130",
+      "tag": "Weekend diversions"
+    },
+    {
+      "section": "TECHNOLOGY · Coding agents",
+      "title": "Architecture Guardian shows why automated agents need a visible quiet-day outcome",
+      "summary": "GitHub Agentic Workflows’ October 22 case study describes a scheduled agent that reviews recent Go and JavaScript changes for structural problems, including oversized functions and import cycles. Its controls restrict shell access, cap daily AI spending and stop repeated denied actions. Reports expire after two days, and an existing open report prevents duplicates. The documented October 21 run explicitly skipped scanning because no relevant source files had changed. For developers, the useful lesson is to preserve an auditable explanation when an agent does nothing, alongside limits on spending and issue creation. The reported runs produced no issues or pull requests, so they demonstrate operational controls without establishing defect-detection performance.",
+      "url": "https://github.github.com/gh-aw/blog/2026-10-22-agent-of-the-day/",
+      "tag": "Agent operations"
+    }
+  ],
+  "markets": [
+    {
+      "name": "S&P/TSX Composite",
+      "value": "35,973.45",
+      "change": "2026-10-22 regular-session close: -351.54 points, or approximately 1%. Gold, materials and information technology weighed on the index, although eight of 12 subgroups advanced. Source: https://www.baystreet.ca/marketupdates/15470/TSX-Plunges-from-Recent-Peaks"
+    },
+    {
+      "name": "S&P 500",
+      "value": "7,663.43",
+      "change": "2026-10-22 regular-session close: -93.74 points, or 1.2%. Most US stocks advanced despite the benchmark’s decline, illustrating the influence of technology weakness on the headline result. Source: https://abcnews.com/Business/wireStory/major-us-stock-indexes-fared-thursday-10222026-137490327"
+    },
+    {
+      "name": "Nasdaq Composite",
+      "value": "26,008.86",
+      "change": "2026-10-22 regular-session close: -694 points, or 2.6%. Thursday’s completed session supplies the morning comparison; this is not a Friday live quote. Source: https://abcnews.com/Business/wireStory/major-us-stock-indexes-fared-thursday-10222026-137490327"
+    },
+    {
+      "name": "Bank of Canada policy rate",
+      "value": "2.25%",
+      "change": "As of 2026-10-23; official policy setting from the 2026-09-02 announcement, unchanged. The next scheduled decision and Monetary Policy Report are October 28. The overnight target differs from individual borrowing rates. Source: https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/"
+    },
+    {
+      "name": "Canadian inflation",
+      "value": "3.1% year over year",
+      "change": "September 2026 monthly CPI reading, officially released 2026-10-19. Excluding gasoline, annual inflation was 2.2%; fuel therefore explains an important difference between the two measures. Source: https://www150.statcan.gc.ca/n1/daily-quotidien/261019/dq261019a-eng.pdf"
+    },
+    {
+      "name": "Recession indicators",
+      "value": "August retail volumes +1.2% month over month",
+      "change": "2026-10-23 monthly statistical release: stronger retail volumes provide a positive demand signal. September’s preliminary sales estimate is +0.7%, subject to revision. One spending indicator cannot establish whether the wider economy is in recession. Source: https://www150.statcan.gc.ca/n1/daily-quotidien/261023/dq261023a-eng.htm"
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-11-20 · 7:30 p.m. · Orpheum, Vancouver",
+      "title": "Jens Lindemann joins the VSO for swing and songbook classics",
+      "description": "The orchestra’s official program and ticket page confirm the date, time and Orpheum venue. Matt Catingub conducts, with trumpeter Jens Lindemann featured in music inspired by Duke Ellington, Oscar Peterson and Nat King Cole. The approximately two-hour performance includes one intermission. The linked ticket page provides seat selection for November 20; the organizer also lists a separate November 21 performance.",
+      "url": "https://secure.vancouversymphony.ca/7353/7407"
+    }
+  ],
+  "meetups": [
+    {
+      "date": "2026-11-25 · VCC Downtown Campus, 250 W Pender Street, Vancouver",
+      "title": "VanTUG begins an infrastructure and identity learning series",
+      "description": "VanTUG’s official calendar confirms November 25, 2026 for Modern Enterprise Infrastructure & Identity Foundations. The linked organizer registration page verifies the VCC downtown venue and offers registration. This is an advance-planning option for practitioners working with enterprise infrastructure and identity. A session time was not visible in the accessible registration text.",
+      "url": "https://luma.com/z359cnb4"
+    }
+  ],
+  "dining": [
+    {
+      "date": "2026-10-22 report · SUYO Modern Peruvian, 3475 Main Street, Vancouver",
+      "title": "SUYO’s fall menu pairs seafood with autumn ingredients",
+      "description": "Foodgressing’s October 22 account documents the new seasonal menu, including scallop-and-prawn ceviche, fried sunchokes with smoked kohlrabi purée, and Iberico pork with Andean potato, peanuts, chocolate and autumn greens. Cocktails and zero-proof drinks also feature. The report verifies the offering and address but gives no menu end date or current prices.",
+      "url": "https://foodgressing.com/suyo-modern-peruvian-vancouver-new-fall-menu/"
+    }
+  ],
+  "watchers": []
+}
