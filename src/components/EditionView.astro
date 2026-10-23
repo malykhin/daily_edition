@@ -1,6 +1,7 @@
 ---
 import { formatDate, type Edition } from '../lib/editions';
 import LinkedText from './LinkedText.astro';
+import WeatherForecast from './WeatherForecast.astro';
 const { edition } = Astro.props as { edition: Edition };
 ---
 <div class="dateline"><span>VANCOUVER, BRITISH COLUMBIA</span><span>{formatDate(edition.date)}</span></div>
@@ -17,7 +18,7 @@ const { edition } = Astro.props as { edition: Edition };
 </section>
 <div class="section-head"><h2>Weather & markets</h2><span>02 / At a glance</span></div>
 <div class="feature-grid">
-  <section class="panel"><span class="eyebrow">Outside your door</span><h3 style="font-size:2rem;margin:14px 0 10px">{edition.weather?.title??'Vancouver weather'}</h3><p class="summary"><LinkedText text={edition.weather?.summary??'Forecast not yet available.'}/></p>{edition.weather?.high!=null&&<p class="eyebrow">High {edition.weather.high}° · Low {edition.weather.low}°</p>}</section>
+  <WeatherForecast weather={edition.weather} date={edition.date}/>
   <section><h3 class="market-heading">The market tape</h3>{(edition.markets??[]).map(m=><div class="market-row"><strong>{m.name}</strong><div class="market-figure"><span class="market-value">{m.value}</span>{m.change&&<span class="market-change"><LinkedText text={m.change}/></span>}</div></div>)}</section>
 </div>
 {(edition.events?.length??0)>0&&<>

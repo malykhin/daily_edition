@@ -1,0 +1,55 @@
+---
+import type { Edition } from '../lib/editions';
+import LinkedText from './LinkedText.astro';
+const { weather, date } = Astro.props as { weather: Edition['weather']; date: string };
+const summary = weather?.summary ?? '';
+const matches = [...summary.matchAll(/(\d{4}-\d{2}-\d{2}):\s*([+-]?\d+(?:\.\d+)?)\s*\/\s*([+-]?\d+(?:\.\d+)?)\s*°C/g)];
+const days = matches.slice(0, 4).map((match, i) => {
+  const end = matches[i + 1]?.index ?? summary.length;
+  const detail = summary.slice((match.index ?? 0) + match[0].length, end).split(/[.!]/)[0];
+  // Only use explicitly stated conditions next to a dated forecast.
+  const condition = /unavailable|not supplied|not establish|do not|does not/i.test(detail)
+    ? '' : detail.match(/\b(?:mostly cloudy|partly cloudy|mixed sun and cloud|mixed cloud|periods of rain|sunny|cloudy|rain|snow|clear|showers|overcast|fog)\b/i)?.[0] ?? '';
+  return { date: match[1], high: Number(match[2]), low: Number(match[3]), condition };
+});
+const fallback = days.length === 0;
+if (fallback && weather?.high != null && weather?.low != null) {
+  days.push({ date, high: weather.high, low: weather.low, condition: '' });
+}
+const sourceUrls = [...new Set(summary.match(/https?:\/\/[^\s<>"']+/g) ?? [])]
+  .map(url => url.replace(/[.,;!]+$/, '')).join(' ');
+const weekday = (value: string) => new Date(value + 'T12:00:00Z').toLocaleDateString('en-CA', { weekday: 'short', timeZone: 'UTC' });
+const calendarDate = (value: string) => new Date(value + 'T12:00:00Z').toLocaleDateString('en-CA', { month: 'short', day: 'numeric', timeZone: 'UTC' });
+---
+<section class="forecast" aria-label="Vancouver weather forecast">
+  <div class="forecast-heading"><h3>Vancouver</h3><span>High / low · °C</span></div>
+  {days.length > 0 ? <div class:list={['forecast-days', { 'single-day': fallback }]}>
+    {days.map(day => <article class="forecast-day">
+      <time datetime={day.date}><strong>{weekday(day.date)}</strong><span>{calendarDate(day.date)}</span></time>
+      <p class="temperatures"><span aria-label={`High ${day.high} degrees Celsius`}>{day.high}°</span><span class="low" aria-label={`Low ${day.low} degrees Celsius`}>{day.low}°</span></p>
+      {day.condition && <p class="conditions">{day.condition}</p>}
+    </article>)}
+  </div> : <p class="forecast-note">Forecast unavailable.</p>}
+  {fallback && weather?.title && <p class="forecast-note">{weather.title}</p>}
+  {!fallback && days.every(day => !day.condition) && <p class="forecast-note">Temperatures only · conditions not supplied</p>}
+  {sourceUrls && <div class="forecast-source">Source: <LinkedText text={sourceUrls}/></div>}
+</section>
+
+<style>
+  .forecast{align-self:start;background:#e9e7dc;border:1px solid #d7d7cb;padding:20px;min-width:0}
+  .forecast-heading{display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin-bottom:20px}
+  .forecast-heading h3{font-size:1.4rem;margin:0}
+  .forecast-heading>span{font-size:.7rem;color:#61695d;white-space:nowrap}
+  .forecast-days{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+  .forecast-day{min-width:0}
+  time{display:flex;flex-direction:column;gap:3px}
+  time strong{font-size:.85rem}
+  time>span{font-size:.7rem;color:#61695d}
+  .temperatures{display:flex;flex-wrap:wrap;gap:7px;font-size:1.25rem;font-weight:700;font-variant-numeric:tabular-nums;margin:12px 0 0}
+  .low{color:#737b6c;font-weight:400}
+  .conditions{font-size:.72rem;line-height:1.4;color:#61695d;margin:8px 0 0;text-transform:capitalize}
+  .forecast-note,.forecast-source{font-size:.7rem;line-height:1.5;color:#61695d;margin:16px 0 0}
+  .forecast-source{margin-top:10px}
+  .single-day{grid-template-columns:1fr}
+  @media(max-width:400px){.forecast-days:not(.single-day){grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}}
+</style>
