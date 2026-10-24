@@ -1,0 +1,124 @@
+{
+  "date": "2026-10-24",
+  "status": "published",
+  "intro": "Saturday brings provincial voting, stronger Canadian retail sales and practical changes to AI serving software. November planning includes opera, a software gathering at Science World and two seasonal dining experiences.",
+  "weather": {
+    "title": "Vancouver four-day forecast",
+    "summary": "2026-10-24: 9.3/4.9°C; Slight rain. 2026-10-25: 10.8/8.0°C; Moderate rain. 2026-10-26: 11.7/6.9°C; Light drizzle. 2026-10-27: 10.0/7.2°C; Light drizzle. Source: https://api.open-meteo.com/v1/forecast?latitude=49.2827&longitude=-123.1207&daily=temperature_2m_max,temperature_2m_min,weather_code&timezone=America%2FVancouver&forecast_days=4",
+    "high": 9.3,
+    "low": 4.9
+  },
+  "stories": [
+    {
+      "section": "LOCAL · Provincial election",
+      "title": "B.C. votes today, with polls closing at eight",
+      "summary": "Voting stations open from 8 a.m. to 8 p.m. today as British Columbians choose their provincial government. Bring identification proving your identity and residential address; the Where to Vote card is helpful but is not required.",
+      "url": "https://vancouver.citynews.ca/2026/10/24/bc-election-2026-need-to-know/",
+      "tag": "Election day"
+    },
+    {
+      "section": "TECHNOLOGY · Cybersecurity",
+      "title": "Microsoft traces agent-driven attacks through cloud applications",
+      "summary": "Microsoft’s October 21 investigation links Storm-0940 to ARTEX-assisted attacks and stolen ConnectWise application credentials used against more than 2,250 tenants. Administrators should review application permissions, credential additions and unusual app-only activity; successful authentication alone does not establish data theft.",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/",
+      "tag": "Identity security"
+    },
+    {
+      "section": "TECHNOLOGY · Open models",
+      "title": "MiniMax M3.1 Flash gains immediate serving support",
+      "summary": "SGLang and Miles announced launch-day support for MiniMax M3.1 Flash on October 22. The multimodal model accepts text, images and video over a million-token context, giving deployment teams a published serving route alongside its downloadable weights.",
+      "url": "https://www.sglang.io/blog/minimax-m3.1-flash-day0-support",
+      "tag": "Model deployment"
+    },
+    {
+      "section": "TECHNOLOGY · AI infrastructure",
+      "title": "SGLang opens a production PyTorch serving route to TPUs",
+      "summary": "RadixArk, Google and Meta released SGLang-TorchTPU on October 20, bringing the serving engine’s PyTorch codebase to Google Cloud TPUs. The collaborators say it already runs in production at Meta, offering another hardware option for inference workloads.",
+      "url": "https://www.lmsys.org/blog/2026-10-20-sglang-torchtpu/",
+      "tag": "Open source"
+    },
+    {
+      "section": "TECHNOLOGY · Inference engineering",
+      "title": "Shared GPU memory tackles stranded cache capacity",
+      "summary": "SGLang’s October 22 engineering report describes a shared buffer for attention caches and recurrent states, replacing fixed allocations that can leave memory unused. Its cache-pressure experiment retained 1.9 times as many prefixes; results depend on the tested workload.",
+      "url": "https://www.sglang.io/blog/unified-memory",
+      "tag": "Technical deep dive"
+    },
+    {
+      "section": "ECONOMY · Consumer spending",
+      "title": "August retail growth extends across every subsector",
+      "summary": "Statistics Canada reported Friday that August retail sales rose 1.2% to $74.6 billion, with increases in all nine subsectors. Sales volumes also increased 1.2%, while core sales excluding vehicles and fuel advanced 1.1%, indicating growth beyond price changes.",
+      "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/261023/dq261023a-eng.pdf",
+      "tag": "New data"
+    }
+  ],
+  "markets": [
+    {
+      "name": "S&P/TSX Composite",
+      "value": "35,788.18",
+      "change": "2026-10-23 regular-session close: -185.27 points; weekly decline 1.07%. Source: https://baystreet.ca/articles/marketupdates.aspx"
+    },
+    {
+      "name": "S&P 500",
+      "value": "7,623.68",
+      "change": "2026-10-23 regular-session close: -39.75 points, or 0.5%; weekly decline 0.5%. Source: https://baystreet.ca/articles/marketupdates.aspx"
+    },
+    {
+      "name": "Nasdaq Composite",
+      "value": "25,955.34",
+      "change": "2026-10-23 regular-session close: -53.52 points; weekly decline 0.7%. Source: https://baystreet.ca/articles/marketupdates.aspx"
+    },
+    {
+      "name": "Bank of Canada policy rate",
+      "value": "2.25%",
+      "change": "As of 2026-10-24; official policy setting, latest announcement 2026-09-02, unchanged. Source: https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/"
+    },
+    {
+      "name": "Canadian inflation",
+      "value": "3.1% year over year",
+      "change": "September 2026 monthly release, published 2026-10-19: up from 3.0%; excluding gasoline, 2.2%. Source: https://www150.statcan.gc.ca/n1/daily-quotidien/261019/dq261019a-eng.pdf"
+    },
+    {
+      "name": "Recession indicators",
+      "value": "Soft hiring intentions; spare capacity remains widespread",
+      "change": "2026-10-19 quarterly survey release: most firms planned unchanged staffing; subsequent tariff developments weakened outlooks. These expectations do not establish a recession. Source: https://www.bankofcanada.ca/2026/10/business-outlook-survey-third-quarter-of-2026/"
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-10-29 · 7:30 p.m. · Queen Elizabeth Theatre, Vancouver",
+      "title": "Tosca returns Thursday with English projected titles",
+      "description": "Joyce El-Khoury takes the title role in Vancouver Opera’s new co-production with Pacific Opera Victoria, conducted by Jacques Lacombe. Puccini’s drama is sung in Italian with English projected titles; allow approximately two hours and 20 minutes, including intermission.",
+      "url": "https://secure.vancouveropera.ca/tosca/oct-29"
+    }
+  ],
+  "meetups": [
+    {
+      "date": "2026-11-02 · Science World, 1455 Quebec Street, Vancouver",
+      "title": "BIOS SPHERE brings software builders into one room",
+      "description": "The afternoon conference features talks on coding agents, agent workflows and software design. Kent C. Dodds leads a separate morning workshop. Choose conference or combined admission on Luma; the refund deadline has passed, although tickets remain transferable.",
+      "url": "https://luma.com/biossphere"
+    },
+    {
+      "date": "2026-11-05 to 2026-11-06 · UBC Robson Square, Vancouver",
+      "title": "WordCamp Canada covers development, accessibility and performance",
+      "description": "The two-day WordPress gathering offers sessions and workshops spanning development, design, accessibility and content strategy. Regular admission is $100 and includes lunches and breaks. November 4 Contributor Day requires separate registration alongside an eligible conference ticket.",
+      "url": "https://canada.wordcamp.org/2026/tickets/"
+    }
+  ],
+  "dining": [
+    {
+      "date": "2026-10-24 · October–November menu · Burdock & Co, Vancouver",
+      "title": "Radicchio carries an autumn tasting menu",
+      "description": "Burdock’s current Frost Moon menu moves through chicories with shrimp, pine mushrooms, dry-aged duck and sea-urchin gelato. The tasting menu is $175, with wine and zero-proof pairings available separately. The restaurant’s seasonal menu page links reservations.",
+      "url": "https://www.burdockandco.com/moon-menu-radicchio"
+    },
+    {
+      "date": "2026-10-24 through 2026-11-01 · Notch8, Fairmont Hotel Vancouver",
+      "title": "Haunted Cellar tea enters its final stretch",
+      "description": "Notch8’s seasonal afternoon tea continues through November 1, with pastries, savoury bites and autumn confections in a gothic tea salon. The restaurant offers both dine-in and takeaway versions, making this a dated alternative to its forthcoming winter service.",
+      "url": "https://www.notch8-dining.com/"
+    }
+  ],
+  "watchers": []
+}
