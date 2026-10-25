@@ -1,0 +1,124 @@
+{
+  "date": "2026-10-25",
+  "status": "published",
+  "intro": "Sunday brings a commanding Conservative lead in B.C.’s preliminary count, a new dependency firewall and practical advances in software verification and robotics. November planning includes orchestral contrasts, an AI coding lab and regional Italian cooking.",
+  "weather": {
+    "title": "Vancouver four-day forecast",
+    "summary": "2026-10-25: 11.2/6.9°C; Dense drizzle. 2026-10-26: 12.4/8.2°C; Moderate drizzle. 2026-10-27: 10.1/7.1°C; Moderate drizzle. 2026-10-28: 9.0/7.1°C; Moderate drizzle. Source: https://api.open-meteo.com/v1/forecast?latitude=49.2827&longitude=-123.1207&daily=temperature_2m_max,temperature_2m_min,weather_code&timezone=America%2FVancouver&forecast_days=4",
+    "high": 11.2,
+    "low": 6.9
+  },
+  "stories": [
+    {
+      "section": "LOCAL · Provincial election",
+      "title": "Conservatives lead in 64 districts after Saturday’s vote",
+      "summary": "Elections BC’s overnight count puts Conservatives ahead in 64 districts, the NDP in 27 and Greens in two, with 99.57% of ballot boxes reporting. Results remain preliminary; mail, telephone and some absentee ballots await the later count.",
+      "url": "https://results.elections.bc.ca/",
+      "tag": "Preliminary results"
+    },
+    {
+      "section": "TECHNOLOGY · Software security",
+      "title": "GitHub puts a policy gate before npm installation",
+      "summary": "GitHub introduced a package firewall that checks dependency requests and downloads against enterprise policies, including cooldown periods and security advisories. The free public preview supports npm and is available to Enterprise Cloud customers, including those using data residency.",
+      "url": "https://github.blog/changelog/2026-10-20-github-package-firewall-in-public-preview/",
+      "tag": "Public preview"
+    },
+    {
+      "section": "TECHNOLOGY · AI research",
+      "title": "Claude helps prove security properties across 100-plus libraries",
+      "summary": "Anthropic and Theorem report using Claude to produce assembly-level proofs of security properties in more than 100 open-source libraries. Their October 22 research demonstrates a verification workflow; its guarantees apply to the specified properties, rather than every possible bug.",
+      "url": "https://www.anthropic.com/research/formal-verification",
+      "tag": "Formal verification"
+    },
+    {
+      "section": "TECHNOLOGY · Robotics",
+      "title": "SimReady Central supplies physics-ready building blocks",
+      "summary": "NVIDIA’s October 21 announcement brings more than 2,000 OpenUSD assets into a free, ungated Hugging Face library. Robot arms, grippers and warehouse equipment include simulation properties, reducing preparation work for training environments and factory layouts.",
+      "url": "https://huggingface.co/blog/nvidia/simready-central-assets-robotics-ai-factories",
+      "tag": "Simulation assets"
+    },
+    {
+      "section": "TECHNOLOGY · Retrieval models",
+      "title": "Nemotron adds document vision to agent search",
+      "summary": "NVIDIA released Nemotron 3.5 embedding, reranking and parsing models on October 21, expanding its retrieval collection. Developers building document agents can compare compact and larger variants, including a 631-million-parameter parser for extracting information from page images.",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-retriever-world-class-agentic-retrieval",
+      "tag": "Open models"
+    },
+    {
+      "section": "ECONOMY · Manufacturing",
+      "title": "Early September factory sales show only a small gain",
+      "summary": "Statistics Canada’s Friday advance estimate puts September manufacturing sales growth at 0.1%, led by petroleum, coal products and aerospace. The estimate uses incomplete responses and is more revision-prone than the regular release, scheduled for November 13.",
+      "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/261023/dq261023b-eng.htm",
+      "tag": "Advance indicator"
+    }
+  ],
+  "markets": [
+    {
+      "name": "S&P/TSX Composite",
+      "value": "35,788.18",
+      "change": "2026-10-23 regular-session close: down 185.27 points; weekly loss 1.07%. Source: https://baystreet.ca/articles/marketupdates.aspx"
+    },
+    {
+      "name": "S&P 500",
+      "value": "7,623.68",
+      "change": "2026-10-23 regular-session close: down 39.75 points, or 0.5%; weekly loss 0.5%. Source: https://baystreet.ca/articles/marketupdates.aspx"
+    },
+    {
+      "name": "Nasdaq Composite",
+      "value": "25,955.34",
+      "change": "2026-10-23 regular-session close; weekly loss 0.7%. Source: https://baystreet.ca/articles/marketupdates.aspx"
+    },
+    {
+      "name": "Bank of Canada policy rate",
+      "value": "2.25%",
+      "change": "As of 2026-10-25; official policy setting, last announced 2026-09-02. Next scheduled decision: October 28. Source: https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/"
+    },
+    {
+      "name": "Canadian inflation",
+      "value": "3.1% year over year",
+      "change": "September 2026 monthly CPI release, published 2026-10-19: excluding gasoline, inflation was 2.2%. Source: https://www150.statcan.gc.ca/n1/daily-quotidien/261019/dq261019a-eng.htm"
+    },
+    {
+      "name": "Recession indicators",
+      "value": "Soft hiring; most firms have sufficient capacity",
+      "change": "2026-10-19 quarterly survey release: renewed trade tensions dampened investment plans. Business expectations do not establish a recession. Source: https://www.bankofcanada.ca/2026/10/business-outlook-survey-third-quarter-of-2026/"
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-11-14 · 7:30 p.m. · Orpheum, Vancouver",
+      "title": "Liszt’s fireworks meet Górecki’s sorrow",
+      "description": "Inon Barnatan performs Liszt’s First Piano Concerto under Otto Tausk, followed by Górecki’s Third Symphony with soprano Mireille Asselin. Allow approximately two hours, including an intermission. The VSO also lists a November 13 performance.",
+      "url": "https://secure.vancouversymphony.ca/7341/7384?z=0"
+    }
+  ],
+  "meetups": [
+    {
+      "date": "2026-11-27 · Northeastern University - Vancouver, 410 W Georgia St #1400, Vancouver, BC V6B 1Z3, Canada",
+      "title": "AI DevFest offers sessions and a coding lab",
+      "description": "Google Developer Group Vancouver’s day runs from 9 a.m. to 4 p.m., focusing on building, securing and scaling in the agent era. Choose a session or coding-lab pass; lab participants should bring a laptop and chargers.",
+      "url": "https://luma.com/lee79l0e"
+    }
+  ],
+  "dining": [
+    {
+      "date": "2026-11-09 to 2026-11-15 · Tutto, 901 Homer Street, Vancouver",
+      "title": "A week of Puglia at Tutto",
+      "description": "Tutto’s $149 four-course regional dinner starts with caprese and orecchiette, followed by a choice of seabass, lamb or chicken and a custard-filled pasticciotto. The restaurant lists Puglian white and red wines and provides table reservations.",
+      "url": "https://tuttorestaurant.ca/puglia-event"
+    },
+    {
+      "date": "2026-11-18 to 2026-12-18 · Showcase Restaurant & Bar, Vancouver",
+      "title": "A festive lunch for the office calendar",
+      "description": "Showcase’s seasonal buffet runs Wednesdays through Fridays, with roast turkey, honey garlic ham and holiday desserts. Admission is $55 per person with select beverages; groups of eight or more incur an automatic 18% gratuity.",
+      "url": "https://www.showcaserestaurant.com/"
+    },
+    {
+      "date": "2026-11-25 to 2026-12-12 · Holiday Club, downtown Vancouver",
+      "title": "Holiday Club announces its third seasonal run",
+      "description": "The temporary supper club returns with chef dinners, martini lunches and festive cocktails, with Jefferson Alvarez leading the kitchen. Its website offers event and private-group planning routes; individual table buyouts are marked as launching soon.",
+      "url": "https://holidayclubyvr.com/"
+    }
+  ],
+  "watchers": []
+}
