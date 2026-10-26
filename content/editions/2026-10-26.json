@@ -1,0 +1,118 @@
+{
+  "date": "2026-10-26",
+  "status": "published",
+  "intro": "Monday brings a leadership hurdle for B.C.’s incoming government, speech generation on local Macs and stronger safeguards for AI services. November planning includes remembrance concerts, practical developer gatherings and a Greek dinner served alongside Mamma Mia!",
+  "weather": {
+    "title": "Vancouver four-day forecast",
+    "summary": "2026-10-26: 12.4/7.3°C; Overcast. 2026-10-27: 9.9/6.9°C; Slight rain. 2026-10-28: 9.6/6.8°C; Moderate drizzle. 2026-10-29: 10.5/6.3°C; Overcast. Source: https://api.open-meteo.com/v1/forecast?latitude=49.2827&longitude=-123.1207&daily=temperature_2m_max,temperature_2m_min,weather_code&timezone=America%2FVancouver&forecast_days=4",
+    "high": 12.4,
+    "low": 7.3
+  },
+  "stories": [
+    {
+      "section": "LOCAL · Provincial politics",
+      "title": "Doerkson’s victory meets his party’s leadership rules",
+      "summary": "B.C. Conservatives face a constitutional hurdle after their election victory: party rules prohibit an interim leader from seeking permanent leadership. Keeping premier-designate Lorne Doerkson requires an amendment supported by two-thirds of members; how the board will implement that remains unclear.",
+      "url": "https://vancouver.citynews.ca/2026/10/25/hes-earned-it-conservatives-want-doerkson-as-premier-amid-constitutional-question/",
+      "tag": "Government transition"
+    },
+    {
+      "section": "TECHNOLOGY · Local AI",
+      "title": "Ollama gives Mac applications a speaking voice",
+      "summary": "Ollama’s October 24 release adds speech generation on macOS, playing text or chat replies aloud as audio is generated. Applications can stream the output through its compatible audio endpoint, providing developers with a practical interface for spoken local workflows.",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.11",
+      "tag": "New release"
+    },
+    {
+      "section": "TECHNOLOGY · Cybersecurity",
+      "title": "LocalAI tightens checks on external media links",
+      "summary": "LocalAI 4.12.1 is a security-only update that validates every redirect target for user-supplied media URLs and connects to the validated address. Operators should update, particularly where chat, image or audio endpoints accept links supplied by other users.",
+      "url": "https://github.com/mudler/LocalAI/releases/tag/v4.12.1",
+      "tag": "Update available"
+    },
+    {
+      "section": "TECHNOLOGY · Open models",
+      "title": "Nanbeige releases a 33-billion-parameter agent model",
+      "summary": "Nanbeige4.3-33B brings downloadable Apache-2.0 weights, reasoning and tool-use support, with a published context limit of 512K tokens. Its model card supplies Transformers, SGLang and vLLM deployment recipes; reported benchmark advantages remain the developer’s own measurements.",
+      "url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B",
+      "tag": "Open weights"
+    },
+    {
+      "section": "TECHNOLOGY · Developer security",
+      "title": "GitHub expands automation for leaked-secret monitoring",
+      "summary": "GitHub’s public-monitoring preview adds ongoing token-validity checks, alert triage, REST access and enterprise webhooks. Eligible Enterprise Cloud security teams can integrate findings into incident response; dismissing an alert does not revoke the exposed credential or remove it from a repository.",
+      "url": "https://github.blog/changelog/2026-10-23-public-monitoring-adds-triage-validity-api-and-webhooks/",
+      "tag": "Public preview"
+    },
+    {
+      "section": "ECONOMY · Interest rates",
+      "title": "Rate-hike expectations rise before Wednesday’s decision",
+      "summary": "Financial markets assigned nearly 78% odds to a Bank of Canada rate increase Friday afternoon, Canadian Press reports. RBC now expects a quarter-point hike but describes low conviction, leaving Wednesday’s announcement consequential for borrowers facing renewed energy-driven inflation.",
+      "url": "https://vancouver.citynews.ca/2026/10/26/bank-of-canada-now-expected-to-hike-key-rate-as-it-faces-pivotal-decision/",
+      "tag": "October 28 decision"
+    }
+  ],
+  "markets": [
+    {
+      "name": "S&P/TSX Composite",
+      "value": "35,788.18",
+      "change": "2026-10-23 regular-session close: down 185.27 points; weekly decline 1.07%. Source: https://baystreet.ca/marketupdates/15474/Stocks-Negative-to-End-Negative-Week"
+    },
+    {
+      "name": "S&P 500",
+      "value": "7,623.68",
+      "change": "2026-10-23 regular-session close: down 39.75 points, or 0.5%; weekly decline 0.5%. Source: https://baystreet.ca/marketupdates/15474/Stocks-Negative-to-End-Negative-Week"
+    },
+    {
+      "name": "Nasdaq Composite",
+      "value": "25,955.34",
+      "change": "2026-10-23 regular-session close: down 53.52 points; weekly decline 0.7%. Source: https://baystreet.ca/marketupdates/15474/Stocks-Negative-to-End-Negative-Week"
+    },
+    {
+      "name": "Bank of Canada policy rate",
+      "value": "2.25%",
+      "change": "As of 2026-10-26; official policy setting, last announced 2026-09-02. Next scheduled decision: October 28. Source: https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/"
+    },
+    {
+      "name": "Canadian inflation",
+      "value": "3.1% year over year",
+      "change": "September 2026 monthly CPI release, published 2026-10-19: excluding gasoline, inflation was 2.2%. Source: https://www150.statcan.gc.ca/n1/daily-quotidien/261019/dq261019a-eng.htm"
+    },
+    {
+      "name": "Recession indicators",
+      "value": "Soft hiring intentions; most firms plan unchanged staffing",
+      "change": "2026-10-19 quarterly survey release: renewed trade tensions weakened investment plans. Business expectations do not establish a recession. Source: https://www.bankofcanada.ca/2026/10/business-outlook-survey-third-quarter-of-2026/"
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-11-11 · 2 p.m. · St. Andrew’s-Wesley United, Vancouver",
+      "title": "Chor Leoni returns to remembrance through song",
+      "description": "Erick Lichte conducts Chor Leoni’s 35th annual Remembrance Day concerts, featuring Don Macdonald’s High Flight alongside piano, trumpet, organ and cello. A second performance begins at 5 p.m.; active and retired military members can request free tickets through the box office.",
+      "url": "https://my.chorleoni.org/events/31bc66fa-5ba7-4378-8ca9-b2d46620f8f8"
+    }
+  ],
+  "meetups": [
+    {
+      "date": "2026-11-12 · 6:30 p.m. doors · Multimodal Media Lab, 375 Water Street, Vancouver",
+      "title": "Film Club opens the workflow behind AI-assisted shorts",
+      "description": "Kevin Friel’s gathering welcomes filmmakers, sound specialists and AI-curious newcomers to share unfinished work and discuss production tools. Bring a laptop if you want to demonstrate something. Community tickets are $20; student and youth admission is free.",
+      "url": "https://luma.com/noir"
+    },
+    {
+      "date": "2026-11-25 · 5 p.m. · Northeastern University, Vancouver",
+      "title": "Cloud Native Vancouver leaves room for another speaker",
+      "description": "The CNCF chapter’s evening includes Grafana engineer Alex Boten, an available speaker slot and open networking, with food and drinks provided. Developers and cloud engineers can register; prospective speakers can propose a talk through the organizer’s linked GitHub repository.",
+      "url": "https://luma.com/5e55u1u9"
+    }
+  ],
+  "dining": [
+    {
+      "date": "2026-11-13 · 6:30–9 p.m. · Fairmont Waterfront, Vancouver",
+      "title": "Mamma Mia! comes with a four-course Greek dinner",
+      "description": "Fairmont Waterfront launches its cinema dinner series with Harris Sakalis’s Greek menu served during the film, including mezze, seafood orzo and pistachio baklava. Admission is $115 before tax and an automatic 23% gratuity; late cancellations incur full charges.",
+      "url": "https://www.fairmont-waterfront.com/events/waterfront-cinema-presents-mamma-mia/"
+    }
+  ],
+  "watchers": []
+}
