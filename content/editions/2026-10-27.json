@@ -1,0 +1,112 @@
+{
+  "date": "2026-10-27",
+  "status": "published",
+  "intro": "Tuesday brings new leadership at BC Ferries, a copper-mine strike and practical security updates for browsers and Windows. November planning offers Iranian music at the Orpheum, climate hardware discussions and a festive dinner for office groups.",
+  "weather": {
+    "title": "Vancouver four-day forecast",
+    "summary": "2026-10-27: 9.2/6.5°C; Moderate rain. 2026-10-28: 9.5/5.2°C; Dense drizzle. 2026-10-29: 10.5/6.6°C; Overcast. 2026-10-30: 7.7/5.3°C; Light drizzle. Source: https://api.open-meteo.com/v1/forecast?latitude=49.2827&longitude=-123.1207&daily=temperature_2m_max,temperature_2m_min,weather_code&timezone=America%2FVancouver&forecast_days=4",
+    "high": 9.2,
+    "low": 6.5
+  },
+  "stories": [
+    {
+      "section": "LOCAL · Coastal transportation",
+      "title": "BC Ferries replaces its chief executive",
+      "summary": "BC Ferries appointed strategy vice-president Brian Anderson interim CEO Monday, replacing Nicolas Jimenez immediately. The board also launched a service revitalization review; a search for a permanent chief executive will follow that review.",
+      "url": "https://vancouver.citynews.ca/2026/10/26/bc-ferries-ceo-nicolas-jimenez-fired/",
+      "tag": "Leadership change"
+    },
+    {
+      "section": "LOCAL · Business and labour",
+      "title": "Highland Valley Copper operates below capacity during strike",
+      "summary": "About 1,200 United Steelworkers members are on strike at Teck’s Highland Valley Copper operation after walking out Saturday. Production continues at reduced capacity, with the eventual impact depending on the stoppage’s duration; both sides say they want an agreement.",
+      "url": "https://vancouver.citynews.ca/2026/10/26/strike-teck-resources-highland-valley-copper-operations/",
+      "tag": "Mining"
+    },
+    {
+      "section": "TECHNOLOGY · Coding agents",
+      "title": "Copilot makes assisted permissions generally available",
+      "summary": "GitHub’s assisted permission mode now works across Copilot CLI, its app and Visual Studio Code. A language model automatically approves requests classified as clearly safe and asks about others; enterprise administrators can control availability and session defaults.",
+      "url": "https://github.blog/changelog/2026-10-26-github-copilot-assisted-permissions-generally-available/",
+      "tag": "Developer controls"
+    },
+    {
+      "section": "TECHNOLOGY · Browser security",
+      "title": "Firefox on iOS fixes misleading call prompts",
+      "summary": "Mozilla’s October 26 advisory identifies Firefox for iOS 156.1 as fixing two spoofing vulnerabilities involving FaceTime and telephone links. Malicious pages could make system call prompts display misleading text or attribution; iPhone and iPad users should check for the update.",
+      "url": "https://www.mozilla.org/en-US/security/advisories/mfsa2026-117/",
+      "tag": "Update available"
+    },
+    {
+      "section": "TECHNOLOGY · Certificate security",
+      "title": "Windows removes seven certificates from default trust",
+      "summary": "Microsoft released an out-of-band Windows trust update Monday following compromised eMudhra intermediate keys, with matching Edge removals planned today. Administrators should deliver certificate updates to disconnected devices and replace dependent certificates before affected chains stop being trusted.",
+      "url": "https://www.microsoft.com/en-us/msrc/blog/2026/10/microsoft-response-to-compromised-emudhra-certificate-authority-keys",
+      "tag": "Administrator action"
+    },
+    {
+      "section": "TECHNOLOGY · Developer infrastructure",
+      "title": "Copilot usage reports capture external coding tools",
+      "summary": "GitHub’s usage metrics API now counts model traffic from tools such as OpenCode through a new client breakdown. Administrators can compare requests, sessions and tokens across clients; request totals count model calls, so they should not be read as prompt counts.",
+      "url": "https://github.blog/changelog/2026-10-23-usage-metrics-api-adds-usage-from-tools-like-opencode/",
+      "tag": "API update"
+    }
+  ],
+  "markets": [
+    {
+      "name": "S&P/TSX Composite",
+      "value": "35,944.16",
+      "change": "2026-10-26 regular-session close: up 155.98 points, led by gold and financial shares. Source: https://www.baystreet.ca/marketupdates/15478/TSX-Starts-Week-with-Gains"
+    },
+    {
+      "name": "S&P 500",
+      "value": "7,676.77",
+      "change": "2026-10-26 regular-session close: up 53.09 points as semiconductor shares advanced. Source: https://www.baystreet.ca/marketupdates/15478/TSX-Starts-Week-with-Gains"
+    },
+    {
+      "name": "Nasdaq Composite",
+      "value": "26,169.38",
+      "change": "2026-10-26 regular-session close: up 214.04 points. Source: https://www.baystreet.ca/marketupdates/15478/TSX-Starts-Week-with-Gains"
+    },
+    {
+      "name": "Bank of Canada policy rate",
+      "value": "2.25%",
+      "change": "As of 2026-10-27; official policy setting, last announced 2026-09-02. Next scheduled decision: October 28. Source: https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/"
+    },
+    {
+      "name": "Canadian inflation",
+      "value": "3.1% year over year",
+      "change": "September 2026 monthly CPI release, published 2026-10-19: excluding gasoline, inflation was 2.2%. Source: https://www150.statcan.gc.ca/n1/daily-quotidien/261019/dq261019a-eng.pdf"
+    },
+    {
+      "name": "Recession indicators",
+      "value": "Soft hiring intentions; most firms plan unchanged staffing",
+      "change": "2026-10-19 quarterly survey release: renewed trade tensions dampened investment plans. These expectations do not establish a recession. Source: https://www.bankofcanada.ca/2026/10/business-outlook-survey-third-quarter-of-2026/"
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-11-15 · 8 p.m. · Orpheum Theatre, 601 Smithe Street, Vancouver",
+      "title": "DIYAR brings Persian and Kurdish music to the Orpheum",
+      "description": "Shahram Nazeri joins Kaykhosro and Tahmoures Pournazeri for contemporary Iranian compositions rooted in tanbur traditions and Kurdish rhythms. Doors open at 7 p.m.; the performance includes Persian and Kurdish vocals, and the ticket seller specifies final sales.",
+      "url": "https://www.vtix.com/diyar/5988/"
+    }
+  ],
+  "meetups": [
+    {
+      "date": "2026-11-25 · Vancouver Convention Centre, 1055 Canada Place, Vancouver",
+      "title": "Converge gathers B.C.’s climate hardware community",
+      "description": "NorthX’s day brings founders, investors and policymakers together for climate hardware investment and company-building discussions. Doors open at 9 a.m., programming starts at 10 and networking begins at 3:30 p.m.; registration is available, with attendance capped at 300.",
+      "url": "https://luma.com/19g3xz8m"
+    }
+  ],
+  "dining": [
+    {
+      "date": "2026-11-25 to 2026-12-23 · Wednesdays · ARC, 900 Canada Place Way, Vancouver",
+      "title": "ARC puts a whole turkey at the office table",
+      "description": "ARC’s forthcoming family-style lunch and dinner includes Fraser Valley turkey, shared starters and pumpkin tart brûlée. Groups need at least eight guests; admission is $89 each plus tax and 20% gratuity, with a $150 deposit applied to the bill.",
+      "url": "https://www.arcdining.com/event/arc-festive-office-party/"
+    }
+  ],
+  "watchers": []
+}
