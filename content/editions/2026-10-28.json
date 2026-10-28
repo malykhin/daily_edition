@@ -1,0 +1,118 @@
+{
+  "date": "2026-10-28",
+  "status": "published",
+  "intro": "Wednesday brings Firefox security fixes, new options for developer automation and business demands for B.C.’s incoming government. November planning includes chamber music with coffee, clinical AI discussions and a Galician wine dinner at Casa Molina.",
+  "weather": {
+    "title": "Vancouver four-day forecast",
+    "summary": "2026-10-28: 9.1/4.9°C; Slight snowfall. 2026-10-29: 8.6/5.0°C; Moderate rain. 2026-10-30: 8.3/5.5°C; Overcast. 2026-10-31: 8.3/6.3°C; Moderate rain. Source: https://api.open-meteo.com/v1/forecast?latitude=49.2827&longitude=-123.1207&daily=temperature_2m_max,temperature_2m_min,weather_code&timezone=America%2FVancouver&forecast_days=4",
+    "high": 9.1,
+    "low": 4.9
+  },
+  "stories": [
+    {
+      "section": "TECHNOLOGY · Browser security",
+      "title": "Firefox 159 fixes sandbox escapes and memory errors",
+      "summary": "Mozilla’s October 27 security release addresses high-impact flaws, including sandbox escapes and a same-origin policy bypass in navigation. Desktop Firefox users should update to version 159; several additional fixes cover memory handling, networking and privilege escalation.",
+      "url": "https://www.mozilla.org/en-US/security/advisories/mfsa2026-118/",
+      "tag": "Update available"
+    },
+    {
+      "section": "TECHNOLOGY · Coding agents",
+      "title": "Copilot services can authenticate through an organization",
+      "summary": "GitHub’s public preview lets organization-installed GitHub Apps authenticate to the Copilot SDK without an individual user’s credentials. Short-lived installation tokens support automated services, with requests billed to the organization and governed by its model policies and budgets.",
+      "url": "https://github.blog/changelog/2026-10-27-github-copilot-supports-server-to-server-authentication/",
+      "tag": "Public preview"
+    },
+    {
+      "section": "TECHNOLOGY · Developer workflows",
+      "title": "Teams notifications gain a route to proposed code fixes",
+      "summary": "GitHub’s consolidated Teams app can turn issue notifications into Copilot investigations and pull requests for developers to review, test and merge. Organizations using the legacy app should migrate before its November 16 retirement to continue using Copilot in Teams.",
+      "url": "https://github.blog/changelog/2026-10-23-turn-notifications-into-code-with-github-copilot-in-teams/",
+      "tag": "Migration deadline"
+    },
+    {
+      "section": "TECHNOLOGY · Automation security",
+      "title": "GitHub Apps expand into enterprise administration",
+      "summary": "Enterprise installations of GitHub Apps are generally available, with permissions covering repository policies, rulesets, two-factor requirements and IP allowlists. Administrators can replace classic personal access tokens in more workflows and choose app permissions to match each automation’s responsibilities.",
+      "url": "https://github.blog/changelog/2026-10-23-enterprise-installations-for-github-apps-generally-available/",
+      "tag": "Generally available"
+    },
+    {
+      "section": "LOCAL · Road safety",
+      "title": "Fatal Main Street collision remains under investigation",
+      "summary": "Vancouver police reported Tuesday that a 45-year-old woman died after an SUV struck her in a marked crosswalk early Sunday. The collision occurred at Main Street and National Avenue; the driver remained at the scene and is cooperating.",
+      "url": "https://vancouver.citynews.ca/2026/10/27/vancouver-pedestrian-dies-struck-crosswalk/",
+      "tag": "Investigation"
+    },
+    {
+      "section": "LOCAL · Business and economy",
+      "title": "Business groups seek action on provincial operating costs",
+      "summary": "The Greater Vancouver Board of Trade and Canadian Federation of Independent Business are pressing B.C.’s incoming government to deliver on business-cost promises. Proposed cancellation of provincial sales tax on professional services draws support, while implementation remains ahead.",
+      "url": "https://vancouver.citynews.ca/2026/10/27/b-c-businesses-react-to-conservative-majority/",
+      "tag": "Government transition"
+    }
+  ],
+  "markets": [
+    {
+      "name": "S&P/TSX Composite",
+      "value": "36,171.49",
+      "change": "2026-10-27 regular-session close: up 227.30 points; materials and gold led sector gains. Source: https://baystreet.ca/marketupdates/15482/TSX-Keeps-Gains-by-Tuesdays-End"
+    },
+    {
+      "name": "S&P 500",
+      "value": "7,722.67",
+      "change": "2026-10-27 regular-session close: up 45.90 points as semiconductor shares advanced ahead of the Federal Reserve decision. Source: https://baystreet.ca/marketupdates/15482/TSX-Keeps-Gains-by-Tuesdays-End"
+    },
+    {
+      "name": "Nasdaq Composite",
+      "value": "26,477.81",
+      "change": "2026-10-27 regular-session close: up 308.43 points, or 1.2%, with chipmakers advancing. Source: https://baystreet.ca/marketupdates/15482/TSX-Keeps-Gains-by-Tuesdays-End"
+    },
+    {
+      "name": "Bank of Canada policy rate",
+      "value": "2.25%",
+      "change": "2026-10-28 morning snapshot: last verified official setting announced 2026-09-02; today's decision remains unconfirmed here. Source: https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/"
+    },
+    {
+      "name": "Canadian inflation",
+      "value": "3.1% year over year",
+      "change": "September 2026 monthly CPI, released 2026-10-19: gasoline drove acceleration; excluding gasoline, inflation was 2.2%. Source: https://www150.statcan.gc.ca/n1/daily-quotidien/261019/dq261019a-eng.htm"
+    },
+    {
+      "name": "Recession indicators",
+      "value": "Soft hiring intentions",
+      "change": "2026-10-19 quarterly business-survey release: hiring intentions remain soft. This expectations measure does not establish a recession. Source: https://www.bankofcanada.ca/2026/10/business-outlook-survey-third-quarter-of-2026/"
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-11-21 · 10 a.m. doors · Panova, 4408 W 10th Avenue, Vancouver",
+      "title": "Verdant pairs chamber music with coffee at Panova",
+      "description": "Verdant Collective brings strings and countertenor to the newly opened gallery and concept store. The concert runs from 10:30 to 11:30 a.m., followed by a reception with coffee and Lumine pastries. Tickets include both receptions and are transferable but non-refundable.",
+      "url": "https://www.showpass.com/fr/panova-x-verdant/?source_channel=discovery"
+    }
+  ],
+  "meetups": [
+    {
+      "date": "2026-11-17 · 6 p.m. · 6151 Collingwood Place, Vancouver",
+      "title": "Life Sciences group examines AI adoption in clinics",
+      "description": "BC + AI’s discussion returns to clinical practice, barriers to wider adoption and where its life-sciences community can contribute. November’s gathering has moved to the 17th. Registration requires organizer approval; speakers from VCHRI and UBC’s AI & Health Network are being confirmed.",
+      "url": "https://luma.com/administration"
+    },
+    {
+      "date": "2026-11-20 · 5 p.m. · FriendsQuarters, 116 W Hastings Street, Unit 200, Vancouver",
+      "title": "AI Happy Hour leaves space for conversation",
+      "description": "BC + AI’s third-Friday gathering welcomes builders, researchers, founders and curious newcomers for informal conversation. A drink comes with the ticket, and registration is open. The evening has no panel or pitch circle, giving attendees time to compare projects and questions.",
+      "url": "https://luma.com/vancouver-lookup"
+    }
+  ],
+  "dining": [
+    {
+      "date": "2026-11-02 · 6:30 p.m. · Casa Molina, 2211 Manitoba Street, Vancouver",
+      "title": "Casa Molina brings Galicia to a seven-course dinner",
+      "description": "Adegas Valmiñor wines accompany oysters, grilled octopus, seafood fideuà and Iberian pork at a single seating. The $175 dinner includes pairings, welcome vermouth and orujo, before tax and gratuity. The fixed menu cannot accommodate allergies, dietary restrictions or substitutions.",
+      "url": "https://casa-molina.squarespace.com/atlantic-to-pacific"
+    }
+  ],
+  "watchers": []
+}
