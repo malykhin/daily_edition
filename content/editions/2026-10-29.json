@@ -1,0 +1,120 @@
+{
+  "date": "2026-10-29",
+  "status": "published",
+  "intro": "Thursday brings a Canadian rate increase, Vancouver council appointments and practical tools for securing software dependencies. Plan ahead for waterfront festivities, a discussion about human judgment in AI and Australian and New Zealand wines at Boulevard.",
+  "weather": {
+    "title": "Vancouver four-day forecast",
+    "summary": "2026-10-29: 9.6/6.1°C; Dense drizzle. 2026-10-30: 10.5/6.5°C; Slight rain. 2026-10-31: 10.6/6.2°C; Overcast. 2026-11-01: 9.8/5.0°C; Partly cloudy. Source: https://api.open-meteo.com/v1/forecast?latitude=49.2827&longitude=-123.1207&daily=temperature_2m_max,temperature_2m_min,weather_code&timezone=America%2FVancouver&forecast_days=4",
+    "high": 9.6,
+    "low": 6.1
+  },
+  "stories": [
+    {
+      "section": "ECONOMY · Interest rates",
+      "title": "Bank of Canada raises its policy rate to 2.5%",
+      "summary": "The Bank of Canada increased its overnight-rate target by a quarter percentage point Wednesday. The accompanying Bank Rate is now 2.75%, while the deposit rate stands at 2.45%, establishing the central bank’s new policy settings.",
+      "url": "https://www.bankofcanada.ca/2026/10/fad-press-release-2026-10-28/",
+      "tag": "Rate decision"
+    },
+    {
+      "section": "LOCAL · City government",
+      "title": "Fry names Bligh to lead his transition",
+      "summary": "Mayor-elect Pete Fry appointed Rebecca Bligh to lead his transition team and named Sean Orr first deputy mayor. Mike Klassen returns to the Metro Vancouver Board; the new mayor and council will be sworn in November 2.",
+      "url": "https://vancouver.citynews.ca/2026/10/29/vancouver-city-hall-new-mayor-councillors/",
+      "tag": "Council transition"
+    },
+    {
+      "section": "LOCAL · Public safety",
+      "title": "Police investigate a link between two blessing scams",
+      "summary": "Vancouver police are investigating a possible connection between scams targeting seniors at bus stops on Victoria Drive and Fraser Street. Anyone with information, CCTV or dashcam footage of the October 16 and 23 encounters should call 604-717-3321.",
+      "url": "https://vpd.ca/news/2026/10/28/seniors-scammed-out-of-thousands-in-two-blessing-scams/",
+      "tag": "Witness appeal"
+    },
+    {
+      "section": "TECHNOLOGY · Open source",
+      "title": "Replica builds prototypes around existing design systems",
+      "summary": "GitHub open-sourced Replica under the MIT licence, allowing teams to generate interactive prototypes guided by their own components and documentation. Designers define the guidance; teammates can iterate through natural language and share results through an optional self-hosted hub.",
+      "url": "https://github.blog/changelog/2026-10-28-introducing-replica-an-open-source-ai-prototyping-tool/",
+      "tag": "New project"
+    },
+    {
+      "section": "TECHNOLOGY · Dependency security",
+      "title": "Dependabot traces paths to vulnerable functions",
+      "summary": "GitHub’s free Enterprise Cloud preview adds JavaScript and TypeScript reachability analysis to dependency alerts. It shows call-path evidence for prioritization; potentially reachable findings should be treated as reachable, and the analysis never automatically closes or dismisses an alert.",
+      "url": "https://github.blog/changelog/2026-10-28-prioritize-dependabot-alerts-with-reachability-analysis/",
+      "tag": "Public preview"
+    },
+    {
+      "section": "TECHNOLOGY · Build infrastructure",
+      "title": "Actions lockfiles reach general availability",
+      "summary": "GitHub Actions dependency lockfiles are now available across Free, Team and Enterprise Cloud plans, retaining readable references while executing recorded commits. Teams can adopt them workflow by workflow; Dependabot updates matching lockfile entries alongside action version changes.",
+      "url": "https://github.blog/changelog/2026-10-28-github-actions-workflow-lockfiles-are-generally-available/",
+      "tag": "Generally available"
+    },
+    {
+      "section": "TECHNOLOGY · Speech models",
+      "title": "Nemotron combines transcription, translation and speaker labels",
+      "summary": "NVIDIA released open-weight Nemotron 3.5 Transcribe, supporting transcription in 40 languages and additional translation and speaker-attribution tasks. The Granary v2 data pipeline and fine-tuning tools give developers a route to adapt recognition to specialist vocabulary and accents.",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+      "tag": "Open weights"
+    }
+  ],
+  "markets": [
+    {
+      "name": "S&P/TSX Composite",
+      "value": "36,265.09",
+      "change": "2026-10-28 completed-session snapshot: up 0.26% for the day. Source: https://www.northgrowth.com/performance/returns/"
+    },
+    {
+      "name": "S&P 500",
+      "value": "7,743.98",
+      "change": "2026-10-28 completed-session snapshot, U.S.-dollar index: up 0.28% for the day. Source: https://www.northgrowth.com/performance/returns/"
+    },
+    {
+      "name": "Bank of Canada policy rate",
+      "value": "2.50%",
+      "change": "2026-10-28 official policy announcement: overnight-rate target increased by 0.25 percentage points. Source: https://www.bankofcanada.ca/2026/10/fad-press-release-2026-10-28/"
+    },
+    {
+      "name": "Canadian inflation",
+      "value": "3.1% year over year",
+      "change": "2026-10-19 monthly release, September CPI: up from 3.0%; excluding gasoline, inflation was 2.2%. Source: https://www150.statcan.gc.ca/n1/daily-quotidien/261019/dq261019a-eng.pdf"
+    },
+    {
+      "name": "Recession indicators",
+      "value": "Soft hiring intentions; sufficient capacity",
+      "change": "2026-10-19 quarterly survey release: most firms expected unchanged staffing; hiring intentions remained below average. These indicators do not establish a recession. Source: https://www.bankofcanada.ca/2026/10/business-outlook-survey-third-quarter-of-2026/"
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-11-16 to 2026-12-24 · Jack Poole Plaza, 1055 Canada Place, Vancouver",
+      "title": "Christmas Market presale runs until November 15",
+      "description": "The waterfront market returns November 16, with advance pricing available until the preceding day. Single-entry tickets require a selected 30-minute arrival window; children six and under enter free. Waterfront Station is approximately a ten-minute walk from the plaza.",
+      "url": "https://tickets.vancouverchristmasmarket.com/"
+    }
+  ],
+  "meetups": [
+    {
+      "date": "2026-11-25 · 6–10 p.m. · H.R. MacMillan Space Centre, 1100 Chestnut Street, Vancouver",
+      "title": "Vancouver AI asks where human judgment belongs",
+      "description": "Design strategist Zoë Zaslow uses practical cases to examine which responsibilities people should retain and which AI can carry. Doors open for networking at six; the program starts at seven, followed by questions and an open floor.",
+      "url": "https://luma.com/nov-vanai"
+    }
+  ],
+  "dining": [
+    {
+      "date": "2026-11-17 · Boulevard Kitchen & Oyster Bar, 845 Burrard Street, Vancouver",
+      "title": "Chen Liu pours wines from Australia and New Zealand",
+      "description": "Nightingale sommelier Chen Liu joins Boulevard’s Sommelier Series for an evening themed Thunder Down Under. Chef Roger Ma creates two dishes inspired by the selected wines, with additional menu pairings available. The restaurant provides reservations through its event page.",
+      "url": "https://boulevardvancouver.ca/culinary-events-vancouver/sommelier-wine-event/"
+    },
+    {
+      "date": "2026-10-29 through 2026-10-30 · Café One, Sheraton Vancouver Wall Centre, Vancouver",
+      "title": "Fall Harvest menu reaches its final two days",
+      "description": "Café One’s limited seasonal menu finishes October 30, with à la carte choices or three courses for $55. Highlights include halibut cheeks with herb gnocchi, lamb shank with risotto Milanese and pumpkin pie crème brûlée; online reservations are linked.",
+      "url": "https://www.cafeonevancouver.com/"
+    }
+  ],
+  "watchers": []
+}
