@@ -1,0 +1,111 @@
+{
+  "date": "2026-10-30",
+  "status": "published",
+  "intro": "Friday brings new browser defenses, local-model routing and a reminder to keep emergency lines clear over Halloween. Plan ahead for piano at the Playhouse, cybersecurity discussions and seasonal cooking on the Yaletown waterfront.",
+  "weather": {
+    "title": "Vancouver four-day forecast",
+    "summary": "2026-10-30: 10.5/6.1°C; Slight rain. 2026-10-31: 11.7/5.0°C; Overcast. 2026-11-01: 9.8/5.1°C; Overcast. 2026-11-02: 10.5/5.9°C; Overcast. Source: https://api.open-meteo.com/v1/forecast?latitude=49.2827&longitude=-123.1207&daily=temperature_2m_max,temperature_2m_min,weather_code&timezone=America%2FVancouver&forecast_days=4",
+    "high": 10.5,
+    "low": 6.1
+  },
+  "stories": [
+    {
+      "section": "TECHNOLOGY · Browser security",
+      "title": "Firefox plans to separate fixes across its defenses",
+      "summary": "Mozilla plans to stagger patches across browser security layers, making it harder for attackers to assemble an exploit from visible fixes. The approach separates the exposure windows for vulnerabilities that must be combined to compromise Firefox.",
+      "url": "https://blog.mozilla.org/en/firefox/privacy-security/defending-patch-gap/",
+      "tag": "Security engineering"
+    },
+    {
+      "section": "TECHNOLOGY · Local AI",
+      "title": "Copilot Fusion adds automatic routing to local models",
+      "summary": "GitHub’s experimental preview chooses between supported on-device and cloud models in its developer tools. Supported Windows devices receive managed setup; Copilot CLI also accepts manually configured models on macOS and Linux, giving developers another route to use local compute.",
+      "url": "https://github.blog/changelog/2026-10-28-github-copilot-fusion-now-supports-selection-of-local-models/",
+      "tag": "Experimental preview"
+    },
+    {
+      "section": "TECHNOLOGY · Application security",
+      "title": "Code scanning checks agent architectures for AI risks",
+      "summary": "GitHub’s public preview checks pull requests for indirect prompt injection, sensitive-information disclosure and excessive agency. Organizations with GitHub Advanced Security can enable the detector alongside code scanning, then review mitigation guidance before merging affected application code.",
+      "url": "https://github.blog/changelog/2026-10-28-code-scanning-for-ai-applications-in-public-preview/",
+      "tag": "Public preview"
+    },
+    {
+      "section": "TECHNOLOGY · Open science",
+      "title": "ProtoStar organizes public research for reuse",
+      "summary": "Hugging Face, universities and research partners launched ProtoStar to make publicly funded datasets, models and code easier to discover and reuse. Its first open challenge, hosted by Carnegie Mellon University, opens November 2 to demonstrate practical uses of shared research.",
+      "url": "https://huggingface.co/blog/announcing-project-protostar",
+      "tag": "Research infrastructure"
+    },
+    {
+      "section": "LOCAL · Halloween weekend",
+      "title": "E-Comm asks residents to keep emergency lines clear",
+      "summary": "E-Comm expects a busy Halloween weekend after last year’s holiday brought 14% more emergency calls than a typical October Friday. Direct routine fireworks complaints to bylaw services or police non-emergency lines; fires, serious injuries and imminent danger warrant 9-1-1.",
+      "url": "https://www.ecomm911.ca/halloween-expected-to-bring-heightened-demand-for-9-1-1/",
+      "tag": "Make the right call"
+    },
+    {
+      "section": "LOCAL · Economy and business",
+      "title": "Vancity sees growth with little household relief",
+      "summary": "Vancity’s new quarterly outlook describes economic growth alongside declining employment, elevated fixed borrowing costs and persistent essential expenses. For B.C., tariffs and housing weakness remain pressures, while major projects, transportation, energy investment and exports provide support.",
+      "url": "https://news.vancity.com/news/q3-2026-economic-outlook",
+      "tag": "Quarterly outlook"
+    }
+  ],
+  "markets": [
+    {
+      "name": "S&P/TSX Composite",
+      "value": "36,249.03",
+      "change": "2026-10-29 regular-session close: down 16.06 points, or 0.04%; materials, technology and energy weighed. Source: https://www.ad-hoc-news.de/boerse/news/marktberichte/s-und-p-tsx-composite-closes-at-36-249-03-after-a-slight-decline/70430439"
+    },
+    {
+      "name": "S&P 500",
+      "value": "7,720.39",
+      "change": "2026-10-29 regular-session close: down 23.59 points, or 0.30%. Source: https://portfolio-terminal.com/markets/stock-market-close/october-29-2026"
+    },
+    {
+      "name": "Nasdaq Composite",
+      "value": "26,184.72",
+      "change": "2026-10-29 regular-session close: down 365.13 points, or 1.38%. Source: https://portfolio-terminal.com/markets/stock-market-close/october-29-2026"
+    },
+    {
+      "name": "Bank of Canada policy rate",
+      "value": "2.50%",
+      "change": "2026-10-28 official policy decision: overnight-rate target increased by 0.25 percentage points; Bank Rate 2.75%, deposit rate 2.45%. Source: https://www.bankofcanada.ca/2026/10/fad-press-release-2026-10-28/"
+    },
+    {
+      "name": "Canadian inflation",
+      "value": "3.1% year over year",
+      "change": "2026-10-19 monthly release for September: up from 3.0%; excluding gasoline, inflation was 2.2%. Source: https://www150.statcan.gc.ca/n1/daily-quotidien/261019/dq261019a-eng.pdf"
+    },
+    {
+      "name": "Recession indicators",
+      "value": "6% of surveyed firms budgeting for recession",
+      "change": "2026-10-19 quarterly survey release: down from 17%; subsequent trade developments weakened sentiment. Business expectations do not establish a recession. Source: https://www.bankofcanada.ca/2026/10/business-outlook-survey-third-quarter-of-2026/"
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-11-22 · 3 p.m. · Vancouver Playhouse, 600 Hamilton Street, Vancouver",
+      "title": "Saskia Giorgini brings a Sunday piano recital",
+      "description": "The Vancouver Chopin Society presents the Italian pianist and 2016 Salzburg International Mozart Competition winner at the Playhouse. The afternoon recital offers an advance-planning option for November; the organizer’s concert page links directly to individual ticket booking.",
+      "url": "https://my.chopinsociety.org/events/69baf9cc-f997-4c25-b91e-e7420bcdf026"
+    },
+    {
+      "date": "2026-10-30 · 7:30 p.m. · Martha Lou Henley Rehearsal Hall, 1955 McLean Drive, Vancouver",
+      "title": "Masquerade pairs choral music with Halloween costumes",
+      "description": "Sarabande performs classical, contemporary, pop and musical theatre selections under Shane Raman, with pianist Shifra Day. Doors open at seven; masquerade attire is encouraged. Admission is free, but tickets must be reserved in advance, and a cash bar is available.",
+      "url": "https://www.showpass.com/masquerade-2026/"
+    }
+  ],
+  "meetups": [
+    {
+      "date": "2026-11-19 · 8 a.m.–6 p.m. · JW Marriott Parq Vancouver, 39 Smithe Street, Vancouver",
+      "title": "Cybersecurity summit gathers enterprise practitioners",
+      "description": "Vancouver’s second annual summit combines panels, solution showcases and networking for enterprise security leaders. Registration is reserved for active cybersecurity, IT and information-security practitioners responsible for protecting their organizations; all registrations undergo review. Breakfast, lunch and a closing reception are included.",
+      "url": "https://cyberriskalliance.swoogo.com/Vancouver-2026"
+    }
+  ],
+  "dining": [],
+  "watchers": []
+}
