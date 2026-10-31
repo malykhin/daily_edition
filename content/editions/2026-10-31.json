@@ -1,0 +1,125 @@
+{
+  "date": "2026-10-31",
+  "status": "published",
+  "intro": "Saturday brings practical advances in local AI, a stalled Canadian economy and extra Halloween patrols. November planning offers choral music, a jungle dance night, security conversations and the return of seasonal afternoon tea at Bacchus.",
+  "weather": {
+    "title": "Vancouver four-day forecast",
+    "summary": "2026-10-31: 10.8/5.1°C; Overcast. 2026-11-01: 12.4/6.2°C; Overcast. 2026-11-02: 10.8/6.4°C; Overcast. 2026-11-03: 10.4/8.2°C; Light drizzle. Source: https://api.open-meteo.com/v1/forecast?latitude=49.2827&longitude=-123.1207&daily=temperature_2m_max,temperature_2m_min,weather_code&timezone=America%2FVancouver&forecast_days=4",
+    "high": 10.8,
+    "low": 5.1
+  },
+  "stories": [
+    {
+      "section": "TECHNOLOGY · Local AI",
+      "title": "Swift packages bring open speech models onto Apple devices",
+      "summary": "AnySpeechRecognizer and AnyDecisionModel add transcription, speaker diarization and typed decisions to Swift applications. Both can download open models from Hugging Face and run them on-device, giving developers alternatives for speech processing and structured answers without generated prose.",
+      "url": "https://huggingface.co/blog/anydecisionmodel",
+      "tag": "Open source"
+    },
+    {
+      "section": "TECHNOLOGY · Model maintenance",
+      "title": "Granite Switch updates adapters without replacing its base",
+      "summary": "IBM released Granite Switch 4.1.1 with updated multilingual speech recognition and a revised Decision adapter. The patch remains compatible with 4.1 and leaves the base model untouched, allowing existing deployments to adopt the improvements without migration.",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
+      "tag": "Patch release"
+    },
+    {
+      "section": "TECHNOLOGY · Application security",
+      "title": "GitHub opens whole-repository AI vulnerability scans",
+      "summary": "GitHub’s AI Scan preview examines entire repositories, including languages and frameworks outside CodeQL’s coverage. Findings enter the code-scanning backlog; scans consume Code Security AI credits, and developers must rescan after merging fixes to close resolved alerts.",
+      "url": "https://github.blog/changelog/2026-10-28-ai-scan-for-repositories-in-public-preview/",
+      "tag": "Public preview"
+    },
+    {
+      "section": "TECHNOLOGY · Developer infrastructure",
+      "title": "Hugging Face shares cached files across model repositories",
+      "summary": "Updated Hugging Face tooling stores identical Xet files once and links other repositories to the cached copy automatically. Developers downloading related models can save bandwidth and disk space, particularly when several checkpoints share the same large encoder.",
+      "url": "https://huggingface.co/blog/huggingface/whats-new-in-the-hf-cli-and-huggingface-hub-librar",
+      "tag": "Storage efficiency"
+    },
+    {
+      "section": "LOCAL · Halloween",
+      "title": "Vancouver adds about 80 officers for Halloween weekend",
+      "summary": "Vancouver police are deploying approximately 80 additional officers for foot patrols, traffic enforcement and other duties across busy neighbourhoods. Celebrants are asked to avoid realistic imitation weapons, which can alarm bystanders and prompt a significant police response.",
+      "url": "https://vpd.ca/news/2026/10/30/vpd-increases-police-presence-for-halloween-weekend/",
+      "tag": "Weekend safety"
+    },
+    {
+      "section": "LOCAL · Provincial politics",
+      "title": "Jennifer Whiteside becomes interim BC NDP leader",
+      "summary": "Jennifer Whiteside replaces David Eby as interim NDP leader following the party’s election defeat. Mike Farnworth becomes house leader and Niki Sharma caucus chair as the party prepares for opposition; permanent leadership selection is expected next year.",
+      "url": "https://vancouver.citynews.ca/2026/10/30/bc-ndp-interim-party-leader-jennifer-whiteside/",
+      "tag": "Opposition transition"
+    },
+    {
+      "section": "ECONOMY · Growth",
+      "title": "August GDP stalls as September estimate points lower",
+      "summary": "Canada’s real GDP was essentially unchanged for a second consecutive month in August, with nine of 20 sectors expanding. Statistics Canada’s preliminary September estimate indicates a 0.1% decline; official September and third-quarter figures arrive November 30.",
+      "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/261030/dq261030a-eng.htm",
+      "tag": "New data"
+    }
+  ],
+  "markets": [
+    {
+      "name": "S&P/TSX Composite",
+      "value": "35,620.03",
+      "change": "2026-10-30 regular-session close: down 629.00 points, or 1.735%. Source: https://money.tmx.com/en/quote/%5ETSX"
+    },
+    {
+      "name": "S&P 500",
+      "value": "7,580.07",
+      "change": "2026-10-30 regular-session close: down 140.32 points, or 1.8%. Source: https://www.chron.com/business/article/how-major-us-stock-indexes-fared-friday-10-30-2026-22503224.php"
+    },
+    {
+      "name": "Nasdaq Composite",
+      "value": "25,437.00",
+      "change": "2026-10-30 regular-session close: down 747.73 points, or 2.9%. Source: https://www.chron.com/business/article/how-major-us-stock-indexes-fared-friday-10-30-2026-22503224.php"
+    },
+    {
+      "name": "Bank of Canada policy rate",
+      "value": "2.50%",
+      "change": "2026-10-28 official policy decision: overnight-rate target increased by 0.25 percentage points. Source: https://www.bankofcanada.ca/2026/10/fad-press-release-2026-10-28/"
+    },
+    {
+      "name": "Canadian inflation",
+      "value": "3.1% year over year",
+      "change": "2026-10-19 monthly release for September: up from 3.0%; excluding gasoline, 2.2%. Source: https://www150.statcan.gc.ca/n1/daily-quotidien/261019/dq261019a-eng.htm"
+    },
+    {
+      "name": "Recession indicators",
+      "value": "Preliminary third-quarter industry GDP growth: 0.3%",
+      "change": "2026-10-30 monthly GDP release: preliminary quarterly expansion alongside estimated September contraction; these figures do not establish a recession. Source: https://www150.statcan.gc.ca/n1/daily-quotidien/261030/dq261030a-eng.htm"
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-11-14 · 7:30 p.m. · St. Andrew’s-Wesley United Church, 1022 Nelson Street, Vancouver",
+      "title": "The Lost Birds remembers vanished species through song",
+      "description": "Vancouver Bach Choir performs Christopher Tin’s choral tribute to extinct birds, alongside works by Iman Habibi and Andrew Balfour. General-admission seating makes an early arrival useful: the box office opens at 6:30 and church doors at seven.",
+      "url": "https://www.showpass.com/christopher-tins-the-lost-birds/"
+    },
+    {
+      "date": "2026-11-27 · 9 p.m.–2 a.m. · KW Studios, 111 W Hastings Street, Vancouver",
+      "title": "Back to the Jungle offers a late dance-floor date",
+      "description": "Saseone, Calico, Roy and other performers bring old-school, reggae, jungle and jump-up sounds to KW Studios. The event welcomes ages 19 and older, with last entry at 1:30 a.m.; advance tickets are available through Showpass.",
+      "url": "https://www.showpass.com/back-to-the-jungle/"
+    }
+  ],
+  "meetups": [
+    {
+      "date": "2026-11-12 · 5:30–11:30 p.m. · Taylight Local Craft Beer & Kitchen, 990 Smithe Street, Vancouver",
+      "title": "VanCitySec makes room for security conversations",
+      "description": "The monthly social welcomes anyone interested in security, hacking and technology for informal conversation with local professionals and enthusiasts. Registration is optional but helps organizers plan reservations; capacity for the gathering is limited to 60 people.",
+      "url": "https://luma.com/8i062xgp"
+    }
+  ],
+  "dining": [
+    {
+      "date": "2026-11-07 to 2027-01-16 · weekends · Bacchus, Vancouver",
+      "title": "Nutcracker tea returns alongside a new dinner menu",
+      "description": "Bacchus opens reservations for seasonal afternoon tea, with two-hour weekend seatings beginning November 7 at $95 plus extras. Its new fall and winter dinner menu includes poached Nova Scotia lobster and a dry-aged Fraser Valley duck duo.",
+      "url": "https://scoutmagazine.ca/bacchus-nutcracker-afternoon-tea-returns-alongside-a-new-fall-winter-menu-nov-7th/"
+    }
+  ],
+  "watchers": []
+}
