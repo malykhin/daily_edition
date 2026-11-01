@@ -1,0 +1,112 @@
+{
+  "date": "2026-11-01",
+  "status": "published",
+  "intro": "Sunday brings a calendar check as B.C. keeps its clocks steady, federal recognition for a port expansion and new tools for specialized AI. November planning includes orchestral storytelling, coffee with local builders and seasonal chicories.",
+  "weather": {
+    "title": "Vancouver four-day forecast",
+    "summary": "2026-11-01: 10.6/4.3°C; Overcast. 2026-11-02: 11.6/4.4°C; Overcast. 2026-11-03: 10.4/8.8°C; Overcast. 2026-11-04: 11.6/7.6°C; Slight rain. Source: https://api.open-meteo.com/v1/forecast?latitude=49.2827&longitude=-123.1207&daily=temperature_2m_max,temperature_2m_min,weather_code&timezone=America%2FVancouver&forecast_days=4",
+    "high": 10.6,
+    "low": 4.3
+  },
+  "stories": [
+    {
+      "section": "LOCAL · Timekeeping",
+      "title": "Check saved appointments as B.C. skips the clock change",
+      "summary": "Health authorities and universities warn that older calendar bookings could shift by an hour as most of B.C. stays on daylight time today. Confirm medical appointments with providers and check saved meeting invitations, particularly when coordinating across the U.S. border.",
+      "url": "https://vancouver.citynews.ca/2026/10/31/b-c-s-new-time-zone-could-cause-confusion-from-calendars-to-medical-appointments/",
+      "tag": "Practical reminder"
+    },
+    {
+      "section": "LOCAL · Trade infrastructure",
+      "title": "Roberts Bank Terminal 2 receives national-interest designation",
+      "summary": "Ottawa has listed the Port of Vancouver’s planned Roberts Bank Terminal 2 expansion as a project of national interest. Transport Minister Steven MacKinnon announced the designation Friday at the existing port facility in Delta.",
+      "url": "https://vancouver.citynews.ca/2026/10/30/ottawa-lists-b-c-port-expansion-as-project-of-national-interest/",
+      "tag": "Port expansion"
+    },
+    {
+      "section": "TECHNOLOGY · Open models",
+      "title": "Mistral Large 4 brings million-token context to downloadable weights",
+      "summary": "Mistral Large 4 accepts images and text, with about one trillion total parameters and 49 billion active parameters. Hugging Face details deployment options, including community GGUF versions; its open-weight licence restricts some model-as-a-service offerings.",
+      "url": "https://huggingface.co/blog/mistral-large4",
+      "tag": "Model release"
+    },
+    {
+      "section": "TECHNOLOGY · Embedded AI",
+      "title": "Liquid AI builds six specialist models around one small backbone",
+      "summary": "Liquid AI released LFM3 models for text, vision, audio and combined inputs, sharing a 1.7-billion-parameter foundation. Fine-tuning examples cover document extraction and spoken tool calls, giving developers starting points for specialized applications on devices and private infrastructure.",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm3",
+      "tag": "On-device development"
+    },
+    {
+      "section": "TECHNOLOGY · Developer automation",
+      "title": "Agentic Workflows graduates to general availability",
+      "summary": "GitHub’s open-source Agentic Workflows compiles Markdown instructions into standard Actions YAML, reusing runner groups and policy constraints. Agents receive read-only access by default, while sandboxing, output validation and threat detection check proposed changes before they are applied.",
+      "url": "https://github.blog/changelog/2026-10-28-github-agentic-workflows-generally-available/",
+      "tag": "Generally available"
+    },
+    {
+      "section": "TECHNOLOGY · AI evaluation",
+      "title": "Microsoft tests workplace AI against synthetic organizations",
+      "summary": "Microsoft Research describes a platform that generates synthetic enterprise environments from public occupational data, job postings and filings. Simulated pharmaceutical, financial and software workplaces include evolving meetings and projects, helping evaluations surface failures that generic question sets can miss.",
+      "url": "https://www.microsoft.com/en-us/research/blog/from-synthetic-enterprise-data-evaluations-to-real-microsoft-copilot-ai-confidence/",
+      "tag": "Research"
+    }
+  ],
+  "markets": [
+    {
+      "name": "S&P/TSX Composite",
+      "value": "35,620.03",
+      "change": "2026-10-30 regular-session close: down 629.00 points, or 1.74%. Source: https://www.fundlibrary.com/Markets/Detail/176336"
+    },
+    {
+      "name": "S&P 500",
+      "value": "7,580.07",
+      "change": "2026-10-30 regular-session close: down 140.32 points, or 1.8%; weekly decline 0.6%. Source: https://www.chron.com/business/article/how-major-us-stock-indexes-fared-friday-10-30-2026-22503224.php"
+    },
+    {
+      "name": "Nasdaq Composite",
+      "value": "25,437.00",
+      "change": "2026-10-30 regular-session close: down 747.73 points, or 2.9%; weekly decline 2%. Source: https://www.chron.com/business/article/how-major-us-stock-indexes-fared-friday-10-30-2026-22503224.php"
+    },
+    {
+      "name": "Bank of Canada policy rate",
+      "value": "2.50%",
+      "change": "2026-10-28 official decision: overnight-rate target increased by 0.25 percentage points, effective the following day. Source: https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/"
+    },
+    {
+      "name": "Canadian inflation",
+      "value": "3.1% year over year",
+      "change": "2026-10-19 monthly release for September: up from 3.0%; excluding gasoline, inflation was 2.2%. Source: https://www150.statcan.gc.ca/n1/daily-quotidien/261019/dq261019a-eng.htm"
+    },
+    {
+      "name": "Recession indicators",
+      "value": "Preliminary third-quarter industry GDP growth: 0.3%",
+      "change": "2026-10-30 GDP release: September output estimated down 0.1%, following two flat months. Preliminary quarterly growth does not establish a recession. Source: https://www150.statcan.gc.ca/n1/daily-quotidien/261030/dq261030a-eng.htm"
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-11-07 · 7:30 p.m. · Orpheum, Vancouver",
+      "title": "Cinderella follows Shostakovich’s darker violin concerto",
+      "description": "Antony Hermus conducts Kevin Zhu in Shostakovich’s First Violin Concerto, framed by Scriabin’s Rêverie and Prokofiev’s Cinderella Suite. The VSO program runs approximately two hours with one intermission; the orchestra also offers a November 6 performance.",
+      "url": "https://secure.vancouversymphony.ca/7347/7396?z=0"
+    }
+  ],
+  "meetups": [
+    {
+      "date": "2026-11-21 · 10 a.m. · Nemesis Coffee Gastown, 302 W Hastings Street, Vancouver",
+      "title": "AI Hangout puts conversation ahead of presentations",
+      "description": "Developers, founders, students and curious newcomers can compare AI tools and projects over Saturday coffee. The organizer welcomes beginners and listeners, with no presentations or sales pitches. Attendance is free; register through Luma and purchase refreshments separately.",
+      "url": "https://luma.com/gthzhipj"
+    }
+  ],
+  "dining": [
+    {
+      "date": "2026-11-01 · October–November menu · Burdock & Co, 2702 Main Street, Vancouver",
+      "title": "Chicories take the lead at Burdock & Co",
+      "description": "The seasonal Frost Moon tasting menu pairs puntarelle with spotted shrimp, celeriac almond milk and quince sorbet, while sugarloaf chicory meets potato and pine mushrooms. The menu is $175 per person; wine and zero-proof pairings are available separately.",
+      "url": "https://www.burdockandco.com/moon-menu-radicchio"
+    }
+  ],
+  "watchers": []
+}
