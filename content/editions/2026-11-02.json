@@ -1,0 +1,112 @@
+{
+  "date": "2026-11-02",
+  "status": "published",
+  "intro": "Monday brings cloud automation for developers, a fatal Fraser Valley fire and renewed Canada–U.S. trade discussions. November planning includes Icelandic music and cooking, an AI programming lab and an opportunity to demonstrate a local agent.",
+  "weather": {
+    "title": "Vancouver four-day forecast",
+    "summary": "2026-11-02: 11.1/2.8°C; Overcast. 2026-11-03: 12.3/7.3°C; Overcast. 2026-11-04: 11.7/6.9°C; Moderate drizzle. 2026-11-05: 11.3/8.6°C; Overcast. Source: https://api.open-meteo.com/v1/forecast?latitude=49.2827&longitude=-123.1207&daily=temperature_2m_max,temperature_2m_min,weather_code&timezone=America%2FVancouver&forecast_days=4",
+    "high": 11.1,
+    "low": 2.8
+  },
+  "stories": [
+    {
+      "section": "TECHNOLOGY · Coding agents",
+      "title": "Agent Merge watches pull requests in the cloud",
+      "summary": "Paid Copilot users can now activate Agent Merge from a pull request’s merge box. Choose failing workflows, merge conflicts or both; Copilot starts a cloud development environment when those blockers appear, subject to organization policies.",
+      "url": "https://github.blog/changelog/2026-10-28-agent-merge-watches-and-fixes-pull-requests-in-the-cloud/",
+      "tag": "Developer automation"
+    },
+    {
+      "section": "TECHNOLOGY · Build infrastructure",
+      "title": "Actions adds AWS capacity alongside Azure",
+      "summary": "Eligible GitHub-hosted Linux jobs can now run on AWS using existing runner labels and workflow syntax. Teams should synchronize network allowlists with GitHub’s published runner ranges; Enterprise Cloud customers must opt into the additional provider.",
+      "url": "https://github.blog/changelog/2026-10-28-github-actions-adds-multi-cloud-compute-to-improve-reliability/",
+      "tag": "Rolling change"
+    },
+    {
+      "section": "TECHNOLOGY · Integrations",
+      "title": "Webhook receivers need three additional network ranges",
+      "summary": "GitHub added three webhook delivery ranges to its Meta API: 9.234.98.160/28, 9.234.98.176/28 and 9.234.106.48/28. Administrators maintaining static inbound allowlists should add them to prevent rejected deliveries; allowlists synchronized with the API already receive the additions.",
+      "url": "https://github.blog/changelog/2026-10-29-webhook-ip-ranges-added-to-the-meta-api/",
+      "tag": "Administrator action"
+    },
+    {
+      "section": "TECHNOLOGY · Voice and hardware",
+      "title": "A talking garage door offers a voice-agent recipe",
+      "summary": "NVIDIA’s MonsterHouse walkthrough combines speech recognition, Nemotron reasoning, speech synthesis and facial animation on one workstation. The interactive projection demonstrates how reusable voice-agent components can coordinate conversation, character animation and visitor recognition in a physical installation.",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-halloween",
+      "tag": "Project walkthrough"
+    },
+    {
+      "section": "LOCAL · Fraser Valley",
+      "title": "Fatal Chilliwack fire displaces other residents",
+      "summary": "One person died in Friday’s house fire on the 9800 block of Young Road, Chilliwack firefighters confirmed. Extensive fire, smoke and water damage prevented other residents from returning that night; the origin and cause remain under investigation.",
+      "url": "https://vancouver.citynews.ca/2026/11/01/chilliwack-fire-fatal/",
+      "tag": "Investigation"
+    },
+    {
+      "section": "ECONOMY · Trade",
+      "title": "Carney says trade teams will continue discussions",
+      "summary": "Mark Carney reported another conversation with Donald Trump on Sunday, saying their teams would keep working toward a trade deal. No agreement was announced; formal talks stalled in August, and Carney described progress last week as limited.",
+      "url": "https://vancouver.citynews.ca/2026/11/01/carney-trump-good-conversation-stalled-trade-talks/",
+      "tag": "Canada–U.S."
+    },
+    {
+      "section": "PROMOTION · Nekoni",
+      "title": "Propose a local-agent demo for Vancouver AI",
+      "summary": "Vancouver AI’s November 25 gathering invites community demos through its participation link. Propose a Nekoni phone-access walkthrough and share https://github.com/nekonihq/nekoni so interested builders can explore the local agent and star the repository if useful.",
+      "url": "https://luma.com/nov-vanai",
+      "tag": "Exposure opportunity"
+    }
+  ],
+  "markets": [
+    {
+      "name": "S&P/TSX Composite",
+      "value": "35,620.03",
+      "change": "2026-10-30 regular-session close: down 629.00 points, or 1.74%. Source: https://fundlibrary.com/Markets/Detail/176336"
+    },
+    {
+      "name": "S&P 500",
+      "value": "7,580.07",
+      "change": "2026-10-30 regular-session close: down 140.32 points, or 1.82%. Source: https://www.closingnumbersdaily.com/2026-10-30-markets-daily/"
+    },
+    {
+      "name": "Nasdaq Composite",
+      "value": "25,437.00",
+      "change": "2026-10-30 regular-session close: down 747.72 points, or 2.86%. Source: https://www.closingnumbersdaily.com/2026-10-30-markets-daily/"
+    },
+    {
+      "name": "Bank of Canada policy rate",
+      "value": "2.50%",
+      "change": "2026-10-28 official decision: overnight-rate target increased by 0.25 percentage points. Source: https://www.bankofcanada.ca/2026/10/fad-press-release-2026-10-28/"
+    },
+    {
+      "name": "Canadian inflation",
+      "value": "3.1% year over year",
+      "change": "2026-10-19 monthly release for September: up from 3.0%; excluding gasoline, 2.2%. Source: https://www150.statcan.gc.ca/n1/daily-quotidien/261019/dq261019a-eng.htm"
+    },
+    {
+      "name": "Recession indicators",
+      "value": "Preliminary third-quarter industry GDP growth: 0.3%",
+      "change": "2026-10-30 GDP release: September estimated down 0.1% after two flat months. Preliminary quarterly expansion does not establish a recession. Source: https://www150.statcan.gc.ca/n1/daily-quotidien/261030/dq261030a-eng.htm"
+    }
+  ],
+  "events": [],
+  "meetups": [
+    {
+      "date": "2026-11-27 · Northeastern University, 410 W Georgia Street, #1400, Vancouver",
+      "title": "DevFest pairs AI sessions with a programming lab",
+      "description": "Google Developer Community Vancouver explores building, securing and scaling applications in the agentic era. Choose a session or code-lab pass; programming-lab participants should bring laptops and chargers. Student discounts require approval, and registration is open through Luma.",
+      "url": "https://luma.com/lee79l0e"
+    }
+  ],
+  "dining": [
+    {
+      "date": "2026-11-12 to 2026-11-14 · Hawksworth Restaurant, 801 W Georgia Street, Vancouver",
+      "title": "Hawksworth serves a three-day Icelandic menu",
+      "description": "Ísak Darri joins David Hawksworth for special lunch and dinner menus featuring Icelandic cod, lamb, Arctic char and Skyr. The three-day collaboration brings the festival into the dining room; reservations are available directly through the restaurant.",
+      "url": "https://www.inspiredbyiceland.com/taste-of-iceland/vancouver/icelandic-menu"
+    }
+  ],
+  "watchers": []
+}
