@@ -1,0 +1,104 @@
+{
+  "date": "2026-11-03",
+  "status": "published",
+  "intro": "Tuesday brings shorter-lived developer credentials, a revised workflow deadline and downloadable diffusion models. Vancouver’s new mayor takes office as Canadian factories report contraction; November planning includes funk, flamenco, practical coding talks and a theatre-linked menu.",
+  "weather": {
+    "title": "Vancouver four-day forecast",
+    "summary": "2026-11-03: 11.7/6.6°C; Overcast. 2026-11-04: 12.4/5.3°C; Moderate rain. 2026-11-05: 11.5/9.1°C; Light drizzle. 2026-11-06: 10.1/8.8°C; Slight rain showers. Source: https://api.open-meteo.com/v1/forecast?latitude=49.2827&longitude=-123.1207&daily=temperature_2m_max,temperature_2m_min,weather_code&timezone=America%2FVancouver&forecast_days=4",
+    "high": 11.7,
+    "low": 6.6
+  },
+  "stories": [
+    {
+      "section": "TECHNOLOGY · Authentication",
+      "title": "GitHub Desktop introduces shorter-lived credentials",
+      "summary": "Eligible accounts signing into GitHub Desktop 3.6.10 or later can receive automatically refreshing authentication tokens. The gradual rollout reduces a leaked token’s useful lifetime; upgrading alone does not migrate existing sessions, because new tokens are issued during sign-in.",
+      "url": "https://github.blog/changelog/2026-11-02-github-desktop-adds-short-lived-authentication-tokens/",
+      "tag": "Security update"
+    },
+    {
+      "section": "TECHNOLOGY · Workflow security",
+      "title": "Public workflow restriction moves to December 2",
+      "summary": "GitHub postponed default blocking of public-repository pull_request_target events until December 2. Maintainers should review evaluate-mode results before temporary enforcement on November 9 and 16, then explicitly allow necessary workflows through an applicable Actions event policy.",
+      "url": "https://github.blog/changelog/2026-11-02-pull_request_target-blocked-by-default-december-2/",
+      "tag": "Maintainer deadline"
+    },
+    {
+      "section": "TECHNOLOGY · Repository protection",
+      "title": "Security assessments expose coverage gaps",
+      "summary": "GitHub’s code and secret risk assessments now distinguish findings in protected and unprotected repositories. Organization administrators and security managers on Team and Enterprise Cloud can open Assessments under the Security tab to identify where coverage needs extending.",
+      "url": "https://github.blog/changelog/2026-11-02-security-risk-assessments-include-repository-protection-status/",
+      "tag": "Administrator tools"
+    },
+    {
+      "section": "TECHNOLOGY · Open models",
+      "title": "Clover releases diffusion weights and inference code",
+      "summary": "DiffuSpace released Clover-35B-A3B-Preview, a diffusion mixture-of-experts language model with 35 billion total parameters and three billion active parameters. Apache-licensed weights and code support SGLang and llama.cpp, offering another downloadable option for coding and tool-use experiments.",
+      "url": "https://huggingface.co/blog/Diffuspace/clover-35b-a3b-preview",
+      "tag": "Open source"
+    },
+    {
+      "section": "LOCAL · City government",
+      "title": "Pete Fry takes office as Vancouver’s 42nd mayor",
+      "summary": "Pete Fry was officially sworn in Monday as Vancouver’s 42nd mayor following his civic-election victory. The inauguration completes the transition from mayor-elect to mayor and begins his administration’s work at City Hall.",
+      "url": "https://vancouver.citynews.ca/video/2026/11/02/pete-fry-sworn-in-as-vancouvers-42nd-mayor/",
+      "tag": "Inauguration"
+    }
+  ],
+  "markets": [
+    {
+      "name": "S&P/TSX Composite",
+      "value": "35,801.09",
+      "change": "2026-11-02 regular-session close: up 181.06 points; gold and real estate advanced while energy declined. Source: https://baystreet.ca/marketupdates/15498/TSX-Solidly-in-Positive-Territory"
+    },
+    {
+      "name": "S&P 500",
+      "value": "7,541.61",
+      "change": "2026-11-02 regular-session close: down 38.43 points, according to Baystreet, as technology shares weakened. Source: https://baystreet.ca/marketupdates/15498/TSX-Solidly-in-Positive-Territory"
+    },
+    {
+      "name": "Nasdaq Composite",
+      "value": "25,164.32",
+      "change": "2026-11-02 regular-session close: down 272.68 points, or 1.1%, amid selling in technology shares. Source: https://baystreet.ca/marketupdates/15498/TSX-Solidly-in-Positive-Territory"
+    },
+    {
+      "name": "Bank of Canada policy rate",
+      "value": "2.50%",
+      "change": "2026-10-28 official policy decision: overnight-rate target increased 0.25 percentage points; Bank Rate 2.75%, deposit rate 2.45%. Source: https://www.bankofcanada.ca/2026/10/fad-press-release-2026-10-28/?theme_mode=light"
+    },
+    {
+      "name": "Canadian inflation",
+      "value": "3.1% year over year",
+      "change": "2026-10-19 monthly CPI release for September: annual consumer-price inflation was 3.1%. Source: https://www150.statcan.gc.ca/n1/daily-quotidien/261019/dq261019a-eng.htm"
+    },
+    {
+      "name": "Recession indicators",
+      "value": "Preliminary third-quarter industry GDP growth: 0.3%",
+      "change": "2026-10-30 GDP release: September estimated down 0.1% after two flat months. Preliminary quarterly expansion does not establish a recession. Source: https://www150.statcan.gc.ca/n1/daily-quotidien/261030/dq261030a-eng.htm"
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-11-07 · 7 p.m. · Performance Works, 1218 Cartwright Street, Vancouver",
+      "title": "Jade Music Fest brings funk and Hakka heritage",
+      "description": "Mango Jump, Chiu Shu and Vancouver singer-keyboardist Kristin Fung share the Jump to the Funk showcase. Doors open at six for this all-ages, standing-room concert; tickets are transferable but non-refundable, and the festival offers a three-show package.",
+      "url": "https://www.showpass.com/jmf-showcase-d/"
+    },
+    {
+      "date": "2026-11-21 · 7 p.m. · Vancouver Playhouse, 600 Hamilton Street, Vancouver",
+      "title": "Frida Kahlo’s paintings become flamenco",
+      "description": "Karen Flamenco Dance Company translates Kahlo’s imagery and life into footwork, live music and colourful costumes. Doors open at six for the seven o’clock performance; all ages are welcome, and everyone attending requires a ticket.",
+      "url": "https://www.vtix.com/frida/6025/"
+    }
+  ],
+  "meetups": [
+    {
+      "date": "2026-11-24 · Northeastern University, 410 West Georgia Street, Vancouver",
+      "title": "VanJS examines token bills and Git benchmarks",
+      "description": "Shawn McKay discusses context hygiene, caching and model selection for cheaper AI coding, while Chris Griffing explains GitBench’s real Git tasks. Pizza starts at 5:30, talks at six and networking follows; the organizer directs RSVPs to Luma.",
+      "url": "https://luma.com/ztxxsa5o"
+    }
+  ],
+  "dining": [],
+  "watchers": []
+}
