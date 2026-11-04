@@ -1,0 +1,117 @@
+{
+  "date": "2026-11-04",
+  "status": "published",
+  "intro": "Wednesday brings another coding-agent integration, open tests for AI reliability and a police warning about electric dirt bikes. Plan ahead for robotics discussions, Mediterranean music and piano with brain imagery, while a theatre-linked menu starts today.",
+  "weather": {
+    "title": "Vancouver four-day forecast",
+    "summary": "2026-11-04: 12.3/4.1°C; Slight rain. 2026-11-05: 11.8/7.7°C; Moderate drizzle. 2026-11-06: 10.0/8.9°C; Slight rain. 2026-11-07: 14.2/10.0°C; Dense drizzle. Source: https://api.open-meteo.com/v1/forecast?latitude=49.2827&longitude=-123.1207&daily=temperature_2m_max,temperature_2m_min,weather_code&timezone=America%2FVancouver&forecast_days=4",
+    "high": 12.3,
+    "low": 4.1
+  },
+  "stories": [
+    {
+      "section": "TECHNOLOGY · Coding agents",
+      "title": "Copilot enters JetBrains Air’s agent picker",
+      "summary": "GitHub Copilot now handles local and cloud coding tasks through JetBrains Air using an existing Copilot subscription. Install Air and connect an account for local work; cloud tasks additionally require an Air Teams business organization and administrator enablement.",
+      "url": "https://github.blog/changelog/2026-11-03-github-copilot-is-now-available-in-jetbrains-air/",
+      "tag": "New integration"
+    },
+    {
+      "section": "TECHNOLOGY · Application security",
+      "title": "CodeQL adds Python 3.15 and an AI threat model",
+      "summary": "CodeQL 2.27.3 adds Python 3.15 syntax, C23 bit-precise integers and JSON data extensions. Its optional AI threat model lets teams define sources for language-model-generated data; maintainers with custom GitHub Actions queries should review breaking control-flow changes.",
+      "url": "https://github.blog/changelog/2026-11-03-codeql-2-27-3-adds-python-3-15-features-and-json-data-extensions/",
+      "tag": "Developer update"
+    },
+    {
+      "section": "TECHNOLOGY · AI research",
+      "title": "StateBench tests whether models follow changing facts",
+      "summary": "Ai2 released StateBench to measure how language models track entities and changing information across long documents. Public data and code separate simple retrieval from chains of updates, helping developers test capabilities that an advertised context-window size does not establish.",
+      "url": "https://huggingface.co/blog/allenai/statebench",
+      "tag": "Open evaluation"
+    },
+    {
+      "section": "TECHNOLOGY · Cybersecurity",
+      "title": "CWE-bench opens 100 security-repair tasks",
+      "summary": "CWE-bench v2 makes 100 defensive coding tasks covering 91 weakness categories available for public evaluation. Agents must repair real open-source repositories without breaking existing functionality, with programmatic graders giving developers a reproducible way to compare security performance.",
+      "url": "https://huggingface.co/blog/cwe-bench",
+      "tag": "Benchmark release"
+    },
+    {
+      "section": "LOCAL · Road safety",
+      "title": "Halloween collision prompts electric dirt-bike warning",
+      "summary": "Vancouver police say a 15-year-old suffered minor injuries after allegedly running stop signs and colliding with a vehicle in Kerrisdale. The investigation continues; police remind riders that most electric dirt bikes are designed for off-road use and prohibited on public streets.",
+      "url": "https://vpd.ca/news/2026/11/03/youth-injured-in-alleged-dangerous-driving-incident-involving-dozens-of-riders/",
+      "tag": "Police investigation"
+    },
+    {
+      "section": "ECONOMY · Monetary policy",
+      "title": "Macklem tells MPs energy costs threaten broader inflation",
+      "summary": "Tiff Macklem told the Commons finance committee Tuesday that persistent Middle East conflict has worsened Canada’s inflation outlook through higher oil prices. He said economic resilience and the risk of energy costs spreading justified last week’s interest-rate increase.",
+      "url": "https://www.bankofcanada.ca/2026/11/opening-statement-house-commons-standing-committee-finance-2026-11-03/",
+      "tag": "Parliamentary testimony"
+    }
+  ],
+  "markets": [
+    {
+      "name": "S&P/TSX Composite",
+      "value": "35,532.28",
+      "change": "2026-11-03 regular-session close: down 268.81 points, or 0.75%, in the provider’s market summary. Source: https://tradingeconomics.com/canada/stock-market"
+    },
+    {
+      "name": "S&P 500",
+      "value": "7,568.92",
+      "change": "2026-11-03 regular-session close: up 27.52 points, or 0.36%. Source: https://portfolio-terminal.com/markets/stock-market-close"
+    },
+    {
+      "name": "Nasdaq Composite",
+      "value": "25,372.01",
+      "change": "2026-11-03 regular-session close: up 0.83%. Source: https://portfolio-terminal.com/markets/stock-market-close"
+    },
+    {
+      "name": "Bank of Canada policy rate",
+      "value": "2.50%",
+      "change": "2026-10-28 official policy decision: overnight-rate target increased 0.25 percentage points; Bank Rate 2.75%, deposit rate 2.45%. Source: https://www.bankofcanada.ca/2026/10/fad-press-release-2026-10-28/"
+    },
+    {
+      "name": "Canadian inflation",
+      "value": "3.1% year over year",
+      "change": "2026-10-19 monthly release for September: up from 3.0%; excluding gasoline, inflation was 2.2%. Source: https://www150.statcan.gc.ca/n1/daily-quotidien/261019/dq261019a-eng.pdf"
+    },
+    {
+      "name": "Recession indicators",
+      "value": "Preliminary third-quarter industry GDP growth: 0.3%",
+      "change": "2026-10-30 GDP release: September estimated down 0.1% after two flat months. Preliminary quarterly expansion does not establish a recession. Source: https://www150.statcan.gc.ca/n1/daily-quotidien/261030/dq261030a-eng.htm"
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-11-12 · 7:30 p.m. · Fox Cabaret, 2321 Main Street, Vancouver",
+      "title": "Duo Andalus brings voice and guitar to Chutzpah",
+      "description": "LALA Tamar and Ofer Ronen connect Mediterranean and North African musical traditions through songs and stories, including Moroccan Ladino heritage. Their intimate voice-and-strings performance begins at 7:30; doors open at seven, with advance tickets available through the festival’s listing.",
+      "url": "https://www.showpass.com/duo-andalus/"
+    },
+    {
+      "date": "2026-11-28 · 3 p.m. · The ANNEX Theatre, 823 Seymour Street, Vancouver",
+      "title": "Neurorecital gives piano music a visual counterpart",
+      "description": "Nicolas Namoradze performs selections by Bach, Debussy and Scriabin alongside synchronized imagery derived from EEG recordings of his playing. Muzewest’s two-hour afternoon event connects musical interpretation with brain activity; individual tickets are available through the organizer’s Showpass listing.",
+      "url": "https://www.showpass.com/fr/neurorecital/"
+    }
+  ],
+  "meetups": [
+    {
+      "date": "2026-11-12 · Doane Grant Thornton LLP, Floor 29 (Sky Lounge), 733 Seymour Street, Vancouver",
+      "title": "HardTech Forum examines the decision to buy robots",
+      "description": "MistyWest and Robot Sales Club gather manufacturing and logistics practitioners to discuss robotics adoption, integration and investment. The discussion considers buying existing systems, waiting for technology to mature or building internally; the registration listing offers tickets for $30.",
+      "url": "https://luma.com/1d2hujie"
+    },
+    {
+      "date": "2026-12-16 · H.R. MacMillan Space Centre, 1100 Chestnut Street, Vancouver",
+      "title": "December’s Vancouver AI evening opens registration",
+      "description": "Builders, researchers, artists and students can exchange tools, demonstrate work and compare practical AI questions at the monthly gathering. Doors open at six, the program starts at seven and the evening ends by ten; speakers and theme remain unannounced.",
+      "url": "https://luma.com/dec-vanai?cta_id=upcoming-event-detail&utm_campaign=2026q4-bc-ai-events-discovery-website&utm_content=cta-primary&utm_medium=referral&utm_source=website"
+    }
+  ],
+  "dining": [],
+  "watchers": []
+}
