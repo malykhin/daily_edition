@@ -1,0 +1,131 @@
+{
+  "date": "2026-11-05",
+  "status": "published",
+  "intro": "Thursday brings a Firefox security fix, tools for maintaining AI agents and restored Millennium Line service. Canada’s services surplus narrows, while advance city picks include piano and oud, acoustic guitar, creative AI and a Scotch dinner.",
+  "weather": {
+    "title": "Vancouver four-day forecast",
+    "summary": "2026-11-05: 11.7/6.7°C; Light drizzle. 2026-11-06: 10.1/8.5°C; Heavy rain. 2026-11-07: 15.0/9.7°C; Moderate rain showers. 2026-11-08: 12.1/8.4°C; Slight rain showers. Source: https://api.open-meteo.com/v1/forecast?latitude=49.2827&longitude=-123.1207&daily=temperature_2m_max,temperature_2m_min,weather_code&timezone=America%2FVancouver&forecast_days=4",
+    "high": 11.7,
+    "low": 6.7
+  },
+  "stories": [
+    {
+      "section": "TECHNOLOGY · Browser security",
+      "title": "Firefox fixes a high-impact layout vulnerability",
+      "summary": "Mozilla released Firefox 159.0.1 to correct boundary conditions in its block-and-inline layout component. The November 3 advisory rates the vulnerability high impact; users should install the fixed version through Firefox’s update controls.",
+      "url": "https://www.mozilla.org/en-US/security/advisories/mfsa2026-123/",
+      "tag": "Security update"
+    },
+    {
+      "section": "TECHNOLOGY · Agent dependencies",
+      "title": "Dependabot starts updating agent packages",
+      "summary": "Dependabot now opens version-update pull requests for supported Git dependencies in Agent Package Manager manifests, regenerating existing lockfiles. Add an apm entry and schedule to dependabot.yml; the feature maintains versions but does not provide security updates.",
+      "url": "https://github.blog/changelog/2026-11-03-dependabot-version-updates-support-agent-package-manager/",
+      "tag": "Generally available"
+    },
+    {
+      "section": "TECHNOLOGY · Specialized models",
+      "title": "Palette separates slide planning from drawing",
+      "summary": "IBM Research detailed Palette, a fine-tuned 20-billion-parameter model that plans presentations before generating each slide’s code. Synthetic training data and a checking system offer techniques for developers adapting smaller models to an organization’s design language.",
+      "url": "https://huggingface.co/blog/ibm-research/palette-deck-building",
+      "tag": "Research"
+    },
+    {
+      "section": "TECHNOLOGY · Agent evaluation",
+      "title": "One model, three agents, widely different results",
+      "summary": "IBM compared CUGA, Hermes and Deep Agents on 90 AppWorld tasks using the same open-weight model, reporting completion rates from 30% to 81%. The experiment highlights architecture’s influence on performance; its limited workload does not establish a universal winner.",
+      "url": "https://huggingface.co/blog/ibm-research/cuga-harness",
+      "tag": "Agent research"
+    },
+    {
+      "section": "LOCAL · Transit",
+      "title": "Millennium Line service returns after Gilmore fire",
+      "summary": "SkyTrain service resumed shortly after 11 a.m. Wednesday following a fire beneath Gilmore Station that closed three Millennium Line stations. Firefighters found a burning bench surrounding a support pillar and observed concrete damage; a bus bridge carried diverted passengers.",
+      "url": "https://vancouver.citynews.ca/2026/11/04/burnaby-skytrain-gilmore-station-fire/",
+      "tag": "Service restored"
+    },
+    {
+      "section": "LOCAL · British Columbia",
+      "title": "Bear-attack investigation continues near Bella Coola",
+      "summary": "Conservation officers are investigating whether multiple grizzlies were involved in an attack that relatives say killed a mother and daughter. People should continue avoiding the west trail area of the Snootka trail system while capture efforts continue.",
+      "url": "https://vancouver.citynews.ca/2026/11/04/bc-grizzly-attack-multiple-bears-killed-two/",
+      "tag": "Public safety"
+    },
+    {
+      "section": "ECONOMY · Trade",
+      "title": "Canada’s services surplus narrows",
+      "summary": "Canada’s services imports increased 1.5% in September, outpacing the 0.9% rise in exports, Statistics Canada reported Wednesday. The monthly services surplus narrowed to $0.3 billion from $0.5 billion in August, despite exports reaching $21.4 billion.",
+      "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/261104/dq261104c-eng.htm",
+      "tag": "New data"
+    }
+  ],
+  "markets": [
+    {
+      "name": "S&P/TSX Composite",
+      "value": "36,341.40",
+      "change": "2026-11-04 regular-session close: up 809.12 points, or 2.3%; gold and materials led gains. Source: https://baystreet.ca/marketupdates/15506/TSX-Hikes-Wednesday"
+    },
+    {
+      "name": "S&P 500",
+      "value": "7,688.62",
+      "change": "2026-11-04 regular-session close: up 1.58%, according to Portfolio Terminal’s closing summary. Source: https://portfolio-terminal.com/markets/stock-market-close"
+    },
+    {
+      "name": "Nasdaq Composite",
+      "value": "25,736.51",
+      "change": "2026-11-04 regular-session close: up 1.44%. Source: https://portfolio-terminal.com/markets/stock-market-close"
+    },
+    {
+      "name": "Bank of Canada policy rate",
+      "value": "2.50%",
+      "change": "2026-10-28 official policy decision: overnight-rate target increased 0.25 percentage points; Bank Rate 2.75%, deposit rate 2.45%. Source: https://www.bankofcanada.ca/2026/10/fad-press-release-2026-10-28/"
+    },
+    {
+      "name": "Canadian inflation",
+      "value": "3.1% year over year",
+      "change": "2026-10-19 monthly CPI release for September: up from 3.0%; excluding gasoline, inflation was 2.2%. Source: https://www150.statcan.gc.ca/n1/daily-quotidien/261019/dq261019a-eng.htm"
+    },
+    {
+      "name": "Recession indicators",
+      "value": "Preliminary third-quarter industry GDP growth: 0.3%",
+      "change": "2026-10-30 GDP release: September estimated down 0.1% after two flat months. Preliminary quarterly expansion does not establish a recession. Source: https://www150.statcan.gc.ca/n1/daily-quotidien/261030/dq261030a-eng.htm"
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-11-20 · 8 p.m. · Mel Lehan Hall at St. James, 3214 West 10th Avenue, Vancouver",
+      "title": "Migrantes connects piano, oud and migration",
+      "description": "Mauro Sigura and Andrea Manzoni blend jazz, classical and Arab-Ottoman influences in a musical journey through dreams, hope and travel. Doors open at seven for the all-ages concert; advance hall tickets are $30, with a separate streaming option.",
+      "url": "https://app.arts-people.com/index.php?show=348524"
+    },
+    {
+      "date": "2026-11-29 · 8 p.m. · Mel Lehan Hall at St. James, 3214 West 10th Avenue, Vancouver",
+      "title": "Don Ross and Julie Malía share an acoustic bill",
+      "description": "Canadian guitarist Don Ross and Dresden-based singer-guitarist Julie Malía bring their touring partnership to Kitsilano. Their repertoires span original songs, interpretations and fingerstyle guitar; advance hall admission is $35 for the eight o’clock performance.",
+      "url": "https://app.arts-people.com/index.php?show=350576"
+    }
+  ],
+  "meetups": [
+    {
+      "date": "2026-12-09 · 6 p.m. onward · The Pint Public House, 455 Abbott Street, Vancouver",
+      "title": "Vancouver tech communities gather for year-end",
+      "description": "Cloud Events invites developers, architects, students and community organizers to its annual social at The Pint. Half the pub is reserved for conversation, music and giveaways; registration is open for an evening connecting people across local technology groups.",
+      "url": "https://luma.com/techvancouver"
+    },
+    {
+      "date": "2026-12-10 · Doors 6:30 p.m. · Multimodal Media Lab, 375 Water Street, Vancouver",
+      "title": "AI Film Club shares work and production tools",
+      "description": "Kevin Friel hosts filmmakers, editors, VFX artists and creative technologists for screenings and practical AI workflow demonstrations. Bring a laptop to show a project; community tickets are $20, while free member registration requires BC + AI membership verification.",
+      "url": "https://luma.com/finalframe"
+    }
+  ],
+  "dining": [
+    {
+      "date": "2026-11-26 · Fairmont Hotel Vancouver, 900 West Georgia Street, Vancouver",
+      "title": "Glenmorangie closes an autumn Scotch dinner series",
+      "description": "Brand ambassador Bryan Simpson hosts an evening exploring Glenmorangie’s maturation and cask experiments alongside a bespoke dinner. The hotel’s series page links to booking; individual whisky expressions and the detailed menu remain unannounced.",
+      "url": "https://www.fairmont-hotel-vancouver.com/scotch-dinner-series/"
+    }
+  ],
+  "watchers": []
+}
