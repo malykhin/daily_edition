@@ -1,0 +1,118 @@
+{
+  "date": "2026-11-06",
+  "status": "published",
+  "intro": "Friday brings live instructions for robots, stronger secret detection and a renewed Canadian inflation target. Heavy rain approaches the North Shore; plan ahead for folk concerts, founder conversations and fresh pasta in Yaletown.",
+  "weather": {
+    "title": "Vancouver four-day forecast",
+    "summary": "2026-11-06: 11.0/9.1°C; Moderate rain. 2026-11-07: 13.9/9.5°C; Heavy rain. 2026-11-08: 11.8/7.5°C; Dense drizzle. 2026-11-09: 10.3/7.0°C; Overcast. Source: https://api.open-meteo.com/v1/forecast?latitude=49.2827&longitude=-123.1207&daily=temperature_2m_max,temperature_2m_min,weather_code&timezone=America%2FVancouver&forecast_days=4",
+    "high": 11.0,
+    "low": 9.1
+  },
+  "stories": [
+    {
+      "section": "TECHNOLOGY · Robotics",
+      "title": "LeRobot adds live instructions and streamed training data",
+      "summary": "LeRobot 0.7.0 lets developers change subtasks, ask visual questions and redirect supported robot policies while they run. Training datasets can stream without a full download, while remote inference moves demanding models onto a GPU server.",
+      "url": "https://huggingface.co/blog/lerobot/lerobot-release-v070",
+      "tag": "Open source"
+    },
+    {
+      "section": "TECHNOLOGY · Cybersecurity",
+      "title": "Secret scanning adds Starlink credentials",
+      "summary": "GitHub now detects Starlink public API v2 secrets and reports exposed public-repository credentials to new scanning partner SpaceX. Updated filters also reduce false positives for several providers, including AWS, Google and Alibaba, helping maintainers focus on actionable alerts.",
+      "url": "https://github.blog/changelog/2026-11-05-secret-scanning-upgrades-detectors-adds-spacex-as-partner/",
+      "tag": "Security update"
+    },
+    {
+      "section": "TECHNOLOGY · Coding assistants",
+      "title": "Copilot joins Xcode’s built-in assistant",
+      "summary": "GitHub Copilot is available inside Xcode’s coding assistant through a public preview supporting every Copilot plan. Install Xcode 27.3 beta on macOS Tahoe 26.6 or later, then configure the integration under Settings and Intelligence.",
+      "url": "https://github.blog/changelog/2026-11-04-github-copilot-is-now-available-in-xcodes-coding-assistant/",
+      "tag": "Public preview"
+    },
+    {
+      "section": "TECHNOLOGY · Code review",
+      "title": "Pull requests put merge blockers at the top",
+      "summary": "GitHub’s optional Overview preview brings merge readiness, checks and next actions above long pull-request discussions. Conversation filters and newest-first sorting help reviewers find unresolved questions; the rollout continues through the weekend, with an option to return to the classic view.",
+      "url": "https://github.blog/changelog/2026-11-05-new-pull-request-overview-page-in-public-preview/",
+      "tag": "Developer tools"
+    },
+    {
+      "section": "LOCAL · Rainfall warning",
+      "title": "North Shore and Howe Sound face up to 80 millimetres",
+      "summary": "Environment Canada warns that higher North Shore elevations and southern Howe Sound could receive 80 millimetres of rain Friday; lower elevations may see about 50. Clear storm drains of leaves and watch for pooled road water, reduced visibility and washouts.",
+      "url": "https://ecalertme.weather.gc.ca/warning-latest_en.php?alert_code=RFW&alert_id=93553&m_id=459066&ualert_id=19696",
+      "tag": "Weather warning"
+    },
+    {
+      "section": "ECONOMY · Monetary policy",
+      "title": "Canada renews its 2% inflation target through 2031",
+      "summary": "Ottawa and the Bank of Canada renewed the monetary policy framework for five years, retaining a 2% target within the 1%–3% control range. The agreement preserves equal emphasis on inflation above and below target and runs through December 2031.",
+      "url": "https://www.bankofcanada.ca/2026/11/joint-statement-of-the-government-of-canada-and-the-bank-of-canada-on-the-renewal-of-the-monetary-policy-framework-2026/",
+      "tag": "New agreement"
+    }
+  ],
+  "markets": [
+    {
+      "name": "S&P/TSX Composite",
+      "value": "35,605.27",
+      "change": "2026-11-05 regular-session close: down 736.13 points, or 2%; technology and financials led losses. Source: https://baystreet.ca/marketupdates/15510/TSX-Joins-in-Stock-Bruising"
+    },
+    {
+      "name": "S&P 500",
+      "value": "7,353.73",
+      "change": "2026-11-05 regular-session close: down 334.89 points, or 4.4%. Source: https://baystreet.ca/marketupdates/15510/TSX-Joins-in-Stock-Bruising"
+    },
+    {
+      "name": "Nasdaq Composite",
+      "value": "24,314.98",
+      "change": "2026-11-05 regular-session close: down 1,421.52 points, or 5.5%. Source: https://baystreet.ca/marketupdates/15510/TSX-Joins-in-Stock-Bruising"
+    },
+    {
+      "name": "Bank of Canada policy rate",
+      "value": "2.50%",
+      "change": "2026-10-28 official policy decision: overnight target raised 0.25 percentage points; Bank Rate 2.75%, deposit rate 2.45%. Source: https://www.bankofcanada.ca/2026/10/fad-press-release-2026-10-28/"
+    },
+    {
+      "name": "Canadian inflation",
+      "value": "3.1% year over year",
+      "change": "2026-10-19 monthly CPI release for September: up from 3.0%; excluding gasoline, 2.2%. Source: https://www150.statcan.gc.ca/n1/daily-quotidien/261019/dq261019a-eng.htm"
+    },
+    {
+      "name": "Recession indicators",
+      "value": "Preliminary third-quarter industry GDP growth: 0.3%",
+      "change": "2026-10-30 GDP release: September estimated down 0.1% after two flat months. Preliminary quarterly growth does not establish a recession. Source: https://www150.statcan.gc.ca/n1/daily-quotidien/261030/dq261030a-eng.htm"
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-11-26 · 8 p.m. · Mel Lehan Hall at St. James, 3214 West 10th Avenue, Vancouver",
+      "title": "Irish Mythen brings folk songs to Kitsilano",
+      "description": "The PEI-based folk performer takes the stage for an all-ages Rogue Folk Club concert. Doors open at seven, with advance hall tickets at $30 and a separate streaming option for listeners who prefer to watch from home.",
+      "url": "https://app.arts-people.com/index.php?show=351368"
+    },
+    {
+      "date": "2026-12-03 · 8 p.m. · Mel Lehan Hall at St. James, 3214 West 10th Avenue, Vancouver",
+      "title": "Christmas Caravan gives seasonal songs a global turn",
+      "description": "Sultans of String mix fiddle, Django-inspired jazz and rumba-flamenca treatments of holiday favourites, joined by Rebecca Campbell and Saskia Tomkins. Advance hall admission is $32; doors open at seven for the all-ages evening.",
+      "url": "https://app.arts-people.com/index.php?show=346196"
+    }
+  ],
+  "meetups": [
+    {
+      "date": "2026-11-24 · 6–9 p.m. · Onni Group, Suite 200, 1010 Seymour Street, Vancouver",
+      "title": "Together Vancouver opens the floor to founder stories",
+      "description": "TechTO gathers founders, investors, engineers and designers for networking, a community open mic and conversations about company-building setbacks. The organizer lists $30 early-bird admission and free attendance for members; tickets are non-transferable and non-refundable.",
+      "url": "https://www.techto.org/event/together-vancouver-nov-24-2026"
+    }
+  ],
+  "dining": [
+    {
+      "date": "2026-11-07 · Regular dinner service begins · Rosalia Osteria, 1127 Mainland Street, Vancouver",
+      "title": "A small Yaletown osteria puts fresh pasta first",
+      "description": "Dom and Frank Morra’s Rosalia opens November 6, with regular dinner service starting Saturday at four. Culinary director Phil Scarfone’s kitchen makes pasta in house, pairing spaghetti, lasagna and rotating specials with Italian cocktails and a focused wine list.",
+      "url": "https://nomsmagazine.com/new-rosalia-osteria-yaletown-opening/"
+    }
+  ],
+  "watchers": []
+}
