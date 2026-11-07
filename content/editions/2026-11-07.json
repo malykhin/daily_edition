@@ -1,0 +1,118 @@
+{
+  "date": "2026-11-07",
+  "status": "published",
+  "intro": "Saturday brings new robot-learning tools, coding agents in team conversations and a softer Canadian labour market. Coastal storms continue, while Vancouver planning offers intimate concerts, practical AI design and a fresh morning coffee stop.",
+  "weather": {
+    "title": "Vancouver four-day forecast",
+    "summary": "2026-11-07: 13.7/8.3°C; Slight rain. 2026-11-08: 10.2/6.6°C; Moderate rain. 2026-11-09: 11.2/6.6°C; Moderate drizzle. 2026-11-10: 11.7/8.9°C; Moderate rain. Source: https://api.open-meteo.com/v1/forecast?latitude=49.2827&longitude=-123.1207&daily=temperature_2m_max,temperature_2m_min,weather_code&timezone=America%2FVancouver&forecast_days=4",
+    "high": 13.7,
+    "low": 8.3
+  },
+  "stories": [
+    {
+      "section": "TECHNOLOGY · Robotics",
+      "title": "ToyBlocks opens a controlled world for robot learning",
+      "summary": "Ai2 introduced ToyBlocks, an open simulation framework built around a robot arm and tabletop blocks. Automatically generated demonstrations let researchers vary training tasks, repeat experiments and investigate failures without collecting every example through human teleoperation.",
+      "url": "https://huggingface.co/blog/allenai/toyblocks",
+      "tag": "Open research"
+    },
+    {
+      "section": "TECHNOLOGY · Open models",
+      "title": "Cosmos adds four interactive simulation checkpoints",
+      "summary": "NVIDIA released four open-weight Cosmos 3 Nano checkpoints for driving scenes, simulator imagery and robot-action video prediction. Each has 16 billion trainable parameters; downloadable weights and adaptation recipes offer starting points for physical-AI experiments.",
+      "url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
+      "tag": "Model release"
+    },
+    {
+      "section": "TECHNOLOGY · Code review",
+      "title": "Copilot review settings become programmable",
+      "summary": "GitHub added REST and GraphQL management of Copilot code review settings, from enterprise policies to repository preferences. New attribution fields identify AI reviews and comments, while available metadata reports review effort and sources such as instructions and tools.",
+      "url": "https://github.blog/changelog/2026-11-06-copilot-code-review-api-management-and-review-overview-updates/",
+      "tag": "Developer tools"
+    },
+    {
+      "section": "TECHNOLOGY · Coding agents",
+      "title": "GitHub’s Slack and Teams assistant reaches general availability",
+      "summary": "GitHub’s chat integration can investigate bugs, create issues, implement changes and open pull requests from Slack or Teams conversations. Teams also gains Canvas for reviewing plans, code changes and previews together; onboarding can identify repositories directly from messages.",
+      "url": "https://github.blog/changelog/2026-11-06-github-copilot-in-slack-and-teams-is-generally-available/",
+      "tag": "Generally available"
+    },
+    {
+      "section": "LOCAL · Storm response",
+      "title": "Zeballos evacuates 22 properties over landslide risks",
+      "summary": "Zeballos ordered 22 properties evacuated Friday as heavy rain brought flooding, debris and landslide risks to northern Vancouver Island. Emergency operations centres are coordinating the response, with another rain system expected Saturday evening into Sunday.",
+      "url": "https://ckpgtoday.ca/2026/11/06/storm-triggers-rainfall-wind-warnings-across-metro-vancouver-and-southwest-b-c/",
+      "tag": "British Columbia"
+    },
+    {
+      "section": "ECONOMY · Employment",
+      "title": "Canada’s unemployment rises as employment stalls",
+      "summary": "Canada’s unemployment rate increased to 6.7% in October while employment remained essentially unchanged, Statistics Canada reported Friday. Private-sector employment fell by 53,000 as public-sector employment rose by 50,000; the national employment rate declined for a third consecutive month.",
+      "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/261106/dq261106a-eng.htm",
+      "tag": "New data"
+    }
+  ],
+  "markets": [
+    {
+      "name": "S&P/TSX Composite",
+      "value": "35,789.09",
+      "change": "2026-11-06 regular-session close: up 183.82 points, or 0.52%. Source: https://www.investcom.com/2026-11-06/market-report/tsx-venture-and-cse-lead-gains-as-tech-rebounds-from-ai-selloff.htm"
+    },
+    {
+      "name": "S&P 500",
+      "value": "7,376.86",
+      "change": "2026-11-06 regular-session close: up 23.13 points, or 0.31%. Source: https://www.investcom.com/2026-11-06/market-report/tsx-venture-and-cse-lead-gains-as-tech-rebounds-from-ai-selloff.htm"
+    },
+    {
+      "name": "Nasdaq Composite",
+      "value": "24,579.42",
+      "change": "2026-11-06 regular-session close: up 264.42 points, or 1.09%. Source: https://www.investcom.com/2026-11-06/market-report/tsx-venture-and-cse-lead-gains-as-tech-rebounds-from-ai-selloff.htm"
+    },
+    {
+      "name": "Bank of Canada policy rate",
+      "value": "2.50%",
+      "change": "2026-10-28 official policy decision: overnight target increased 0.25 percentage points; Bank Rate 2.75%, deposit rate 2.45%. Source: https://www.bankofcanada.ca/2026/10/fad-press-release-2026-10-28/"
+    },
+    {
+      "name": "Canadian inflation",
+      "value": "3.1% year over year",
+      "change": "2026-10-19 monthly CPI release for September: up from 3.0% in August; excluding gasoline, 2.2%. Source: https://www150.statcan.gc.ca/n1/daily-quotidien/261019/dq261019a-eng.htm"
+    },
+    {
+      "name": "Recession indicators",
+      "value": "October unemployment: 6.7%; employment rate: 60.5%",
+      "change": "2026-11-06 monthly labour release: employment rate fell for a third month; unemployment rose 0.2 percentage points. Labour weakness alone does not establish recession. Source: https://www150.statcan.gc.ca/n1/daily-quotidien/261106/dq261106a-eng.htm"
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-11-13 · 8 p.m. · Mel Lehan Hall at St. James, 3214 West 10th Avenue, Vancouver",
+      "title": "James Keelaghan and Jez Lowe share a Kitsilano bill",
+      "description": "Rogue Folk Club pairs James Keelaghan and Jez Lowe for a Friday evening concert at its Kitsilano hall. Advance admission is $40, compared with $45 at the door; a separate $20 streaming ticket offers an at-home option.",
+      "url": "https://app.arts-people.com/index.php?show=345768"
+    },
+    {
+      "date": "2026-11-19 · 8 p.m. · Mel Lehan Hall at St. James, 3214 West 10th Avenue, Vancouver",
+      "title": "Cécilia offers a Thursday concert date",
+      "description": "Cécilia comes to Mel Lehan Hall for an eight o’clock Rogue Folk Club performance. Advance hall tickets are $35, rising to $40 at the door; the organizer also offers a separate $20 ticket to watch from home.",
+      "url": "https://app.arts-people.com/index.php?show=349289"
+    }
+  ],
+  "meetups": [
+    {
+      "date": "2026-11-25 · 6–10 p.m. · H.R. MacMillan Space Centre, 1100 Chestnut Street, Vancouver",
+      "title": "Vancouver AI examines where human judgment belongs",
+      "description": "Design strategist Zoë Zaslow presents four practical takeaways, then follows one project’s division of responsibilities between people and machines. Networking begins at six, with the program at seven and questions afterward; registration is open.",
+      "url": "https://luma.com/nov-vanai"
+    }
+  ],
+  "dining": [
+    {
+      "date": "2026-11-07 · Creatures Coffee at Strange Fellows Brewing, 1345 Clark Drive, Vancouver",
+      "title": "Creatures gives Strange Fellows a morning identity",
+      "description": "The brewery’s new coffee program pairs espresso, contrasting batch brews and loose-leaf tea with ExAnimo pastries. Refillable bean tins offer discounted replenishment, while updated seating makes room for longer visits; weekend coffee hours run from eight until two.",
+      "url": "https://scoutmagazine.ca/strange-fellows-creatures-coffee-vancouver/"
+    }
+  ],
+  "watchers": []
+}
