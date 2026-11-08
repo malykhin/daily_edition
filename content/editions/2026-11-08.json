@@ -1,0 +1,124 @@
+{
+  "date": "2026-11-08",
+  "status": "published",
+  "intro": "Sunday brings broader speech-recognition tests, sharper security scanning and a fuller picture of coding-agent use. Coastal storm disruptions continue, while city planning includes acoustic Beatles, practical AI discussions and two seasonal dining dates.",
+  "weather": {
+    "title": "Vancouver four-day forecast",
+    "summary": "2026-11-08: 11.8/5.9°C; Moderate drizzle. 2026-11-09: 9.6/4.8°C; Moderate rain. 2026-11-10: 11.1/9.2°C; Moderate rain showers. 2026-11-11: 14.4/11.1°C; Heavy rain. Source: https://api.open-meteo.com/v1/forecast?latitude=49.2827&longitude=-123.1207&daily=temperature_2m_max,temperature_2m_min,weather_code&timezone=America%2FVancouver&forecast_days=4",
+    "high": 11.8,
+    "low": 5.9
+  },
+  "stories": [
+    {
+      "section": "TECHNOLOGY · Speech recognition",
+      "title": "Open ASR adds Egyptian and Nigerian English",
+      "summary": "Hugging Face’s Open ASR Leaderboard added two held-out conversational datasets supplied by Liva AI, covering Egyptian and Nigerian English. Developers can compare performance across more accents, including a new breakdown separating U.S. and non-U.S. speech.",
+      "url": "https://huggingface.co/blog/open-asr-leaderboard-liva",
+      "tag": "AI evaluation"
+    },
+    {
+      "section": "TECHNOLOGY · Cybersecurity",
+      "title": "CodeQL trims false alarms and checks package boundaries",
+      "summary": "CodeQL 2.27.4 improves Java sanitization recognition and reduces false positives in Rust and C++ queries. Its command-line tools also exclude files whose symbolic links resolve outside a package’s root when bundling or publishing, warning maintainers about those omissions.",
+      "url": "https://github.blog/changelog/2026-11-04-codeql-2-27-4-improves-accuracy-and-query-metadata/",
+      "tag": "Security update"
+    },
+    {
+      "section": "TECHNOLOGY · Coding agents",
+      "title": "Copilot dashboard starts counting chat engagement",
+      "summary": "GitHub’s Copilot impact dashboard now includes Chat and the VS Code Agents window, expanding its view to nine experiences. Enterprise and organization administrators gain corresponding 28-day reporting fields; these additions measure engagement without changing existing adoption-phase definitions.",
+      "url": "https://github.blog/changelog/2026-11-06-copilot-impact-dashboard-adds-chat-and-vs-code-agent-usage/",
+      "tag": "Developer metrics"
+    },
+    {
+      "section": "LOCAL · Storm disruptions",
+      "title": "Second storm compounds outages and ferry cancellations",
+      "summary": "BC Hydro reported roughly 80,000 customers without power at Friday’s storm peak, while Saturday brought further ferry cancellations. The utility expects challenging weather through midweek; travellers should check sailing updates before heading to terminals.",
+      "url": "https://vancouver.citynews.ca/2026/11/07/storm-across-saturday/?rssa=&zoom=3",
+      "tag": "Travel planning"
+    },
+    {
+      "section": "LOCAL · Road safety",
+      "title": "Police seek video after fatal Seymour Street collision",
+      "summary": "A woman died after an e-scooter carrying two people collided with a transit bus at Seymour and West Pender early Saturday. Vancouver police are investigating and ask witnesses or anyone with relevant video to call 604-717-3012.",
+      "url": "https://vancouver.citynews.ca/2026/11/07/e-scooter-fatal-collision/",
+      "tag": "Witness appeal"
+    },
+    {
+      "section": "ECONOMY · Investment",
+      "title": "Business machinery spending falls for a second year",
+      "summary": "Statistics Canada’s new provincial accounts show business machinery and equipment investment declined again in 2025, despite a 14.1% increase in computer investment. Canada’s economy grew 1.9%, with household consumption and government spending supporting the annual expansion.",
+      "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/261105/dq261105a-eng.htm",
+      "tag": "New annual accounts"
+    }
+  ],
+  "markets": [
+    {
+      "name": "S&P/TSX Composite",
+      "value": "35,789.09",
+      "change": "2026-11-06 regular-session close: up 183.82 points, or 0.52%. Source: https://www.investcom.com/2026-11-06/market-report/tsx-venture-and-cse-lead-gains-as-tech-rebounds-from-ai-selloff.htm"
+    },
+    {
+      "name": "S&P 500",
+      "value": "7,376.86",
+      "change": "2026-11-06 regular-session close: up 23.13 points, or 0.31%. Source: https://www.investcom.com/2026-11-06/market-report/tsx-venture-and-cse-lead-gains-as-tech-rebounds-from-ai-selloff.htm"
+    },
+    {
+      "name": "Nasdaq Composite",
+      "value": "24,579.42",
+      "change": "2026-11-06 regular-session close: up 264.42 points, or 1.09%. Source: https://www.investcom.com/2026-11-06/market-report/tsx-venture-and-cse-lead-gains-as-tech-rebounds-from-ai-selloff.htm"
+    },
+    {
+      "name": "Bank of Canada policy rate",
+      "value": "2.50%",
+      "change": "2026-10-28 official policy decision: overnight target raised 0.25 percentage points; Bank Rate 2.75%, deposit rate 2.45%. Source: https://www.bankofcanada.ca/2026/10/fad-press-release-2026-10-28/"
+    },
+    {
+      "name": "Canadian inflation",
+      "value": "3.1% year over year",
+      "change": "2026-10-19 monthly CPI release for September: up from 3.0% in August; excluding gasoline, 2.2%. Source: https://www150.statcan.gc.ca/n1/daily-quotidien/261019/dq261019a-eng.pdf"
+    },
+    {
+      "name": "Recession indicators",
+      "value": "October unemployment: 6.7%; employment rate: 60.5%",
+      "change": "2026-11-06 monthly labour release: employment was essentially unchanged; unemployment rose 0.2 percentage points. This indicator alone does not establish recession. Source: https://www150.statcan.gc.ca/n1/daily-quotidien/261106/dq261106a-eng.htm"
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-11-15 · 8 p.m. · Mel Lehan Hall at St. James, 3214 West 10th Avenue, Vancouver",
+      "title": "Get Back Unplugged revisits late-period Beatles",
+      "description": "Six Vancouver musicians reinterpret Beatles songs with acoustic instruments and five-part harmony, drawing on folk, Celtic, blues and jazz backgrounds. Doors open at seven for the all-ages concert; advance hall admission is $30, rising to $35 at the door.",
+      "url": "https://app.arts-people.com/index.php?show=348563"
+    }
+  ],
+  "meetups": [
+    {
+      "date": "2026-12-01 · 6:30–8:30 p.m. · Parker Street Studios, 1000 Parker Street, Vancouver",
+      "title": "Ethical Futures Lab turns recurring AI concerns into work",
+      "description": "BC + AI’s December working session examines agency, accountability, labour, privacy and public trust through structured discussion and shared notes. Bring a laptop and a concrete question or example; registration requires approval, with a pay-what-you-choose checkout.",
+      "url": "https://luma.com/decem-ethics"
+    },
+    {
+      "date": "2026-11-20 · 4–7 p.m. · FriendsQuarters, Unit 200, 116 West Hastings Street, Vancouver",
+      "title": "AI Happy Hour offers time to compare notes",
+      "description": "Builders, researchers, founders and other community members gather for informal conversation without presentations or a pitch circle. The $10 ticket includes one drink and earlier access to the members lounge for working; registration is required, with capacity capped at 60.",
+      "url": "https://luma.com/vancouver-lookup"
+    }
+  ],
+  "dining": [
+    {
+      "date": "2026-11-13 to 2027-01-03 · Notch8, Fairmont Hotel Vancouver, 900 West Georgia Street, Vancouver",
+      "title": "Winter Wonderland tea opens Friday",
+      "description": "Notch8’s seasonal tea pairs cranberry-white-chocolate scones with smoked-salmon blini, turkey sliders and holiday pastries. Adults pay $79 before tax and gratuity; vegetarian, vegan and gluten-free options require 48 hours’ notice. Check the calendar for excluded holiday dates.",
+      "url": "https://www.notch8-dining.com/holiday-afternoon-tea/"
+    },
+    {
+      "date": "2026-11-19 · 5 and 8 p.m. seatings · SUYO, 3475 Main Street, Vancouver",
+      "title": "SUYO and TOUK close a collaboration series",
+      "description": "SUYO’s Ricardo Valverde welcomes TOUK chef Chanthy Yen for a one-night menu connecting modern Peruvian and Cambodian cooking. Two dinner seatings are offered at $269 per person before tax and gratuity, with reservations directed through OpenTable.",
+      "url": "https://vancouver.foodgressing.com/vancouver-food-events-and-restaurant-news-for-november/"
+    }
+  ],
+  "watchers": []
+}
