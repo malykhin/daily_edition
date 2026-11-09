@@ -1,0 +1,112 @@
+{
+  "date": "2026-11-09",
+  "status": "published",
+  "intro": "Monday brings research on smaller AI models, conversational voice systems and more useful code-review metrics. Storm damage and ferry funding lead local news, while December concert tickets and a November chef reunion offer dates to plan around.",
+  "weather": {
+    "title": "Vancouver four-day forecast",
+    "summary": "2026-11-09: 11.8/5.9°C; Dense drizzle. 2026-11-10: 12.2/6.7°C; Heavy rain. 2026-11-11: 16.1/12.2°C; Moderate rain showers. 2026-11-12: 15.0/12.8°C; Slight rain showers. Source: https://api.open-meteo.com/v1/forecast?latitude=49.2827&longitude=-123.1207&daily=temperature_2m_max,temperature_2m_min,weather_code&timezone=America%2FVancouver&forecast_days=4",
+    "high": 11.8,
+    "low": 5.9
+  },
+  "stories": [
+    {
+      "section": "TECHNOLOGY · Model efficiency",
+      "title": "HOPE keeps cooperating model experts together",
+      "summary": "Amazon researchers published a practical guide to HOPE, a model-pruning method that considers interactions between experts rather than ranking each independently. Their experiments favour it at 50% pruning; the resulting smaller checkpoints work without changes to vLLM or SGLang model definitions.",
+      "url": "https://huggingface.co/blog/amazon/higher-order-pruning-experts",
+      "tag": "Research walkthrough"
+    },
+    {
+      "section": "TECHNOLOGY · Voice agents",
+      "title": "MOSS-Live keeps conversation moving during tool calls",
+      "summary": "OpenMOSS introduced MOSS-Live, combining simultaneous listening and speaking, live visual understanding and background tasks. Developers can try its playground or realtime API to explore assistants that respond to interruptions while searches and other requests continue.",
+      "url": "https://huggingface.co/blog/OpenMOSS-Team/moss-live",
+      "tag": "System introduction"
+    },
+    {
+      "section": "TECHNOLOGY · On-device speech",
+      "title": "Phonon explains its compact offline voice models",
+      "summary": "Gradium’s November technical overview details Phonon speech models for phones, browsers and single-board computers. The English 31-million-parameter model permits commercial use under Apache 2.0; the five-language 40-million-parameter version carries a non-commercial licence, a consequential distinction for application builders.",
+      "url": "https://huggingface.co/blog/phonon-tts",
+      "tag": "Developer briefing"
+    },
+    {
+      "section": "TECHNOLOGY · Developer metrics",
+      "title": "Copilot measures responses to review feedback",
+      "summary": "GitHub’s repository-level Copilot usage reports now count evaluated review comments and feedback developers addressed. Breakdowns cover severity and customization; counts include code edits and promises of later fixes, so administrators should read the addressed rate as engagement rather than confirmed defect removal.",
+      "url": "https://github.blog/changelog/2026-11-05-usage-metrics-api-adds-code-review-details-and-addressed-rate/",
+      "tag": "API update"
+    },
+    {
+      "section": "LOCAL · Storm damage",
+      "title": "Falling tree kills a driver on Highway 10",
+      "summary": "A tree struck two cars on Highway 10 in Surrey Saturday evening, killing one driver and leaving another with minor injuries. Sunday’s report said crews had cleared trees and power lines, reopening the road with one lane in each direction.",
+      "url": "https://vancouver.citynews.ca/2026/11/08/tree-fall-surrey/",
+      "tag": "Surrey"
+    },
+    {
+      "section": "LOCAL · Transportation funding",
+      "title": "Ferry workers question the federal funding gap",
+      "summary": "Eastern Canadian ferry services will receive $1.3 billion over eight years under the federal budget, while BC Ferries went unmentioned, CityNews reports. The ferry workers’ union is challenging the disparity as British Columbians face potential fare increases.",
+      "url": "https://vancouver.citynews.ca/2026/11/08/bc-ferries-no-federal-funding/",
+      "tag": "Federal budget"
+    }
+  ],
+  "markets": [
+    {
+      "name": "S&P/TSX Composite",
+      "value": "35,789.09",
+      "change": "2026-11-06 regular-session close: up 183.82 points, or 0.52%. Source: https://www.investcom.com/2026-11-06/market-report/tsx-venture-and-cse-lead-gains-as-tech-rebounds-from-ai-selloff.htm"
+    },
+    {
+      "name": "S&P 500",
+      "value": "7,376.86",
+      "change": "2026-11-06 regular-session close: up 23.13 points, or 0.31%. Source: https://www.investcom.com/2026-11-06/market-report/tsx-venture-and-cse-lead-gains-as-tech-rebounds-from-ai-selloff.htm"
+    },
+    {
+      "name": "Nasdaq Composite",
+      "value": "24,579.42",
+      "change": "2026-11-06 regular-session close: up 264.42 points, or 1.09%. Source: https://www.investcom.com/2026-11-06/market-report/tsx-venture-and-cse-lead-gains-as-tech-rebounds-from-ai-selloff.htm"
+    },
+    {
+      "name": "Bank of Canada policy rate",
+      "value": "2.50%",
+      "change": "2026-10-28 official policy decision: overnight target increased 0.25 percentage points; Bank Rate 2.75%, deposit rate 2.45%. Source: https://www.bankofcanada.ca/2026/10/fad-press-release-2026-10-28/"
+    },
+    {
+      "name": "Canadian inflation",
+      "value": "3.1% year over year",
+      "change": "2026-10-19 monthly CPI release: September consumer prices rose 3.1% from a year earlier. Source: https://www150.statcan.gc.ca/n1/daily-quotidien/261019/dq261019a-eng.htm"
+    },
+    {
+      "name": "Recession indicators",
+      "value": "October unemployment: 6.7%; employment rate: 60.5%",
+      "change": "2026-11-06 monthly labour release: employment rate declined for a third month; employment was little changed. These indicators alone do not establish recession. Source: https://www150.statcan.gc.ca/n1/daily-quotidien/261106/dq261106a-eng.htm"
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-12-09 · 7:30 p.m. · Heritage Hall, 3102 Main Street, Vancouver",
+      "title": "Winter Solstice concerts bring folk and minimalism together",
+      "description": "Music on Main pairs James Hill’s ukulele and Anne Janelle’s cello with pianist Rachel Kiyo Iwaasa for its seasonal concert tradition. The series expands to three nights, December 9–11; tickets are non-refundable but transferable.",
+      "url": "https://www.showpass.com/music-for-the-winter-solstice-2026/"
+    }
+  ],
+  "meetups": [
+    {
+      "date": "2026-12-18 · 4–7 p.m. · FriendsQuarters, Unit 200, 116 West Hastings Street, Vancouver",
+      "title": "AI happy hour asks what actually shipped",
+      "description": "BC + AI’s December gathering invites builders, researchers, artists and founders to compare practical work and questions in an informal setting. Registration is required; the $10 ticket includes one drink, and the organizer caps attendance at 60.",
+      "url": "https://luma.com/vancouver-shipped"
+    }
+  ],
+  "dining": [
+    {
+      "date": "2026-11-17 · Kavita, 250 West 3rd Avenue, Vancouver",
+      "title": "Kavita reunites Tushar Tondvalkar and Mark Singson",
+      "description": "The chefs return to their early collaboration for an 11-course dinner exploring Indian and Filipino cooking. The menu costs $145 per person, with an optional $120 cocktail-and-wine pairing; the updated announcement links directly to a prepaid OpenTable experience.",
+      "url": "https://goodlifevancouver.com/kavita-first-anniversary-vancouver/"
+    }
+  ],
+  "watchers": []
+}
