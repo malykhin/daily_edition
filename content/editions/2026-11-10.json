@@ -1,0 +1,118 @@
+{
+  "date": "2026-11-10",
+  "status": "published",
+  "intro": "Tuesday brings workflow security checks, specialized document AI and broader Canadian tariff relief. A flood watch covers the North Shore Mountains, while November planning offers contemporary dance, electronic music, AI conversations and seasonal dining.",
+  "weather": {
+    "title": "Vancouver four-day forecast",
+    "summary": "2026-11-10: 13.0/8.1°C; Heavy rain. 2026-11-11: 14.6/12.1°C; Slight rain. 2026-11-12: 15.2/12.4°C; Dense drizzle. 2026-11-13: 15.2/10.5°C; Moderate rain. Source: https://api.open-meteo.com/v1/forecast?latitude=49.2827&longitude=-123.1207&daily=temperature_2m_max,temperature_2m_min,weather_code&timezone=America%2FVancouver&forecast_days=4",
+    "high": 13.0,
+    "low": 8.1
+  },
+  "stories": [
+    {
+      "section": "TECHNOLOGY · Workflow security",
+      "title": "GitHub starts checking workflow logs for secrets",
+      "summary": "GitHub’s public preview scans newly completed Actions logs for supported provider credentials, adding findings to repository security alerts. Eligible enterprise owners must enable the feature; existing logs are excluded, and preview alerts require checking the alert list directly.",
+      "url": "https://github.blog/changelog/2026-11-09-secret-scanning-detects-secrets-in-github-actions-workflow-logs/",
+      "tag": "Public preview"
+    },
+    {
+      "section": "TECHNOLOGY · Coding models",
+      "title": "Claude Fable 5.2 joins Copilot’s model picker",
+      "summary": "GitHub is gradually rolling out Claude Fable 5.2 across supported Copilot clients and eligible paid plans. Business and Enterprise administrators must enable its policy; Anthropic retains prompts and outputs for safety classification by default, with exemptions for eligible enterprises.",
+      "url": "https://github.blog/changelog/2026-11-09-claude-fable-5-2-in-github-copilot/",
+      "tag": "Model availability"
+    },
+    {
+      "section": "TECHNOLOGY · Synthetic data",
+      "title": "NVIDIA and Elith release Japanese financial personas",
+      "summary": "Nemotron-Personas-Finance-Japan supplies one million synthetic records, each containing nine persona perspectives grounded in official statistics and public surveys. Its CC BY 4.0 licence permits commercial use, giving developers material for customer simulations and financial-AI evaluation without real customer records.",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
+      "tag": "Open dataset"
+    },
+    {
+      "section": "TECHNOLOGY · Document processing",
+      "title": "Dharma extracts requested fields directly into JSON",
+      "summary": "Dharma introduced a two-billion-parameter model that accepts document images and an optional output schema. Its November walkthrough explains typed fields and nested invoice tables, giving developers a specialized approach to forms and contracts without first mapping a complete OCR transcript.",
+      "url": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
+      "tag": "Technical walkthrough"
+    },
+    {
+      "section": "LOCAL · Flood preparedness",
+      "title": "Flood watch covers the North Shore Mountains",
+      "summary": "The River Forecast Centre upgraded the South Coast and several other coastal regions to a flood watch Monday, ahead of heavy Tuesday–Wednesday rain. Rivers may rise rapidly; keep storm drains clear, avoid swift riverbanks and never drive across flooded roads.",
+      "url": "https://bcrfc.env.gov.bc.ca/warnings/advisories/FWT_2026_11_09_1236_SC-NVI-WVI-CVI-East%20Vancouver%20Island-CC%20-%20Kingcome-Fraser%20Valley-North_UPG.pdf",
+      "tag": "Provincial advisory"
+    },
+    {
+      "section": "LOCAL · Labour",
+      "title": "Labour federation widens pressure on Highland Valley Copper",
+      "summary": "The BC Federation of Labour declared Highland Valley Copper’s mineral products subject to a hot edict, supporting more than 1,200 striking workers. It asks affiliated unions to refrain from handling those products in accordance with collective agreements and federation policy.",
+      "url": "https://bcfed.ca/news/releases/bcfed-issues-hot-edict-usw-strike-highland-valley-copper-operation",
+      "tag": "British Columbia"
+    }
+  ],
+  "markets": [
+    {
+      "name": "S&P/TSX Composite",
+      "value": "36,446.26",
+      "change": "2026-11-09 regular-session close: up 657.17 points, or 1.84%; provider timestamp 5 p.m. Source: https://qm.investingnews.com/static?file_name=market.html"
+    },
+    {
+      "name": "S&P 500",
+      "value": "7,549.94",
+      "change": "2026-11-09 regular-session closing level; provider timestamp 5 p.m. Daily change unavailable reliably. Source: https://qm.investingnews.com/static?file_name=market.html"
+    },
+    {
+      "name": "Nasdaq Composite",
+      "value": "25,253.14",
+      "change": "2026-11-10 midnight provider snapshot following November 9’s regular session: up 673.71 points, or 2.74%. Source: https://qm.investingnews.com/static?file_name=market.html"
+    },
+    {
+      "name": "Bank of Canada policy rate",
+      "value": "2.50%",
+      "change": "2026-10-28 official policy decision: overnight target raised 0.25 percentage points; Bank Rate 2.75%, deposit rate 2.45%. Source: https://www.bankofcanada.ca/2026/10/fad-press-release-2026-10-28/"
+    },
+    {
+      "name": "Canadian inflation",
+      "value": "3.1% year over year",
+      "change": "2026-10-19 monthly CPI release: September inflation accelerated from 3.0%; excluding gasoline, prices rose 2.2%. Source: https://www150.statcan.gc.ca/n1/daily-quotidien/261019/dq261019a-eng.htm"
+    },
+    {
+      "name": "Recession indicators",
+      "value": "October unemployment: 6.7%; employment growth: 0.0%",
+      "change": "2026-11-06 monthly labour release: employment barely changed; unemployment rose 0.2 percentage points. These measures alone do not establish recession. Source: https://www150.statcan.gc.ca/n1/daily-quotidien/261106/dq261106a-eng.htm"
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-11-27 · 7 p.m. · ANNEX, 823 Seymour Street, Vancouver",
+      "title": "Three new dance works meet their audience",
+      "description": "Inverso Productions’ Performance Research Project concludes with works in progress choreographed by Lesley Telford, Josh Martin and Vanessa Goodman. The evening showcases the cohort’s studio work and emerging dance artists; tickets are available through the organizer’s Showpass listing.",
+      "url": "https://www.showpass.com/fr/prpshow2026/"
+    },
+    {
+      "date": "2026-11-27 · 9 p.m.–2 a.m. · 2111 Main Street #27, Vancouver",
+      "title": "Hard techno takes over Main Street after dark",
+      "description": "WE ARE RAVE programs five hours of hard techno and Schranz for its underground electronic night. Admission is restricted to people 19 and older with government-issued photo identification; ticket sales are final, with lineup announcements directed to the organizer’s updates.",
+      "url": "https://www.showpass.com/we-are-rave-vancouver/"
+    }
+  ],
+  "meetups": [
+    {
+      "date": "2026-11-21 · 10 a.m. · Nemesis Coffee Gastown, 302 West Hastings Street, Vancouver",
+      "title": "AI Hangout makes room for practical coffee conversations",
+      "description": "This independent gathering welcomes developers, founders, students and newcomers to discuss tools, projects and changes in their work. Registration is free, with coffee purchased separately; the organizer specifies informal conversation without presentations, sales pitches or a requirement to bring a project.",
+      "url": "https://luma.com/gthzhipj"
+    }
+  ],
+  "dining": [
+    {
+      "date": "2026-11-10 · Bacchus, Wedgewood Hotel, 845 Hornby Street, Vancouver",
+      "title": "Bacchus pairs a winter menu with Nutcracker tea",
+      "description": "Bacchus’ new fall and winter dinner menu includes poached Nova Scotia lobster with caviar and yuzu, and dry-aged Fraser Valley duck. Its returning Nutcracker Afternoon Tea runs weekends from November 7 through January 16; reservations are recommended.",
+      "url": "https://scoutmagazine.ca/bacchus-nutcracker-afternoon-tea-returns-alongside-a-new-fall-winter-menu-nov-7th/"
+    }
+  ],
+  "watchers": []
+}
