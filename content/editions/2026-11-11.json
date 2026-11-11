@@ -1,0 +1,125 @@
+{
+  "date": "2026-11-11",
+  "status": "published",
+  "intro": "Wednesday brings a security deadline for dormant repositories, simpler C++ setup and new animation benchmarks. Storm preparations lead BC news, while garden lights, waterfront festivities and an education gathering offer dates to plan ahead.",
+  "weather": {
+    "title": "Vancouver four-day forecast",
+    "summary": "2026-11-11: 14.8/12.2°C; Moderate rain. 2026-11-12: 15.2/12.0°C; Overcast. 2026-11-13: 14.3/10.4°C; Slight rain. 2026-11-14: 11.4/10.0°C; Slight rain showers. Source: https://api.open-meteo.com/v1/forecast?latitude=49.2827&longitude=-123.1207&daily=temperature_2m_max,temperature_2m_min,weather_code&timezone=America%2FVancouver&forecast_days=4",
+    "high": 14.8,
+    "low": 12.2
+  },
+  "stories": [
+    {
+      "section": "TECHNOLOGY · Dependency security",
+      "title": "Dormant repositories face a Dependabot pause",
+      "summary": "Starting December 8, GitHub will disable Dependabot alerts on most repositories inactive for a year, archiving existing findings. A push or manual reactivation restores alerts; enforced security configurations and qualifying enterprise policies can preserve continuous coverage.",
+      "url": "https://github.blog/changelog/2026-11-10-dependabot-alerts-will-pause-on-inactive-repositories/",
+      "tag": "December deadline"
+    },
+    {
+      "section": "TECHNOLOGY · C++ tooling",
+      "title": "Copilot’s C++ server automates MSBuild setup",
+      "summary": "Microsoft’s C++ language server for Copilot CLI now bundles and automatically invokes its MSBuild compilation-database extractor. This removes a separate setup step before precise code navigation; other build systems still require supplied compilation commands or a generation skill.",
+      "url": "https://github.blog/changelog/2026-11-10-c-language-server-now-auto-configures-msbuild-builds/",
+      "tag": "Developer tools"
+    },
+    {
+      "section": "TECHNOLOGY · Coding models",
+      "title": "Gemini 4 Carbon enters Copilot",
+      "summary": "GitHub is gradually rolling out Gemini 4 Carbon across supported Copilot clients for Pro+, Max, Business and Enterprise users. Billing follows provider list pricing under usage-based billing; organizational access also depends on administrator model policies.",
+      "url": "https://github.blog/changelog/2026-11-10-gemini-4-carbon-in-github-copilot/",
+      "tag": "Generally available"
+    },
+    {
+      "section": "TECHNOLOGY · AI evaluation",
+      "title": "Figma separates animation skill from drawing",
+      "summary": "Figma researchers introduced MotionGraphicsBench, with 100 tasks asking models to animate supplied SVG designs against programmatic checks. Of 32 models evaluated, only four exceeded 50% first-attempt success at their highest available reasoning settings.",
+      "url": "https://huggingface.co/blog/figma-ai/motion-graphics-bench",
+      "tag": "Research release"
+    },
+    {
+      "section": "LOCAL · Highway travel",
+      "title": "Province warns of sudden storm closures",
+      "summary": "BC’s transportation ministry warns of heavy rain, wind and possible flooding on South Coast highways through the rest of the week. Highway 99, Highway 1 and the Malahat face pooling water, debris and short-notice closures; check DriveBC before travelling.",
+      "url": "https://news.gov.bc.ca/releases/2026TT0106-001137",
+      "tag": "Travel advisory"
+    },
+    {
+      "section": "LOCAL · Wildlife investigation",
+      "title": "DNA links four bears to Bella Coola deaths",
+      "summary": "Conservation officers confirmed Tuesday that DNA linked a female grizzly and three yearling cubs to the deaths of Jenny Balcarras and Selah Reed. All four bears were killed; investigators say the attack likely involved rare predatory behaviour.",
+      "url": "https://vancouver.citynews.ca/2026/11/10/four-grizzly-bears-involved-in-deadly-attack-on-mother-and-daughter-in-b-c/",
+      "tag": "Investigation update"
+    },
+    {
+      "section": "ECONOMY · Monetary policy",
+      "title": "Bank minutes explain concern over spreading costs",
+      "summary": "Newly released October deliberations show Bank of Canada officials examining how persistent energy costs could spread through production and distribution. Businesses expected to pass on more increases over the next year, supporting the decision to raise the policy rate.",
+      "url": "https://www.bankofcanada.ca/2026/11/summary-of-governing-council-deliberations-fixed-announcement-date-of-october-28-2026/",
+      "tag": "New deliberations"
+    }
+  ],
+  "markets": [
+    {
+      "name": "S&P/TSX Composite",
+      "value": "36,170.45",
+      "change": "2026-11-10 regular-session close: down 275.81 points, or 0.76%; provider timestamp 5 p.m. Source: https://qm.investingnews.com/static?file_name=market.html"
+    },
+    {
+      "name": "S&P 500",
+      "value": "7,520.93",
+      "change": "2026-11-10 regular-session close: down 29.01 points, or 0.38%. Source: https://www.marketedge.com/article/DailyMarketComment"
+    },
+    {
+      "name": "Nasdaq Composite",
+      "value": "25,065.88",
+      "change": "2026-11-10 regular-session close, MarketEdge recap table: down 0.74%; accompanying prose differs by 0.01 point. Source: https://www.marketedge.com/article/DailyMarketComment"
+    },
+    {
+      "name": "Bank of Canada policy rate",
+      "value": "2.50%",
+      "change": "2026-10-28 official policy decision: overnight target raised by 0.25 percentage points. Source: https://www.bankofcanada.ca/2026/10/fad-press-release-2026-10-28/"
+    },
+    {
+      "name": "Canadian inflation",
+      "value": "3.1% year over year",
+      "change": "2026-10-19 monthly CPI release: September consumer prices rose 3.1% from a year earlier. Source: https://www150.statcan.gc.ca/n1/daily-quotidien/261019/dq261019a-eng.htm"
+    },
+    {
+      "name": "Recession indicators",
+      "value": "October unemployment: 6.7%; employment growth: 0.0%",
+      "change": "2026-11-06 monthly labour release: unemployment rose 0.2 percentage points while employment barely changed. These indicators alone do not establish recession. Source: https://www150.statcan.gc.ca/n1/daily-quotidien/261106/dq261106a-eng.htm"
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-11-27 · VanDusen Botanical Garden, 5251 Oak Street, Vancouver",
+      "title": "Festival of Lights opens its garden paths",
+      "description": "VanDusen’s seasonal display spreads more than a million lights across 15 acres, with Dancing Lights, themed areas and food vendors. Book a timed entry for the November 27–January 3 run; December 1 offers a sensory-friendly evening.",
+      "url": "https://www.showpass.com/vandusen-festival-of-lights-126/?source_channel=discovery"
+    },
+    {
+      "date": "2026-11-16 · Jack Poole Plaza, 1055 Canada Place, Vancouver",
+      "title": "Christmas Market presale ends Sunday",
+      "description": "The waterfront market opens Monday and runs through December 24, with seasonal food, shopping and evening entertainment. Presale pricing ends November 15; single-entry tickets require a 30-minute arrival window, while children six and under enter free.",
+      "url": "https://tickets.vancouverchristmasmarket.com/"
+    }
+  ],
+  "meetups": [
+    {
+      "date": "2026-12-10 · 6:30 p.m. · Ethọ́s Lab, 177 East 3rd Avenue, Vancouver",
+      "title": "Education and AI gathering takes stock",
+      "description": "BC + AI and Ethọ́s Lab invite participants to share one practice worth keeping, one to abandon and one unresolved question. Bring an experiment for small-group discussion about tools, assessment, consent and student agency; registration is open.",
+      "url": "https://luma.com/dec-education"
+    }
+  ],
+  "dining": [
+    {
+      "date": "2026-11-26 · Notch8, Fairmont Hotel Vancouver",
+      "title": "Notch8 sets a Thanksgiving table",
+      "description": "The three-course American Thanksgiving menu pairs spiced squash bisque with Fraser Valley turkey ballotine, pomme aligot and pumpkin pavlova. Adults pay $80 before tax and gratuity; reserve through the restaurant and confirm the seating time when booking.",
+      "url": "https://www.notch8-dining.com/event/american-thanksgiving-dinner/"
+    }
+  ],
+  "watchers": []
+}
