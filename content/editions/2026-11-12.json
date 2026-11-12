@@ -1,0 +1,115 @@
+{
+  "date": "2026-11-12",
+  "status": "published",
+  "intro": "Thursday brings smaller personal AI, modular model training and Firefox security fixes. BC updates winter shelter capacity and drug-toxicity figures, while December performances, a venture showcase and November wine dinners offer dates to plan around.",
+  "weather": {
+    "title": "Vancouver four-day forecast",
+    "summary": "2026-11-12: 15.4/11.9°C; Slight rain. 2026-11-13: 12.3/9.6°C; Slight rain. 2026-11-14: 11.9/9.8°C; Slight rain. 2026-11-15: 10.8/9.3°C; Moderate rain showers. Source: https://api.open-meteo.com/v1/forecast?latitude=49.2827&longitude=-123.1207&daily=temperature_2m_max,temperature_2m_min,weather_code&timezone=America%2FVancouver&forecast_days=4",
+    "high": 15.4,
+    "low": 11.9
+  },
+  "stories": [
+    {
+      "section": "TECHNOLOGY · Local AI",
+      "title": "BotPsy puts tool use into a small model",
+      "summary": "Tether AI Research introduced BotPsy, a 0.8-billion-parameter model designed for function calling and on-device assistants. Built on Qwen3.5, it targets low-to-medium-difficulty tasks across personal workflows, giving developers a compact model to evaluate for tool-driven applications.",
+      "url": "https://huggingface.co/blog/qvac/botpsy",
+      "tag": "Model introduction"
+    },
+    {
+      "section": "TECHNOLOGY · Model training",
+      "title": "New experts add programming skills to a frozen model",
+      "summary": "TNG demonstrated adding independently trained Rust and Haskell experts to a frozen mixture-of-experts model. Specialist code-generation results improved while general scores stayed near baseline; the combined checkpoint requires no custom inference code.",
+      "url": "https://huggingface.co/blog/tngtech/bring-your-own-expert-extending-moe-models-with-ne",
+      "tag": "Research walkthrough"
+    },
+    {
+      "section": "TECHNOLOGY · Browser security",
+      "title": "Firefox 160 closes high-impact security holes",
+      "summary": "Mozilla’s November 10 advisory identifies high-impact vulnerabilities fixed in Firefox 160, including sandbox escapes and privilege escalation across browser components. Install the updated browser through its update controls on machines used for browsing and development.",
+      "url": "https://www.mozilla.org/en-US/security/advisories/mfsa2026-125/",
+      "tag": "Update available"
+    },
+    {
+      "section": "TECHNOLOGY · Open-source maintenance",
+      "title": "Personal GitHub repositories gain structured issue fields",
+      "summary": "GitHub made issue types and fields generally available for repositories owned by personal accounts. Individual maintainers can configure up to 25 types and 25 fields, then organize work through projects or automate management with APIs and webhooks.",
+      "url": "https://github.blog/changelog/2026-11-11-issue-types-and-fields-are-available-for-personal-accounts/",
+      "tag": "Generally available"
+    },
+    {
+      "section": "LOCAL · Winter shelter",
+      "title": "BC lists 6,588 shelter spaces for winter",
+      "summary": "BC’s winter bulletin lists 6,588 shelter spaces across 63 communities, including 1,866 in Vancouver. The provincial total includes 700 extreme-weather spaces that open overnight during community alerts; contact individual shelters for bed availability.",
+      "url": "https://news.gov.bc.ca/releases/2026HMA0091-001136",
+      "tag": "Provincial services"
+    },
+    {
+      "section": "LOCAL · Public health",
+      "title": "September drug-toxicity deaths reach 133",
+      "summary": "The BC Coroners Service’s preliminary September report records 133 suspected unregulated drug-toxicity deaths, bringing the year’s total to 1,143. Fraser and Vancouver Coastal health authorities together account for 53% of deaths recorded provincially in 2026.",
+      "url": "https://news.gov.bc.ca/releases/2026PSSG0075-001134",
+      "tag": "New provincial data"
+    },
+    {
+      "section": "ECONOMY · Payments",
+      "title": "Real-Time Rail comes under Bank oversight",
+      "summary": "The Bank of Canada designated Payments Canada’s Real-Time Rail a prominent payment system, effective November 8. Formal oversight requires risk-management controls for infrastructure intended to provide continuous settlement and immediate fund availability, including payments exchanged through Interac e-Transfer.",
+      "url": "https://www.bankofcanada.ca/2026/11/bank-of-canada-designates-rtr-as-a-prominent-payment-system/",
+      "tag": "Regulatory change"
+    }
+  ],
+  "markets": [
+    {
+      "name": "S&P/TSX Composite",
+      "value": "36,411.72",
+      "change": "2026-11-11 regular-session close: up 0.67%, with technology and energy leading gains. Source: https://stocksummarizer.com/market-wrap/2026-11-11-tsx/"
+    },
+    {
+      "name": "Bank of Canada policy rate",
+      "value": "2.50%",
+      "change": "2026-10-28 official policy decision: overnight target raised 0.25 percentage points; Bank Rate 2.75%, deposit rate 2.45%. Source: https://www.bankofcanada.ca/2026/10/fad-press-release-2026-10-28/"
+    },
+    {
+      "name": "Canadian inflation",
+      "value": "3.1% year over year",
+      "change": "2026-10-19 monthly CPI release: September inflation increased from 3.0%; excluding gasoline, prices rose 2.2%. Source: https://www150.statcan.gc.ca/n1/daily-quotidien/261019/dq261019a-eng.htm"
+    },
+    {
+      "name": "Recession indicators",
+      "value": "6% of surveyed firms planning or budgeting for recession",
+      "change": "2026-10-19 quarterly survey release: down from 17%; interviews mostly preceded renewed trade tensions. Business expectations alone do not establish recession. Source: https://www.bankofcanada.ca/2026/10/business-outlook-survey-third-quarter-of-2026/"
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-12-20 · 1 p.m. · Rio Theatre, Vancouver",
+      "title": "Tegan and Sara tickets open this morning",
+      "description": "Merry Christmess combines an intimate acoustic performance, a reading from Tegan’s middle-grade novel and a screening of Elf. Tickets go on sale November 12 at 8 a.m.; doors open at noon for the afternoon event.",
+      "url": "https://riotheatretickets.ca/events/45762-tegan-and-sara-s-merry-christmess-elf"
+    }
+  ],
+  "meetups": [
+    {
+      "date": "2026-12-01 · UBC Robson Square Theatre, Vancouver",
+      "title": "Seventeen UBC ventures take the stage",
+      "description": "Innovation UBC’s Venture Showcase brings together companies working in advanced hardware, software, AI, clean technology and health. Register for pitches and networking across three stages of company development, from emerging ventures to businesses seeking seed and Series A funding.",
+      "url": "https://luma.com/tyuglydg"
+    }
+  ],
+  "dining": [
+    {
+      "date": "2026-11-17 · Italian Kitchen, 860 Burrard Street, Vancouver",
+      "title": "Ricasoli wines meet a five-course seasonal dinner",
+      "description": "Italian Kitchen’s November wine dinner explores Barone Ricasoli through five seasonal courses paired with wines from the historic Chianti Classico producer. The listed price is $155 per person; the announcement links to SevenRooms for reservations.",
+      "url": "https://vanmag.com/taste/events/food-events-vancouver-november-2026/"
+    },
+    {
+      "date": "2026-11-18 · 5:30 p.m. · Fairmont Pacific Rim, Vancouver",
+      "title": "Yes Shef brings twenty tasting stations together",
+      "description": "Yes Shef’s Vancouver gathering pairs twenty tasting stations with beverages and live entertainment, celebrating women in food and hospitality. The evening champions mentorship and the next generation of culinary talent; the organizer’s page links to ticket purchases.",
+      "url": "https://www.yesshef.com/events/vancouver-2026"
+    }
+  ],
+  "watchers": []
+}
