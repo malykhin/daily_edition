@@ -1,0 +1,112 @@
+{
+  "date": "2026-11-13",
+  "status": "published",
+  "intro": "Friday brings steerable speech recognition, structured AI prompts and programmable security controls. BC housing figures and coastal storm totals lead local news, while Icelandic cooking, seasonal jazz and a December technology gathering offer dates to plan around.",
+  "weather": {
+    "title": "Vancouver four-day forecast",
+    "summary": "2026-11-13: 13.5/9.0°C; Moderate rain. 2026-11-14: 10.4/8.3°C; Slight rain. 2026-11-15: 11.3/7.5°C; Moderate rain. 2026-11-16: 9.6/7.2°C; Slight rain showers. Source: https://api.open-meteo.com/v1/forecast?latitude=49.2827&longitude=-123.1207&daily=temperature_2m_max,temperature_2m_min,weather_code&timezone=America%2FVancouver&forecast_days=4",
+    "high": 13.5,
+    "low": 9.0
+  },
+  "stories": [
+    {
+      "section": "TECHNOLOGY · Open speech models",
+      "title": "Salesforce releases steerable transcription",
+      "summary": "Salesforce introduced SOV-Transcribe-1, an Apache 2.0 speech model with four billion active parameters for non-streaming transcription. Developers can supply difficult vocabulary and control transcript formatting, giving specialized dictation and recorded-audio applications another open-weight option.",
+      "url": "https://huggingface.co/blog/salesforce-sovereign-intelligence/sov-transcribe-1",
+      "tag": "Open weights"
+    },
+    {
+      "section": "TECHNOLOGY · AI security",
+      "title": "Granite previews mark the boundary between instructions and data",
+      "summary": "IBM released experimental Granite 4.1 3B and 8B models trained on LLMON, a format that explicitly marks instructions, data and requirements. A companion toolkit lets developers test structured workflows and investigate resistance to indirect prompt injection.",
+      "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+      "tag": "Experimental release"
+    },
+    {
+      "section": "TECHNOLOGY · Security automation",
+      "title": "GitHub makes repository AI Scan settings programmable",
+      "summary": "GitHub’s public preview adds REST controls for enabling repository AI Scan across organizations and individual repositories. Administrators can automate rollout, but enabling the setting does not launch scans; users still run them on demand using Code Security AI credits.",
+      "url": "https://github.blog/changelog/2026-11-13-manage-ai-scan-for-repositories-using-the-rest-api/",
+      "tag": "Public preview"
+    },
+    {
+      "section": "TECHNOLOGY · Credential security",
+      "title": "Secret scanning recognizes Cloudflare service tokens",
+      "summary": "GitHub added detection for Cloudflare Access service tokens in repositories, expanding its supported credential patterns. Teams using those tokens should review their secret-scanning alerts and investigate exposed credentials before continuing to rely on them.",
+      "url": "https://github.blog/changelog/2026-11-12-secret-scanning-adds-a-detector-for-cloudflare/",
+      "tag": "New detector"
+    },
+    {
+      "section": "LOCAL · Housing",
+      "title": "BC home sales fall almost 11%",
+      "summary": "BC recorded 5,670 home sales in October, almost 11% fewer than a year earlier, according to the provincial real estate association. Greater Vancouver sales fell 10%, while the province’s average sale price declined about 2.8%.",
+      "url": "https://vancouver.citynews.ca/2026/11/12/bc-home-sales-slide-11-per-cent-in-october-as-lower-mainland-struggles/",
+      "tag": "October figures"
+    },
+    {
+      "section": "LOCAL · Storm observations",
+      "title": "Port Mellon records 307 millimetres of rain",
+      "summary": "Environment Canada’s overnight summary reports 307 millimetres at Port Mellon and 135 at Squamish Airport during storms beginning Tuesday morning. Horseshoe Bay received 80 millimetres, while West Vancouver recorded 66; the totals remain preliminary.",
+      "url": "https://weather.gc.ca/warnings/weathersummaries_e.html?wbdisable=true",
+      "tag": "New storm totals"
+    }
+  ],
+  "markets": [
+    {
+      "name": "S&P/TSX Composite",
+      "value": "36,137.19",
+      "change": "2026-11-12 regular-session close: Desjardins’ intraday table records the index level at 4 p.m. Source: https://www.disnat.com/en/learning/quotes-and-market-data/%5ETSX-C"
+    },
+    {
+      "name": "S&P 500",
+      "value": "7,592.40",
+      "change": "2026-11-12 regular-session close: down 0.35%. Source: https://armenpress.am/en/article/1265553"
+    },
+    {
+      "name": "Nasdaq Composite",
+      "value": "25,366.09",
+      "change": "2026-11-12 regular-session close: down 0.39%. Source: https://armenpress.am/en/article/1265553"
+    },
+    {
+      "name": "Bank of Canada policy rate",
+      "value": "2.50%",
+      "change": "2026-10-28 official policy decision: overnight target increased by 0.25 percentage points. Source: https://www.bankofcanada.ca/2026/10/fad-press-release-2026-10-28/"
+    },
+    {
+      "name": "Canadian inflation",
+      "value": "3.1% year over year",
+      "change": "2026-10-19 monthly CPI release: September consumer prices increased 3.1% over twelve months. Source: https://www150.statcan.gc.ca/n1/daily-quotidien/261019/dq261019a-eng.htm"
+    },
+    {
+      "name": "Recession indicators",
+      "value": "October unemployment: 6.7%; employment growth: 0.0%",
+      "change": "2026-11-06 monthly labour release: unemployment rose 0.2 percentage points. These indicators alone do not establish recession. Source: https://www150.statcan.gc.ca/n1/daily-quotidien/261106/dq261106a-eng.htm"
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-12-20 · 8 p.m. · Mel Lehan Hall at St. James, 3214 West 10th Avenue, Vancouver",
+      "title": "Van Django swings into its fourteenth Cool Yule",
+      "description": "Van Django combines seasonal favourites, jazz standards and sing-alongs with guests L.J. Mounteney and Andy Hillhouse. Advance hall tickets cost $30, rising to $35 at the door; the all-ages evening also brings back an ugly Christmas sweater contest.",
+      "url": "https://app.arts-people.com/index.php?show=354899"
+    }
+  ],
+  "meetups": [
+    {
+      "date": "2026-12-09 · 6 p.m. · The Pint Public House, Vancouver",
+      "title": "Vancouver technology communities gather for year-end",
+      "description": "Cloud Events invites developers, architects, students and community organizers to an informal year-end celebration. Register for conversations across local technology groups, with a DJ, giveaways and brief sponsor remarks; half the pub is reserved for the gathering.",
+      "url": "https://luma.com/techvancouver"
+    }
+  ],
+  "dining": [
+    {
+      "date": "2026-11-13 to 2026-11-14 · Hawksworth Restaurant, 801 West Georgia Street, Vancouver",
+      "title": "Hawksworth’s Icelandic menu has two days left",
+      "description": "Ísak Darri and David Hawksworth’s visiting menu features Icelandic cod, lamb, Arctic char and skyr through Saturday. Lunch and dinner formats differ; choose the day, seating and menu when reserving through the organizer’s linked restaurant booking options.",
+      "url": "https://www.inspiredbyiceland.com/taste-of-iceland/vancouver/icelandic-menu"
+    }
+  ],
+  "watchers": []
+}
