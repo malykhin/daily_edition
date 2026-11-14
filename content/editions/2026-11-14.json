@@ -1,0 +1,119 @@
+{
+  "date": "2026-11-14",
+  "status": "published",
+  "intro": "Saturday brings clearer version boundaries for local AI, a robotics walkthrough and a December migration deadline. South Coast rivers are receding, factory volumes have weakened, and December planning offers global holiday music, creative technology and a festive dinner.",
+  "weather": {
+    "title": "Vancouver four-day forecast",
+    "summary": "2026-11-14: 11.7/9.5°C; Moderate rain. 2026-11-15: 10.0/7.0°C; Moderate rain. 2026-11-16: 9.4/7.6°C; Slight rain showers. 2026-11-17: 9.6/6.6°C; Overcast. Source: https://api.open-meteo.com/v1/forecast?latitude=49.2827&longitude=-123.1207&daily=temperature_2m_max,temperature_2m_min,weather_code&timezone=America%2FVancouver&forecast_days=4",
+    "high": 11.7,
+    "low": 9.5
+  },
+  "stories": [
+    {
+      "section": "TECHNOLOGY · Local AI",
+      "title": "llama.cpp gives developers clearer version boundaries",
+      "summary": "The llama.cpp and ggml libraries released version 1.0.0 Friday, committing to major-version changes when public interfaces become incompatible. Developers embedding local inference gain clearer signals for breaking updates as they maintain applications across hardware and model backends.",
+      "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+      "tag": "Open source"
+    },
+    {
+      "section": "TECHNOLOGY · Robotics",
+      "title": "NVIDIA assembles a simulated pick-and-place task",
+      "summary": "NVIDIA published an Isaac Sim walkthrough combining a robot arm, gripper and beverage can from its SimReady asset library. The example separates validated physical properties from task controls, showing builders how to assemble a scene and test its behaviour.",
+      "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+      "tag": "New walkthrough"
+    },
+    {
+      "section": "TECHNOLOGY · Coding tools",
+      "title": "Six Copilot models face December retirement",
+      "summary": "GitHub will retire six listed Copilot models on December 14, with suggested alternatives for five. Review workflows and organization policies before switching; annual individual subscribers retain Claude Haiku 4.5 under an exception, while Kimi K3’s replacement remains unannounced.",
+      "url": "https://github.blog/changelog/2026-11-13-upcoming-deprecation-of-selected-github-copilot-models-in-december/",
+      "tag": "Migration deadline"
+    },
+    {
+      "section": "TECHNOLOGY · Enterprise development",
+      "title": "Copilot app adds general Enterprise Server support",
+      "summary": "GitHub Enterprise Server support is generally available in Copilot app version 1.2.0 and later, covering remote repositories, issues and pull requests. Sign in with a cloud account first, then add the server account through settings; cloud sessions remain unavailable.",
+      "url": "https://github.blog/changelog/2026-11-13-github-enterprise-server-support-in-the-github-copilot-app/",
+      "tag": "Generally available"
+    },
+    {
+      "section": "LOCAL · River conditions",
+      "title": "South Coast flood watch steps down",
+      "summary": "The River Forecast Centre downgraded Howe Sound, Sea-to-Sky and the North Shore Mountains to a high streamflow advisory Friday. Rivers were receding, but adjacent floodwaters could linger; stay clear of swift riverbanks and never drive across flooded crossings.",
+      "url": "https://bcrfc.env.gov.bc.ca/warnings/advisories/HSA_2026_11_13_1030_SC_DWN.pdf",
+      "tag": "Advisory update"
+    },
+    {
+      "section": "LOCAL · Squamish Valley",
+      "title": "Three deaths confirmed after boating incident",
+      "summary": "Squamish RCMP confirmed Friday that three people died following Thursday’s boating incident and that everyone was accounted for. Elevated water and debris complicated recovery efforts; police asked the public to stay off local waterways while dangerous conditions continued.",
+      "url": "https://vancouver.citynews.ca/2026/11/13/squamish-flood-fatalities-mla/",
+      "tag": "Public safety"
+    },
+    {
+      "section": "ECONOMY · Manufacturing",
+      "title": "Flat factory sales conceal falling volumes",
+      "summary": "Canadian manufacturing sales held at $80.2 billion in September but fell 1.5% after adjusting for prices, Statistics Canada reported Friday. Petroleum gains offset weaker metals and wood products; excluding petroleum and coal products, nominal sales also declined 1.5%.",
+      "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/261113/dq261113a-eng.htm",
+      "tag": "New economic data"
+    }
+  ],
+  "markets": [
+    {
+      "name": "S&P/TSX Composite",
+      "value": "36,097.03",
+      "change": "2026-11-13 4 p.m. ET regular-session snapshot, IG/Bloomberg; final closing values may differ because of delays and settlement. Source: https://www.ig.ca/en/media-room/the-week-in-the-markets/the-week-in-the-markets-nov13"
+    },
+    {
+      "name": "S&P 500",
+      "value": "7,549.93",
+      "change": "2026-11-13 4 p.m. ET regular-session snapshot, IG/Bloomberg; final closing values may differ because of delays and settlement. Source: https://www.ig.ca/en/media-room/the-week-in-the-markets/the-week-in-the-markets-nov13"
+    },
+    {
+      "name": "Nasdaq Composite",
+      "value": "25,136.27",
+      "change": "2026-11-13 4 p.m. ET regular-session snapshot, IG/Bloomberg; final closing values may differ because of delays and settlement. Source: https://www.ig.ca/en/media-room/the-week-in-the-markets/the-week-in-the-markets-nov13"
+    },
+    {
+      "name": "Bank of Canada policy rate",
+      "value": "2.50%",
+      "change": "2026-10-28 official policy decision: overnight target increased 0.25 percentage points; Bank Rate 2.75%, deposit rate 2.45%. Source: https://www.bankofcanada.ca/2026/10/fad-press-release-2026-10-28/"
+    },
+    {
+      "name": "Canadian inflation",
+      "value": "3.1% year over year",
+      "change": "2026-10-19 monthly CPI release: September consumer prices increased 3.1% over twelve months; excluding gasoline, 2.2%. Source: https://www150.statcan.gc.ca/n1/daily-quotidien/261019/dq261019a-eng.htm"
+    },
+    {
+      "name": "Recession indicators",
+      "value": "October unemployment: 6.7%; employment growth: 0.0%",
+      "change": "2026-11-06 monthly labour release: unemployment rose 0.2 percentage points while employment barely changed. These indicators alone do not establish recession. Source: https://www150.statcan.gc.ca/n1/daily-quotidien/261106/dq261106a-eng.htm"
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-12-03 · 8 p.m. · Mel Lehan Hall at St. James, 3214 West 10th Avenue, Vancouver",
+      "title": "Sultans of String bring Christmas Caravan to Kitsilano",
+      "description": "The seasonal concert combines original music with global arrangements of holiday favourites, joined by Rebecca Campbell and Saskia Tomkins. Advance hall admission is $32, rising to $37 at the door; doors open at seven for the all-ages performance.",
+      "url": "https://app.arts-people.com/index.php?show=346196"
+    }
+  ],
+  "meetups": [
+    {
+      "date": "2026-12-10 · 6:30 p.m. · Multimodal Media Lab, 375 Water Street, Vancouver",
+      "title": "AI Film Club makes room for unfinished work",
+      "description": "Kevin Friel hosts screenings, tool demonstrations and workflow discussions for filmmakers and creative technologists. Bring a clip, a problem or a laptop to demonstrate your process; community tickets are $20, with free admission for verified BC + AI members.",
+      "url": "https://luma.com/finalframe"
+    }
+  ],
+  "dining": [
+    {
+      "date": "2026-12-24 · 5–9:30 p.m. · Notch8, Fairmont Hotel Vancouver",
+      "title": "Notch8 lists its Christmas Eve feast",
+      "description": "The multi-course menu includes lobster with vanilla bisque and egg-yolk raviolo with winter truffle. Adults pay $315 including taxes, fees and 18% gratuity; reservations require non-refundable prepayment, and each seating lasts two and a half hours.",
+      "url": "https://www.fairmont-hotel-vancouver.com/events/christmas-eve-dinner/"
+    }
+  ],
+  "watchers": []
+}
