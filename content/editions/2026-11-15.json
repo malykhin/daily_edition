@@ -1,0 +1,125 @@
+{
+  "date": "2026-11-15",
+  "status": "published",
+  "intro": "Sunday brings offline voice tools, compact speech synthesis and a deadline for older ARM workflows. BC investigations and wholesale figures lead the regional brief, with a piano recital, AI gathering and seasonal menus ahead.",
+  "weather": {
+    "title": "Vancouver four-day forecast",
+    "summary": "2026-11-15: 11.6/7.1°C; Dense drizzle. 2026-11-16: 8.8/6.0°C; Moderate drizzle. 2026-11-17: 9.0/5.9°C; Overcast. 2026-11-18: 8.9/4.7°C; Overcast. Source: https://api.open-meteo.com/v1/forecast?latitude=49.2827&longitude=-123.1207&daily=temperature_2m_max,temperature_2m_min,weather_code&timezone=America%2FVancouver&forecast_days=4",
+    "high": 11.6,
+    "low": 7.1
+  },
+  "stories": [
+    {
+      "section": "TECHNOLOGY · Coding agents",
+      "title": "Gemini 4 Hydrogen joins Copilot",
+      "summary": "GitHub is gradually rolling out Google’s Gemini 4 Hydrogen across paid Copilot plans, including CLI, coding agent and mobile clients. The Flash model targets fast tool use and multistep coding; Business and Enterprise administrators can manage access through model policies.",
+      "url": "https://github.blog/changelog/2026-11-13-gemini-4-hydrogen-in-github-copilot/",
+      "tag": "Generally available"
+    },
+    {
+      "section": "TECHNOLOGY · Embedded development",
+      "title": "ARM32 Actions jobs face December retirement",
+      "summary": "GitHub Actions hosted runners will end ARM32 job execution on Linux and Windows by December 8, including native AArch32 userspace execution. Maintainers targeting older hardware should review affected workflows: Node 24 does not support ARM32.",
+      "url": "https://github.blog/changelog/2026-11-12-actions-for-arm32-linux-windows-retirement/",
+      "tag": "Migration deadline"
+    },
+    {
+      "section": "TECHNOLOGY · Open speech models",
+      "title": "Zyphra releases compact multilingual voice synthesis",
+      "summary": "Zyphra introduced ZONOS3-Mini, a speech-synthesis and voice-cloning model supporting 43 languages, with 100 million active parameters and 800 million total. Apache 2.0 weights give developers another option for evaluating local, controllable speech applications.",
+      "url": "https://huggingface.co/blog/Zyphra/zonos3-mini",
+      "tag": "Open weights"
+    },
+    {
+      "section": "TECHNOLOGY · On-device AI",
+      "title": "Google adds offline voice to AI Edge Gallery",
+      "summary": "Google AI Edge Gallery now combines local speech recognition and synthesis with chat and language-teaching demonstrations. Developers can use ML Kit, MediaPipe Tasks and LiteRT to build voice interfaces that transcribe speech and generate spoken replies offline.",
+      "url": "https://developers.googleblog.com/on-device-speech-recognition-and-text-to-speech-in-google-ai-edge-gallery/",
+      "tag": "Developer release"
+    },
+    {
+      "section": "LOCAL · Witness appeal",
+      "title": "Abbotsford police seek hit-and-run footage",
+      "summary": "A black SUV struck a 63-year-old woman at Garibaldi Drive and Gladwin Road Friday evening, then left the scene, police say. Her injuries were not life-threatening; witnesses and drivers with dashcam footage can contact investigators at 604-859-5225.",
+      "url": "https://vancouver.citynews.ca/2026/11/14/abby-hit-and-run/",
+      "tag": "Public appeal"
+    },
+    {
+      "section": "LOCAL · Criminal investigation",
+      "title": "Four charged in Maple Ridge homicide",
+      "summary": "Investigators announced Saturday that four people face charges following a May 30 death at a River Road wharf. One faces first-degree murder and three face manslaughter; police describe the incident as targeted, with everyone known to each other.",
+      "url": "https://vancouver.citynews.ca/2026/11/14/four-charged-maple-ridge/",
+      "tag": "Charges announced"
+    },
+    {
+      "section": "ECONOMY · Wholesale trade",
+      "title": "Wholesale gains disappear after adjusting for prices",
+      "summary": "Canadian wholesale sales rose 0.7% to $92.5 billion in September, excluding petroleum-related products, oilseed and grain, Statistics Canada reported Friday. Sales volumes fell 0.2%; third-quarter volumes also declined 0.2%, despite a rise in nominal sales.",
+      "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/261113/dq261113b-eng.htm",
+      "tag": "New economic data"
+    }
+  ],
+  "markets": [
+    {
+      "name": "S&P/TSX Composite",
+      "value": "36,097.03",
+      "change": "2026-11-13 regular-session 4 p.m. ET snapshot, IG/Bloomberg; final closing values may differ. Source: https://www.ig.ca/en/media-room/the-week-in-the-markets/the-week-in-the-markets-nov13"
+    },
+    {
+      "name": "S&P 500",
+      "value": "7,549.93",
+      "change": "2026-11-13 regular-session 4 p.m. ET snapshot, IG/Bloomberg; final closing values may differ. Source: https://www.ig.ca/en/media-room/the-week-in-the-markets/the-week-in-the-markets-nov13"
+    },
+    {
+      "name": "Nasdaq Composite",
+      "value": "25,136.27",
+      "change": "2026-11-13 regular-session 4 p.m. ET snapshot, IG/Bloomberg; final closing values may differ. Source: https://www.ig.ca/en/media-room/the-week-in-the-markets/the-week-in-the-markets-nov13"
+    },
+    {
+      "name": "Bank of Canada policy rate",
+      "value": "2.50%",
+      "change": "2026-10-28 official policy decision: overnight target raised 0.25 percentage points; Bank Rate 2.75%, deposit rate 2.45%. Source: https://www.bankofcanada.ca/2026/10/fad-press-release-2026-10-28/"
+    },
+    {
+      "name": "Canadian inflation",
+      "value": "3.1% year over year",
+      "change": "2026-10-19 monthly CPI release for September: consumer prices rose 3.1% over twelve months. Source: https://www150.statcan.gc.ca/n1/daily-quotidien/261019/dq261019a-eng.htm"
+    },
+    {
+      "name": "Recession indicators",
+      "value": "October unemployment: 6.7%; employment growth: 0.0%",
+      "change": "2026-11-06 monthly labour release: unemployment rose 0.2 percentage points while employment barely changed. These indicators alone do not establish recession. Source: https://www150.statcan.gc.ca/n1/daily-quotidien/261106/dq261106a-eng.htm"
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-11-22 · 3 p.m. · Vancouver Playhouse, 600 Hamilton Street, Vancouver",
+      "title": "Saskia Giorgini pairs Chopin with Bonis and Boulanger",
+      "description": "The pianist’s Sunday recital combines Chopin waltzes, mazurkas and Polonaise-Fantaisie with works by Mélanie Bonis, Lili Boulanger, Enescu and Debussy. Regular tickets range from $44 to $68; the society also lists reduced senior and student prices.",
+      "url": "https://my.chopinsociety.org/events/69baf9cc-f997-4c25-b91e-e7420bcdf026"
+    }
+  ],
+  "meetups": [
+    {
+      "date": "2026-11-25 · 6–10 p.m. · H.R. MacMillan Space Centre, 1100 Chestnut Street, Vancouver",
+      "title": "Vancouver AI puts human judgment on the agenda",
+      "description": "Product designer Zoë Zaslow, AI visibility strategist Ashley Smith and composer Carl Faia lead the presentations. Doors open at six, with the program at seven; register for talks, questions and networking, and bring a design decision to discuss.",
+      "url": "https://luma.com/nov-vanai"
+    }
+  ],
+  "dining": [
+    {
+      "date": "December 2026 · UCHU, 158 East Pender Street, Vancouver",
+      "title": "UCHU adds December lunch and brunch",
+      "description": "UCHU expands into Thursday–Friday lunches and weekend brunch throughout December. Lunch includes ceviche and halibut-cheek sliders; brunch brings chicken anticucho with waffles and eggs Benedict with aji amarillo hollandaise. Both UCHU and SUYO will also open for Sunday dinners.",
+      "url": "https://myvancity.ca/2026/11/13/suyo-and-uchu-celebrate-december-with-new-offerings/"
+    },
+    {
+      "date": "2026-11-15 · Bel Café, 801 West Georgia Street, Vancouver",
+      "title": "Bel refreshes sandwiches before holiday baking arrives",
+      "description": "Bel Café’s new chopped Italian and spicy turkey sandwiches join seasonal drinks and pastries, including an apple-mascarpone Danish. The downtown café opens eight to two on weekends; fruitcake, holiday cookies and additional seasonal treats arrive November 17.",
+      "url": "https://myvancity.ca/2026/11/14/fall-flavours-and-new-chopped-style-sandwiches-arrive-at-bel-cafe/"
+    }
+  ],
+  "watchers": []
+}
