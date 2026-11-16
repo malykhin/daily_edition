@@ -1,0 +1,131 @@
+{
+  "date": "2026-11-16",
+  "status": "published",
+  "intro": "Monday brings better tests for AI assistants, leaner search indexes and new privacy data. A cross-country canoe journey ends at Jericho, exports to China climb, and winter planning offers musical comedy, practical AI discussion and seasonal dining.",
+  "weather": {
+    "title": "Vancouver four-day forecast",
+    "summary": "2026-11-16: 9.8/6.0°C; Overcast. 2026-11-17: 9.0/5.9°C; Overcast. 2026-11-18: 8.9/4.9°C; Overcast. 2026-11-19: 8.9/5.2°C; Overcast. Source: https://api.open-meteo.com/v1/forecast?latitude=49.2827&longitude=-123.1207&daily=temperature_2m_max,temperature_2m_min,weather_code&timezone=America%2FVancouver&forecast_days=4",
+    "high": 9.8,
+    "low": 6.0
+  },
+  "stories": [
+    {
+      "section": "TECHNOLOGY · AI evaluation",
+      "title": "XYBench tests the problem behind the question",
+      "summary": "Ai2 released XYBench, using 8,115 questions to test whether assistants recognize mistaken assumptions. Evaluated models often suggested useful solutions while keeping their answers focused on the original approach, exposing a gap in practical troubleshooting.",
+      "url": "https://huggingface.co/blog/allenai/xybench",
+      "tag": "New benchmark"
+    },
+    {
+      "section": "TECHNOLOGY · Search infrastructure",
+      "title": "Compressed search indexes get a training boost",
+      "summary": "A new Sentence Transformers walkthrough trains embedding models to preserve useful information when document vectors are merged. Its experiment retains 97.8% of uncompressed retrieval quality with four times fewer vectors, giving developers a reproducible storage-versus-quality comparison.",
+      "url": "https://huggingface.co/blog/token-pooling",
+      "tag": "Technical walkthrough"
+    },
+    {
+      "section": "TECHNOLOGY · Privacy tools",
+      "title": "NVIDIA releases synthetic Japanese privacy documents",
+      "summary": "Nemotron PII Japan supplies 100,000 synthetic business documents with annotations identifying personal information. Developers can test missed detections and excessive masking without actual customer records, including challenging Japanese address formats and dates expressed in era notation.",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-pii-japan",
+      "tag": "Open dataset"
+    },
+    {
+      "section": "TECHNOLOGY · Credential security",
+      "title": "GitHub makes monitoring findings easier to share",
+      "summary": "GitHub added direct links to individual public monitoring alerts, letting authorized teammates bookmark and exchange specific findings. Public monitoring is available to Enterprise Cloud customers with Secret Protection or Advanced Security at no additional cost.",
+      "url": "https://github.blog/changelog/2026-11-12-public-monitoring-alerts-now-have-direct-links/",
+      "tag": "Security update"
+    },
+    {
+      "section": "LOCAL · Vancouver",
+      "title": "Eight-thousand-kilometre canoe journey ends at Jericho",
+      "summary": "Nolan Aziz, Will Vyse and Georges Kirijian landed near Jericho Sailing Centre Sunday after more than 200 days travelling from Quebec. Their cross-country canoe journey supported True North Aid, which assists northern and remote Indigenous communities.",
+      "url": "https://vancouver.citynews.ca/2026/11/15/canoe-trio-arrives-in-vancouver-marking-end-of-8000-kilometre-cross-canada-journey/",
+      "tag": "Sunday arrival"
+    },
+    {
+      "section": "LOCAL · Police oversight",
+      "title": "Watchdog investigates Kaslo police shooting",
+      "summary": "BC’s Independent Investigations Office has taken over the investigation after an RCMP officer shot a man outside Kaslo Friday. Police say he carried an edged weapon; emergency responders transported him to hospital in critical condition.",
+      "url": "https://vancouver.citynews.ca/2026/11/15/kaslo-police-shooting/",
+      "tag": "Investigation"
+    },
+    {
+      "section": "ECONOMY · International trade",
+      "title": "Exports to China rise almost 40%",
+      "summary": "Canadian goods exports to China reached $33.5 billion in the first three quarters, up $9.5 billion from a year earlier. The increase comes as Ottawa extends a market-access agreement through 2028 and Carney prepares to attend APEC in Shenzhen.",
+      "url": "https://edmonton.citynews.ca/2026/11/16/canadas-exports-to-china-up-almost-40-per-cent-since-last-year/",
+      "tag": "Trade figures"
+    }
+  ],
+  "markets": [
+    {
+      "name": "S&P/TSX Composite",
+      "value": "36,097.03",
+      "change": "2026-11-13 regular-session 4 p.m. ET snapshot, IG/Bloomberg; final closing values may differ. Source: https://www.ig.ca/en/media-room/the-week-in-the-markets/the-week-in-the-markets-nov13"
+    },
+    {
+      "name": "S&P 500",
+      "value": "7,549.93",
+      "change": "2026-11-13 regular-session 4 p.m. ET snapshot, IG/Bloomberg; final closing values may differ. Source: https://www.ig.ca/en/media-room/the-week-in-the-markets/the-week-in-the-markets-nov13"
+    },
+    {
+      "name": "Nasdaq Composite",
+      "value": "25,136.27",
+      "change": "2026-11-13 regular-session 4 p.m. ET snapshot, IG/Bloomberg; final closing values may differ. Source: https://www.ig.ca/en/media-room/the-week-in-the-markets/the-week-in-the-markets-nov13"
+    },
+    {
+      "name": "Bank of Canada policy rate",
+      "value": "2.50%",
+      "change": "2026-10-28 official policy decision: overnight target increased 0.25 percentage points; next scheduled decision December 9. Source: https://www.bankofcanada.ca/2026/10/fad-press-release-2026-10-28/"
+    },
+    {
+      "name": "Canadian inflation",
+      "value": "October: 3.1% year over year",
+      "change": "2026-11-16 monthly CPI release, reported by Canadian Press: unchanged from September; excluding energy, inflation eased to 2.0%. Source: https://vancouver.citynews.ca/2026/11/16/inflation-october-canada-cost-of-living/"
+    },
+    {
+      "name": "Recession indicators",
+      "value": "6% of surveyed firms planning or budgeting for recession",
+      "change": "2026-10-19 quarterly survey release: down from 17%; interviews mostly preceded renewed trade tensions. Expectations alone do not establish recession. Source: https://www.bankofcanada.ca/2026/10/business-outlook-survey-third-quarter-of-2026/"
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-12-19 · 2 p.m. · Centennial Theatre, 2300 Lonsdale Avenue, North Vancouver",
+      "title": "Piano Heist gives Christmas classics a comic twist",
+      "description": "Nico Rhodes and Patrick Courtin mix holiday music with comedy, including a rock-and-roll Nutcracker Suite and Handel on melodicas. The two-hour afternoon show uses reserved seating, welcomes ages six and older, and lists tickets from $24 to $52.50.",
+      "url": "https://www.showpass.com/a-very-merry-heistmas/"
+    },
+    {
+      "date": "2026-12-31 · 10 p.m. · Science World, 1455 Quebec Street, Vancouver",
+      "title": "Cirque NYE opens advance planning for the countdown",
+      "description": "The year-end party combines three music rooms with aerialists, contortionists, dancers and other circus performers. Doors open at nine; admission requires age 19 or older and government-issued identification, with a semi-formal dress code and no re-entry.",
+      "url": "https://www.showpass.com/cirquenye2027/"
+    }
+  ],
+  "meetups": [
+    {
+      "date": "2026-12-01 · 6:30–8:30 p.m. · Parker Street Studios, Vancouver",
+      "title": "AI Ethical Futures Lab maps next year’s work",
+      "description": "BC + AI’s working session gathers recurring questions about agency, labour, privacy and public trust through structured discussion and shared notes. Bring a laptop and a concrete example; registration requests require approval, with name-your-price checkout.",
+      "url": "https://luma.com/decem-ethics"
+    }
+  ],
+  "dining": [
+    {
+      "date": "November 2026 · Loam Bistro, 230 Esplanade West, North Vancouver",
+      "title": "Loam launches a late-afternoon Golden Hour",
+      "description": "The new Friday–Sunday menu runs from three to five, featuring banana-leaf fish, whipped Brie and beef tartare toast. November’s daily menu also adds beef bourguignon and French onion soup paired with a sourdough grilled-cheese sandwich.",
+      "url": "https://myvancity.ca/2026/11/04/loam-bistro-introduces-golden-hour-weekend-menu/"
+    },
+    {
+      "date": "2026-11-19 · SUYO, 3475 Main Street, Vancouver",
+      "title": "SUYO closes its collaboration series with TOUK",
+      "description": "Ricardo Valverde welcomes TOUK chef Chanthy Yen for a one-night tasting menu combining modern Peruvian and Cambodian cooking. Seatings are at five and eight; the dinner costs $269 before tax and gratuity, with reservations through OpenTable.",
+      "url": "https://vancouver.foodgressing.com/vancouver-food-events-and-restaurant-news-for-november/"
+    }
+  ],
+  "watchers": []
+}
