@@ -1,0 +1,112 @@
+{
+  "date": "2026-11-17",
+  "status": "published",
+  "intro": "Tuesday brings changes to open-model hosting, coding-agent controls and security scans. Highway work affects Horseshoe Bay travel, BC prepares an alert test, and December planning offers choral music, agent building and seasonal dining.",
+  "weather": {
+    "title": "Vancouver four-day forecast",
+    "summary": "2026-11-17: 9.3/3.8°C; Overcast. 2026-11-18: 10.9/3.3°C; Overcast. 2026-11-19: 9.1/5.1°C; Overcast. 2026-11-20: 6.5/4.3°C; Overcast. Source: https://api.open-meteo.com/v1/forecast?latitude=49.2827&longitude=-123.1207&daily=temperature_2m_max,temperature_2m_min,weather_code&timezone=America%2FVancouver&forecast_days=4",
+    "high": 9.3,
+    "low": 3.8
+  },
+  "stories": [
+    {
+      "section": "TECHNOLOGY · Open-model infrastructure",
+      "title": "Hugging Face moves language-model routing to OpenRouter",
+      "summary": "Hugging Face now routes language-model requests through OpenRouter, selecting providers using price, speed and reliability. Existing API code remains compatible, but custom provider keys no longer work for language models; requests are billed through Hugging Face.",
+      "url": "https://huggingface.co/blog/openrouter",
+      "tag": "Infrastructure change"
+    },
+    {
+      "section": "TECHNOLOGY · Agent administration",
+      "title": "Copilot adds controls over customization sources",
+      "summary": "Enterprise administrators can restrict where Copilot customizations originate, covering skills, agents, hooks, MCP servers and executable extensions. Managed settings and plugins give organizations a way to distribute approved tools while controlling additions from other sources.",
+      "url": "https://github.blog/changelog/2026-11-16-control-where-github-copilot-customizations-come-from/",
+      "tag": "Enterprise controls"
+    },
+    {
+      "section": "TECHNOLOGY · Coding agents",
+      "title": "VS Code sets February retirement for its older agent runtime",
+      "summary": "VS Code 1.146 deprecates the Local harness, with removal scheduled for February 2027. Its replacement already handles new sessions by default; administrators should check customization compatibility, runtime permissions and sandbox settings before the transition.",
+      "url": "https://github.blog/changelog/2026-11-16-vs-code-retires-the-local-harness-in-february-2027/",
+      "tag": "Migration deadline"
+    },
+    {
+      "section": "TECHNOLOGY · Application security",
+      "title": "GitHub adds batch launches for repository AI scans",
+      "summary": "GitHub’s public preview can start AI security scans across as many as 20 repositories at once. Findings join the code-scanning backlog alongside CodeQL alerts, including issues in languages CodeQL does not support; a Copilot licence is not required.",
+      "url": "https://github.blog/changelog/2026-11-16-bulk-start-ai-scan-for-repositories/",
+      "tag": "Public preview"
+    },
+    {
+      "section": "LOCAL · Emergency preparedness",
+      "title": "BC schedules Wednesday’s emergency alert test",
+      "summary": "BC will test emergency notifications Wednesday, November 18, at 1:55 p.m. Pacific, reaching compatible cellphones and interrupting television and radio. The message will identify itself as a test and requires no public action.",
+      "url": "https://news.gov.bc.ca/releases/2026EMCR0041-001138",
+      "tag": "Provincewide test"
+    },
+    {
+      "section": "ECONOMY · Central banking",
+      "title": "Macklem will leave when his term ends next June",
+      "summary": "Bank of Canada Governor Tiff Macklem will not seek a second term when his seven-year appointment expires June 2, 2027. The board has begun searching for his successor, with recruitment expected to finish by spring.",
+      "url": "https://www.bankofcanada.ca/2026/11/bank-of-canada-governor-tiff-macklem-to-step-down-in-june-2027/",
+      "tag": "Leadership transition"
+    }
+  ],
+  "markets": [
+    {
+      "name": "S&P/TSX Composite",
+      "value": "35,722.13",
+      "change": "2026-11-16 regular-session close: down 383.77 points, or 1.06%. Source: https://www.alainguillot.com/stock-market-recap-november-16-2026/"
+    },
+    {
+      "name": "S&P 500",
+      "value": "7,416.59",
+      "change": "2026-11-16 regular-session close: down 1.92%. Source: https://www.davemanuel.com/where-did-the-djia-nasdaq-sp500-trade-on.php"
+    },
+    {
+      "name": "Nasdaq Composite",
+      "value": "24,509.76",
+      "change": "2026-11-16 regular-session close: down 2.49%. Source: https://www.davemanuel.com/where-did-the-djia-nasdaq-sp500-trade-on.php"
+    },
+    {
+      "name": "Bank of Canada policy rate",
+      "value": "2.50%",
+      "change": "2026-10-28 official policy decision: overnight target increased 0.25 percentage points; Bank Rate 2.75%, deposit rate 2.45%. Source: https://www.bankofcanada.ca/2026/10/fad-press-release-2026-10-28/"
+    },
+    {
+      "name": "Canadian inflation",
+      "value": "October: 3.1% year over year",
+      "change": "2026-11-16 monthly CPI release: October inflation matched September’s 3.1% annual increase. Source: https://www150.statcan.gc.ca/n1/daily-quotidien/261116/dq261116a-eng.htm"
+    },
+    {
+      "name": "Recession indicators",
+      "value": "6% of surveyed firms planning or budgeting for recession",
+      "change": "2026-10-19 quarterly survey release: down from 17%; most interviews preceded renewed trade tensions. Business expectations alone do not establish recession. Source: https://www.bankofcanada.ca/2026/10/business-outlook-survey-third-quarter-of-2026/"
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-12-13 · 2:30 p.m. · Pacific Spirit United Church, 2195 West 45th Avenue, Vancouver",
+      "title": "Chantez Noël pairs Bach with audience carols",
+      "description": "Pacific Spirit’s chamber choir, organist Edward Norman and chamber players perform Bach’s Christmas Cantata BWV 147 alongside seasonal works and audience singing. General admission is $30; children and students enter free, with tickets online and at the door.",
+      "url": "https://www.eventbrite.ca/e/chantez-noel-2026-tickets-2004141863263"
+    }
+  ],
+  "meetups": [
+    {
+      "date": "2026-12-05 · 9 a.m.–7 p.m. · Unit 400, 322 Water Street, Vancouver",
+      "title": "Agent-building competition turns business problems into demos",
+      "description": "Cognition and Keiki invite builders to develop a custom agent using Devin and Keiki, then present a working demonstration. Registration requires host approval; the day includes focused building time, project demonstrations, judging and a closing awards session.",
+      "url": "https://luma.com/vanspace-bkv7"
+    }
+  ],
+  "dining": [
+    {
+      "date": "2026-11-18 through 2026-12-18 · Showcase Restaurant & Bar, 1122 West Hastings Street, Vancouver",
+      "title": "Showcase starts its weekday holiday lunch buffet",
+      "description": "The seasonal buffet returns Wednesday through Friday with roast turkey, honey-garlic ham, maple butter tarts and peppermint mousse cake. It costs $55 per person including select beverages, with an automatic 18% gratuity; reservations are available through the restaurant.",
+      "url": "https://www.showcaserestaurant.com/events-and-promotions/"
+    }
+  ],
+  "watchers": []
+}
