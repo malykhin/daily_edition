@@ -1,0 +1,114 @@
+{
+  "date": "2026-11-18",
+  "status": "published",
+  "intro": "Wednesday brings new security checks for coding agents, an open-source repair experiment and a change to Vancouver’s proposed AI infrastructure. Trade measures, winter choral music, an agent-security gathering and downtown menus round out the morning.",
+  "weather": {
+    "title": "Vancouver four-day forecast",
+    "summary": "2026-11-18: 9.6/2.9°C; Overcast. 2026-11-19: 10.8/5.5°C; Overcast. 2026-11-20: 6.6/4.4°C; Overcast. 2026-11-21: 8.4/4.3°C; Overcast. Source: https://api.open-meteo.com/v1/forecast?latitude=49.2827&longitude=-123.1207&daily=temperature_2m_max,temperature_2m_min,weather_code&timezone=America%2FVancouver&forecast_days=4",
+    "high": 9.6,
+    "low": 2.9
+  },
+  "stories": [
+    {
+      "section": "TECHNOLOGY · Credential security",
+      "title": "Copilot adds secret scanning to security review",
+      "summary": "Copilot’s security review specialist can now run GitHub secret scanning on code changes before they are merged. The public preview is available in Copilot CLI and app sessions, SDK integrations and Copilot code review.",
+      "url": "https://github.blog/changelog/2026-11-17-secret-scanning-on-demand-for-developers-and-agents/",
+      "tag": "Public preview"
+    },
+    {
+      "section": "TECHNOLOGY · Open-source security",
+      "title": "AI scanning pilot pairs vulnerability reports with fixes",
+      "summary": "GitHub and Microsoft’s MDASH pilot sent 99 checked vulnerability reports with suggested fixes to maintainers of six open-source projects. By November 15, maintainers had fixed 55 findings, with 14 fixes already released.",
+      "url": "https://github.blog/open-source/maintainers/maintainers-dont-need-more-ai-bug-reports-they-need-fixes/",
+      "tag": "Security research"
+    },
+    {
+      "section": "TECHNOLOGY · Developer tools",
+      "title": "Copilot expands its JetBrains controls",
+      "summary": "GitHub’s JetBrains update adds remote access, on-device voice dictation and browser-use controls to Copilot. The release also introduces context-usage shortcuts and historical diffs, giving developers more ways to manage work inside their editor.",
+      "url": "https://github.blog/changelog/2026-11-17-github-copilot-in-jetbrains-ignite-releases/",
+      "tag": "Editor update"
+    },
+    {
+      "section": "TECHNOLOGY · Model migration",
+      "title": "Older MAI coding model faces December retirement",
+      "summary": "GitHub will deprecate MAI-Code-1.1-Flash across Copilot experiences on December 18 following the launch of MAI Code 2 Flash. Developers relying on the older model should review their workflows and model selections before the deadline.",
+      "url": "https://github.blog/changelog/2026-11-17-upcoming-deprecation-of-mai-code-1-1-flash-in-december/",
+      "tag": "Migration deadline"
+    },
+    {
+      "section": "LOCAL · AI infrastructure",
+      "title": "Telus exits two Vancouver data-centre projects",
+      "summary": "Telus has left its partnership with Westbank on two planned Vancouver AI data centres. Westbank says it intends to proceed and announce a new partnership in the coming months, leaving the identity of the replacement partner unresolved.",
+      "url": "https://www.connectcre.ca/stories/telus-pulls-out-of-2-vancouver-data-centre-projects/",
+      "tag": "Vancouver development"
+    },
+    {
+      "section": "ECONOMY · International trade",
+      "title": "Canada and China expand tariff relief",
+      "summary": "China is extending relief on Canadian canola meal, peas, lobster and crab through 2028 and adding relief for products including frozen pork and seafood. Canada is also extending relief on certain Chinese steel and aluminum products.",
+      "url": "https://www.international.gc.ca/country_news-pays_nouvelles/2026-11-16-china-chine.aspx?lang=eng",
+      "tag": "Trade measures"
+    }
+  ],
+  "markets": [
+    {
+      "name": "S&P/TSX Composite",
+      "value": "35,315.30",
+      "change": "2026-11-17 regular-session close: down 1.14%. Source: https://stocksummarizer.com/market-wrap/2026-11-17-tsx/"
+    },
+    {
+      "name": "Bank of Canada policy rate",
+      "value": "2.50%",
+      "change": "2026-10-28 official policy decision: overnight target increased by 0.25 percentage points. Source: https://www.bankofcanada.ca/2026/10/fad-press-release-2026-10-28/"
+    },
+    {
+      "name": "Canadian inflation",
+      "value": "October: 3.1% year over year",
+      "change": "2026-11-16 monthly CPI release: annual inflation matched September’s rate. Source: https://vancouver.citynews.ca/2026/11/16/inflation-october-canada-cost-of-living/"
+    },
+    {
+      "name": "Recession indicators",
+      "value": "6% of surveyed firms planning or budgeting for recession",
+      "change": "2026-10-19 quarterly survey release: down from 17%; most interviews preceded renewed trade tensions. Expectations alone do not establish recession. Source: https://www.bankofcanada.ca/2026/10/business-outlook-survey-third-quarter-of-2026/"
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-12-19 · 6 p.m. · Historic Theatre, 1895 Venables Street, Vancouver",
+      "title": "The Light Within Us brings winter traditions together",
+      "description": "VocaCora Voices Society’s concert combines Vivaldi’s Magnificat, Persian music inspired by Yalda, sacred choral works and Christmas carols. Taymaz Saba conducts; reserved seating is available, and the venue notes that the production uses haze.",
+      "url": "https://thecultch.com/ticket/26-27-rentals/?EventName=the-light-within-us&WebEventId=RN2627WithinUs"
+    }
+  ],
+  "meetups": [
+    {
+      "date": "2026-12-04 · 2–4:30 p.m. · Planview Vancouver, 555 West Hastings Street, Suite 2360, Vancouver",
+      "title": "Engineers examine prompt injection and agent security",
+      "description": "Planview’s platform engineering team hosts an afternoon on securing AI agents, with speakers from Planview and F5. The agenda covers AgentCore isolation and observability, followed by layered defences, discussion and networking; register through the organizer.",
+      "url": "https://luma.com/dewf0me9"
+    },
+    {
+      "date": "2026-12-12 · 10 a.m.–noon · Golden Horn Turkish Bakery & Cafe, 2857 Cambie Street, Vancouver",
+      "title": "Vancouver Vibe Coders gather for a build morning",
+      "description": "Designers, developers and curious beginners meet for introductions followed by open time to code, experiment with AI tools or ask for help. Bring a laptop if you want to build; attendance is free, and the host asks guests to support the café.",
+      "url": "https://www.meetup.com/vancouver-vibe-coders/events/ffzwbvyjcqbqb/?eventOrigin=group_upcoming_events"
+    }
+  ],
+  "dining": [
+    {
+      "date": "November 2026 · C|Prime, 1015 Burrard Street, Vancouver",
+      "title": "C|Prime introduces a chef and seasonal menu",
+      "description": "Chef de cuisine Eddie Muñoz joins executive chef Behshad Zolnasr as the downtown steakhouse updates its fall and winter menu. New dishes include grilled octopus, wild-mushroom agnolotti and halibut cioppino, alongside handmade pasta and prime cuts.",
+      "url": "https://myvancity.ca/2026/11/16/cprime-modern-italian-steak-wine-welcomes-new-chef-de-cuisine/"
+    },
+    {
+      "date": "From 2026-11-17 · Bel Café, 801 West Georgia Street, Vancouver",
+      "title": "Bel Café puts its holiday menu on the counter",
+      "description": "The downtown café’s seasonal lineup adds a holiday turkey sub, eggnog crème brûlée Danish and pear frangipane tart. Traditional fruitcake and holiday cookies return, while an eggnog latte and Earl Grey hot chocolate join the drinks menu.",
+      "url": "https://myvancity.ca/2026/11/17/holiday-favourites-return-alongside-new-festive-treats-at-bel-cafe/"
+    }
+  ],
+  "watchers": []
+}
