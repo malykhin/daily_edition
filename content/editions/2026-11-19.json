@@ -1,0 +1,108 @@
+{
+  "date": "2026-11-19",
+  "status": "published",
+  "intro": "Thursday brings a compact speech model, new connections for coding agents and automatic security assessments. Vancouver council is weighing data-centre impacts and bus-stop shelter, while December offers practical sessions for AI builders.",
+  "weather": {
+    "title": "Vancouver four-day forecast",
+    "summary": "2026-11-19: 9.1/3.7°C; Overcast. 2026-11-20: 8.5/3.0°C; Overcast. 2026-11-21: 8.9/4.8°C; Dense drizzle. 2026-11-22: 6.4/4.4°C; Moderate drizzle. Source: https://api.open-meteo.com/v1/forecast?latitude=49.2827&longitude=-123.1207&daily=temperature_2m_max,temperature_2m_min,weather_code&timezone=America%2FVancouver&forecast_days=4",
+    "high": 9.1,
+    "low": 3.7
+  },
+  "stories": [
+    {
+      "section": "TECHNOLOGY · Open speech",
+      "title": "A small speech model opens in more than 40 languages",
+      "summary": "Reson8 released Rumble-2-Flash, a 0.5-billion-parameter speech recognition model under Apache 2.0. It supports automatic language detection and transcript formatting controls, with Transformers and vLLM support for developers evaluating multilingual transcription.",
+      "url": "https://huggingface.co/blog/rumble-2-flash",
+      "tag": "Open source"
+    },
+    {
+      "section": "TECHNOLOGY · Agent tools",
+      "title": "Copilot adds eight service connectors",
+      "summary": "GitHub added verified MCP connectors for services including Supabase, Box, Buildkite and Calendly in public preview. Business and Enterprise administrators may need to enable preview features and update their allowlists before staff can connect them.",
+      "url": "https://github.blog/changelog/2026-11-18-connect-supabase-box-calendly-and-more-to-copilot/",
+      "tag": "Public preview"
+    },
+    {
+      "section": "TECHNOLOGY · Security",
+      "title": "GitHub Team gets automatic risk assessments",
+      "summary": "Free security risk assessments now run automatically for organizations on GitHub Team. Administrators and security managers can review findings about exposed credentials and code vulnerabilities to decide which problems need attention first.",
+      "url": "https://github.blog/changelog/2026-11-18-security-risk-assessments-run-automatically-on-github-team/",
+      "tag": "Security update"
+    },
+    {
+      "section": "TECHNOLOGY · Coding models",
+      "title": "Gemini 4 Neon rolls out in Copilot",
+      "summary": "GitHub is gradually making Gemini 4 Neon available across eligible Copilot plans and clients, including VS Code and the CLI. Business and Enterprise administrators can manage access through model policies; usage-based billing follows provider list pricing.",
+      "url": "https://github.blog/changelog/2026-11-18-gemini-4-neon-in-github-copilot/",
+      "tag": "Model rollout"
+    },
+    {
+      "section": "LOCAL · Digital infrastructure",
+      "title": "Vancouver council asks for data-centre impact rules",
+      "summary": "Council unanimously backed a motion directing staff to develop a public impact requirement for bulk data storage. The proposed assessment would address water, emissions, noise, heat and employment impacts before rezoning or permitting begins.",
+      "url": "https://www.sitkamedia.ca/watch-vancouver-city-council-votes-unanimously-to-address-the-risks-of-ai-data-centres/",
+      "tag": "Council vote"
+    },
+    {
+      "section": "LOCAL · Transit",
+      "title": "Council backs a wider push for covered bus stops",
+      "summary": "Vancouver council approved a push for shelters with seating at 100 existing bus stops and a wider expansion. Staff will report by April 2027 on options for covered benches at every feasible stop by December 2029.",
+      "url": "https://www.sitkamedia.ca/vancouver-city-council-moves-forward-on-ensuring-every-bus-stop-has-covered-bench/",
+      "tag": "Transit access"
+    },
+    {
+      "section": "LOCAL · Public inquiry",
+      "title": "Lowndes inquest is scheduled for December",
+      "summary": "BC's Coroners Service will begin a public inquest into Jared Lowndes' death on December 7 in Burnaby. Lowndes died in Campbell River in 2021 following events involving RCMP; the inquiry will also be livestreamed.",
+      "url": "https://news.gov.bc.ca/releases/2026PSSG0076-001140",
+      "tag": "Inquest"
+    }
+  ],
+  "markets": [
+    {
+      "name": "S&P/TSX Composite",
+      "value": "34,578.05",
+      "change": "2026-11-18 regular-session close: down 2.09%. Source: https://stocksummarizer.com/market-wrap/2026-11-18-tsx/"
+    },
+    {
+      "name": "Bank of Canada policy rate",
+      "value": "2.50%",
+      "change": "2026-10-28 official policy decision: the overnight target rose by 0.25 percentage points. Source: https://www.bankofcanada.ca/2026/10/fad-press-release-2026-10-28/"
+    },
+    {
+      "name": "Canadian inflation",
+      "value": "October: 3.1% year over year",
+      "change": "2026-11-16 monthly CPI release: annual inflation matched September's rate. Source: https://vancouver.citynews.ca/2026/11/16/inflation-october-canada-cost-of-living/"
+    },
+    {
+      "name": "Recession indicators",
+      "value": "6% of surveyed firms planning or budgeting for recession",
+      "change": "2026-10-19 quarterly survey release: down from 17%; most interviews preceded renewed trade tensions. Expectations alone do not establish recession. Source: https://www.bankofcanada.ca/2026/10/business-outlook-survey-third-quarter-of-2026/"
+    }
+  ],
+  "events": [],
+  "meetups": [
+    {
+      "date": "2026-12-04 · 2–4:30 p.m. · Planview Vancouver, 555 West Hastings Street, Suite 2360, Vancouver",
+      "title": "A practical look at agent security",
+      "description": "Planview's platform engineering team hosts talks on AgentCore isolation and observability, followed by prompt injection and layered defences. The afternoon includes discussion and networking; register through the organizer before heading to the office.",
+      "url": "https://luma.com/dewf0me9"
+    },
+    {
+      "date": "2026-12-05 · 9 a.m.–7 p.m. · Unit 400, 322 Water Street, Vancouver",
+      "title": "Build and demonstrate an AI agent",
+      "description": "Cognition and Keiki invite builders to create an agent around a business problem and present a working demo. Bring a laptop and an idea; registration requires host approval, and each team member must apply separately.",
+      "url": "https://luma.com/vanspace-bkv7"
+    }
+  ],
+  "dining": [
+    {
+      "date": "December 2026 · UCHU, 158 East Pender Street, Vancouver",
+      "title": "UCHU adds lunch and brunch for December",
+      "description": "The Chinatown restaurant will serve Thursday and Friday lunches and weekend brunch throughout December. Lunch includes ceviche and halibut-cheek sliders; brunch brings chicken anticucho with waffles and eggs Benedict with ají amarillo hollandaise.",
+      "url": "https://myvancity.ca/2026/11/13/suyo-and-uchu-celebrate-december-with-new-offerings/"
+    }
+  ],
+  "watchers": []
+}
