@@ -1,0 +1,106 @@
+{
+  "date": "2026-11-20",
+  "status": "published",
+  "intro": "Friday brings compact search models, open Khmer typing tools and a new way to watch pull-request events. BC has paused the Massey Tunnel review, while fresh producer-price figures and a December security session offer more to follow.",
+  "weather": {
+    "title": "Vancouver four-day forecast",
+    "summary": "2026-11-20: 6.7/0.9°C; Overcast. 2026-11-21: 8.9/1.3°C; Light drizzle. 2026-11-22: 8.1/5.4°C; Dense drizzle. 2026-11-23: 8.2/4.8°C; Moderate drizzle. Source: https://api.open-meteo.com/v1/forecast?latitude=49.2827&longitude=-123.1207&daily=temperature_2m_max,temperature_2m_min,weather_code&timezone=America%2FVancouver&forecast_days=4",
+    "high": 6.7,
+    "low": 0.9
+  },
+  "stories": [
+    {
+      "section": "TECHNOLOGY · Search models",
+      "title": "Atto explores smaller models for semantic search",
+      "summary": "NeuML introduced Atto, a family of compact models for dense, sparse and late-interaction retrieval. Its published comparisons let developers examine how model size affects search quality when choosing an embedding model for an application.",
+      "url": "https://huggingface.co/blog/NeuML/introducing-atto",
+      "tag": "Open models"
+    },
+    {
+      "section": "TECHNOLOGY · Language tools",
+      "title": "Open models turn romanized Khmer into Khmer script",
+      "summary": "Samdei Type released transliteration models, training data and a human-checked benchmark. Its Apache-licensed Mini model has an on-device format; developers can also adapt pretrained checkpoints, though the team cautions that ambiguous spellings remain difficult.",
+      "url": "https://huggingface.co/blog/mengsay/samdei-type",
+      "tag": "Open source"
+    },
+    {
+      "section": "TECHNOLOGY · Agent models",
+      "title": "DaisyRose releases checkpoints for agent tasks",
+      "summary": "RadixArk released DaisyRose-27B, a model trained on long-running agent tasks, in three checkpoint formats under Apache 2.0. The team reports stronger terminal-task results than its Qwen base model, giving developers a model to evaluate independently.",
+      "url": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
+      "tag": "Model release"
+    },
+    {
+      "section": "TECHNOLOGY · Developer tools",
+      "title": "GitHub CLI can wait for pull-request events",
+      "summary": "GitHub CLI now supports event streams for pull requests, allowing scripts to wait for activity instead of repeatedly checking for changes. Options let developers follow events, wait for a set count or stop after a timeout.",
+      "url": "https://github.blog/changelog/2026-11-18-wait-for-pull-request-events-with-github-cli/",
+      "tag": "Developer release"
+    },
+    {
+      "section": "LOCAL · Transportation",
+      "title": "Massey Tunnel environmental review is paused",
+      "summary": "BC's Environmental Assessment Office paused its review of the Massey Tunnel replacement at the province's request during the government transition. The incoming government plans to review the tunnel and alternatives; the assessment office asked the project corporation to remain ready to resume.",
+      "url": "https://vancouver.citynews.ca/2026/11/19/bc-massey-tunnel-environmental-assessment-pause/",
+      "tag": "Project review"
+    },
+    {
+      "section": "LOCAL · Cost of living",
+      "title": "Metro Vancouver living-wage estimate rises to $28.55",
+      "summary": "Living Wage BC calculates that Metro Vancouver's living wage rose 70 cents to $28.55 an hour in 2026. The estimate accounts for household expenses, taxes and benefits across three household types, but excludes items such as debt payments and retirement savings.",
+      "url": "https://www.livingwagebc.ca/living_wage_report_2026",
+      "tag": "Household costs"
+    }
+  ],
+  "markets": [
+    {
+      "name": "S&P/TSX Composite",
+      "value": "34,028.73",
+      "change": "2026-11-19 regular-session close: down 1.59%. Source: https://stocksummarizer.com/market-wrap/2026-11-19-tsx/"
+    },
+    {
+      "name": "S&P 500",
+      "value": "7,175.83",
+      "change": "2026-11-19 regular-session close: down 2.02%. Source: https://www.marketedge.com/article/DailyMarketComment"
+    },
+    {
+      "name": "Nasdaq Composite",
+      "value": "23,879.20",
+      "change": "2026-11-19 regular-session close: down 2.25%. Source: https://www.marketedge.com/article/DailyMarketComment"
+    },
+    {
+      "name": "Bank of Canada policy rate",
+      "value": "2.50%",
+      "change": "2026-10-28 official policy decision: the overnight target rose 0.25 percentage points. Source: https://www.bankofcanada.ca/2026/10/fad-press-release-2026-10-28/"
+    },
+    {
+      "name": "Recession indicators",
+      "value": "6% of surveyed firms planning or budgeting for recession",
+      "change": "2026-10-19 quarterly survey release: down from 17%; most interviews preceded renewed trade tensions. Expectations alone do not establish recession. Source: https://www.bankofcanada.ca/2026/10/business-outlook-survey-third-quarter-of-2026/"
+    }
+  ],
+  "events": [],
+  "meetups": [
+    {
+      "date": "2026-12-04 · 2–4:30 p.m. · Planview Vancouver, 555 West Hastings Street, Suite 2360, Vancouver",
+      "title": "Agent security meets prompt injection",
+      "description": "Planview's platform engineering team hosts a discussion of prompt injection and the limits of conventional security filters for AI agents. The session covers layered defences, including gateways, guardrails and least-privilege access; register through the organizer.",
+      "url": "https://luma.com/dewf0me9"
+    },
+    {
+      "date": "2026-12-05 · 9 a.m.–7 p.m. · Unit 400, 322 Water Street, Vancouver",
+      "title": "Build and demonstrate an AI agent",
+      "description": "Cognition and Keiki invite builders to create an agent around a business problem and present a working demo. Bring a laptop and an idea; registration requires host approval, and each team member must apply separately.",
+      "url": "https://luma.com/vanspace-bkv7"
+    }
+  ],
+  "dining": [
+    {
+      "date": "2026-12-09 · Fanny Bay Oyster Bar, 762 Cambie Street, Vancouver",
+      "title": "Learn oyster shucking at Fanny Bay",
+      "description": "Fanny Bay's new oyster masterclass returns in December, bringing a small group into the restaurant's Kelp Room to learn shucking from its seafood specialists. The restaurant has also introduced weekday food and drink features for fall and winter.",
+      "url": "https://myvancity.ca/2026/11/10/fanny-bay-oyster-bar-shellfish-market-offers-new-menu-oyster-master-classes-weekday-features-for-fall-winter/"
+    }
+  ],
+  "watchers": []
+}
