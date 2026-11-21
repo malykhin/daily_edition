@@ -1,0 +1,101 @@
+{
+  "date": "2026-11-21",
+  "status": "published",
+  "intro": "Saturday brings a multimodal model for local setups, narrower security permissions and a new BC cabinet. Retail spending rose in September, Friday’s markets fell sharply, and December offers music and hands-on sessions for AI builders.",
+  "weather": {
+    "title": "Vancouver four-day forecast",
+    "summary": "2026-11-21: 8.2/1.5°C; Light drizzle. 2026-11-22: 6.8/4.0°C; Dense drizzle. 2026-11-23: 6.5/4.4°C; Slight rain showers. 2026-11-24: 8.8/6.3°C; Moderate rain. Source: https://api.open-meteo.com/v1/forecast?latitude=49.2827&longitude=-123.1207&daily=temperature_2m_max,temperature_2m_min,weather_code&timezone=America%2FVancouver&forecast_days=4",
+    "high": 8.2,
+    "low": 1.5
+  },
+  "stories": [
+    {
+      "section": "TECHNOLOGY · Local models",
+      "title": "Inkling 2 Mini brings multimodal AI to local setups",
+      "summary": "Thinking Machines Lab released Inkling 2 Mini, a model that accepts images and text and repeats some layers to increase capacity. Hugging Face describes support for Transformers, llama.cpp and MLX, giving developers several ways to evaluate it locally.",
+      "url": "https://huggingface.co/blog/inkling2mini",
+      "tag": "Model release"
+    },
+    {
+      "section": "TECHNOLOGY · Agent training",
+      "title": "Harness adapters tailor models to their tools",
+      "summary": "Hugging Face published a recipe for training adapters inside three agent harnesses. In one reported test, an adapted Qwen model improved its terminal benchmark score while using fewer tokens; the team also combined the adapters for use across harnesses.",
+      "url": "https://huggingface.co/blog/harness-adapters-at-scale",
+      "tag": "Open research"
+    },
+    {
+      "section": "TECHNOLOGY · Security",
+      "title": "GitHub adds narrower security advisory permissions",
+      "summary": "Organization owners can now use custom repository roles to grant access to security advisories and private vulnerability reports. The generally available permissions let maintainers work on selected repositories without receiving administrator or organization-wide security manager access.",
+      "url": "https://github.blog/changelog/2026-11-20-security-advisory-permissions-are-now-generally-available/",
+      "tag": "Security update"
+    },
+    {
+      "section": "TECHNOLOGY · Developer infrastructure",
+      "title": "Enterprise Server candidate previews offline secret detection",
+      "summary": "GitHub Enterprise Server 3.23 has a release candidate with a preview of AI secret detection that runs on the appliance, including in air-gapped environments. It also adds project-filter options and a default waiting period for Dependabot version updates.",
+      "url": "https://github.blog/changelog/2026-11-20-github-enterprise-server-3-23-release-candidate/",
+      "tag": "Release candidate"
+    },
+    {
+      "section": "LOCAL · Provincial government",
+      "title": "Doerkson names BC's new cabinet",
+      "summary": "Premier Lorne Doerkson unveiled his cabinet Friday, naming Peter Milobar finance minister, Ryan Peterson health minister and Trevor Halford transportation minister. Cathie Ounsted takes the combined local government, housing, sport and culture portfolio as the new government begins work.",
+      "url": "https://news.gov.bc.ca/releases/2026PREM0069-001142",
+      "tag": "BC government"
+    },
+    {
+      "section": "ECONOMY · Retail",
+      "title": "Canadian retail sales rise in September",
+      "summary": "Canadian retail sales increased 0.8% to $75.3 billion in September, according to Statistics Canada figures released Friday. The monthly report offers a snapshot of consumer spending before the holiday shopping season.",
+      "url": "https://www.koreanhomes.ca/en/articles/news-2026-11-20-september-retail-sales/",
+      "tag": "Economic data"
+    }
+  ],
+  "markets": [
+    {
+      "name": "S&P/TSX Composite",
+      "value": "33,189.85",
+      "change": "2026-11-20 regular-session close: down 2.47%. Source: https://stocksummarizer.com/market-wrap/2026-11-20-tsx/"
+    },
+    {
+      "name": "Bank of Canada policy rate",
+      "value": "2.50%",
+      "change": "2026-10-28 official policy decision: overnight target increased 0.25 percentage points. Source: https://www.bankofcanada.ca/2026/10/fad-press-release-2026-10-28/"
+    },
+    {
+      "name": "Canadian inflation",
+      "value": "October: 3.1% year over year",
+      "change": "2026-11-16 monthly CPI release: annual inflation matched September's rate. Source: https://vancouver.citynews.ca/2026/11/16/inflation-october-canada-cost-of-living/"
+    },
+    {
+      "name": "Recession indicators",
+      "value": "6% of surveyed firms planning or budgeting for recession",
+      "change": "2026-10-19 quarterly survey release: down from 17%; most interviews preceded renewed trade tensions. Expectations alone do not establish recession. Source: https://www.bankofcanada.ca/2026/10/business-outlook-survey-third-quarter-of-2026/"
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-12-19 · 2 p.m. · Centennial Theatre, 2300 Lonsdale Avenue, North Vancouver",
+      "title": "Piano Heist gives holiday music a comic turn",
+      "description": "Nico Rhodes and Patrick Courtin bring A Very Merry Heistmas to Centennial Theatre, mixing seasonal music and comedy with a rock-and-roll Nutcracker and Handel on melodicas. The two-hour show has reserved seating and welcomes ages six and older.",
+      "url": "https://www.showpass.com/a-very-merry-heistmas/"
+    }
+  ],
+  "meetups": [
+    {
+      "date": "2026-12-04 · 2–4:30 p.m. · Planview Vancouver, 555 West Hastings Street, Suite 2360, Vancouver",
+      "title": "Engineers examine prompt injection and agent security",
+      "description": "Planview's platform engineering team hosts a discussion of prompt injection and the limits of conventional security filters for AI agents. The session covers layered defences, including gateways, guardrails and least-privilege access; register through the organizer.",
+      "url": "https://luma.com/dewf0me9"
+    },
+    {
+      "date": "2026-12-05 · 9 a.m.–7 p.m. · Unit 400, 322 Water Street, Vancouver",
+      "title": "Build an agent and present a demo",
+      "description": "Cognition and Keiki invite builders to develop an agent around a practical business problem and demonstrate it to judges. Bring a laptop and an idea; registration requires host approval, and every team member must apply separately.",
+      "url": "https://luma.com/vanspace-bkv7"
+    }
+  ],
+  "dining": [],
+  "watchers": []
+}
