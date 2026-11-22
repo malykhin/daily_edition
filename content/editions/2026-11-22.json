@@ -1,0 +1,113 @@
+{
+  "date": "2026-11-22",
+  "status": "published",
+  "intro": "Sunday brings a workplace privacy dispute, a nursing contract settlement and new tools for developers running models locally. Friday’s market close, holiday music and upcoming sessions for AI builders round out the edition.",
+  "weather": {
+    "title": "Vancouver four-day forecast",
+    "summary": "2026-11-22: 8.4/5.0°C; Light drizzle. 2026-11-23: 8.1/4.4°C; Moderate rain. 2026-11-24: 9.1/6.2°C; Moderate rain. 2026-11-25: 10.4/9.0°C; Dense drizzle. Source: https://api.open-meteo.com/v1/forecast?latitude=49.2827&longitude=-123.1207&daily=temperature_2m_max,temperature_2m_min,weather_code&timezone=America%2FVancouver&forecast_days=4",
+    "high": 8.4,
+    "low": 5.0
+  },
+  "stories": [
+    {
+      "section": "LOCAL · Workplace privacy",
+      "title": "Housing workers challenge facial-recognition clock",
+      "summary": "CUPE Local 5536 is opposing a proposed facial-recognition time clock at PHS Community Services Society. PHS says the change would address payroll errors and that employee photos would be deleted immediately; the union has raised concerns about biometric monitoring.",
+      "url": "https://vancouver.citynews.ca/2026/11/21/downtown-eastside-housing-workers-resist-b-c-non-profits-facial-recognition-plans/?rssa=&zoom=3",
+      "tag": "Workplace technology"
+    },
+    {
+      "section": "LOCAL · Health care",
+      "title": "Arbitration settles BC nurses’ wages",
+      "summary": "Arbitrators awarded nurses annual general wage increases of 3% under their four-year agreement. The wage grid will shrink from ten steps to seven in April 2027, and a workplace-violence study forms part of the settlement.",
+      "url": "https://hsabc.org/news/arbitrators-award-nurses-3-pay-increase-finalized-agreement",
+      "tag": "Labour settlement"
+    },
+    {
+      "section": "TECHNOLOGY · Developer tools",
+      "title": "GitHub Desktop handles multiple accounts on one host",
+      "summary": "GitHub Desktop 3.7.0 lets developers sign into multiple accounts on the same host and associate each repository with the appropriate credentials. Existing repositories migrate to their current account; additional accounts can be added in settings.",
+      "url": "https://github.blog/changelog/2026-11-19-github-desktop-now-supports-multiple-accounts-per-host/",
+      "tag": "Desktop update"
+    },
+    {
+      "section": "TECHNOLOGY · Local models",
+      "title": "Experiment streams large model experts from disk",
+      "summary": "A Hugging Face walkthrough tests streaming mixture-of-experts model weights from an SSD to run a large Qwen model on a 32 GB Mac. The author shares code and measurements, while noting that laptop inference remains too slow for his coding-agent workflow.",
+      "url": "https://huggingface.co/blog/moe-expert-streaming?from=bd_signal",
+      "tag": "Local inference"
+    },
+    {
+      "section": "TECHNOLOGY · AI infrastructure",
+      "title": "Fine-tuning study examines missed time estimates",
+      "summary": "Researchers analyzed 272 production fine-tuning runs on shared GPU clusters and found that a conventional computation-based estimate explained little of the observed variation. Better duration estimates could help teams schedule expensive accelerators and reduce delays between experiments.",
+      "url": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
+      "tag": "Training research"
+    },
+    {
+      "section": "ECONOMY · Markets",
+      "title": "US stocks end a punishing week",
+      "summary": "Friday’s sell-off pushed the S&P 500 down 3.7% and into a correction from its recent high. The Nasdaq Composite fell 5.3% for the session, erasing its gain for the year as pressure spread through AI-linked stocks.",
+      "url": "https://cdn.ameriprisecontent.com/cds/alwp/marketperspectives/aftertheclose-2026-11-20a.pdf",
+      "tag": "Friday close"
+    }
+  ],
+  "markets": [
+    {
+      "name": "S&P/TSX Composite",
+      "value": "33,189.85",
+      "change": "2026-11-20 regular-session close: down 2.47%. Source: https://stocksummarizer.com/market-wrap/2026-11-20-tsx/"
+    },
+    {
+      "name": "S&P 500",
+      "value": "6,910.39",
+      "change": "2026-11-20 regular-session close: down 3.70%. Source: https://www.investech.com/daily-data/"
+    },
+    {
+      "name": "Nasdaq Composite",
+      "value": "22,617.73",
+      "change": "2026-11-20 regular-session close: down 5.28%. Source: https://www.investech.com/daily-data/"
+    },
+    {
+      "name": "Bank of Canada policy rate",
+      "value": "2.50%",
+      "change": "2026-10-28 policy decision: overnight target rose by 0.25 percentage points. Source: https://www.bankofcanada.ca/2026/10/fad-press-release-2026-10-28/"
+    },
+    {
+      "name": "Recession indicators",
+      "value": "6% of surveyed firms planning or budgeting for recession",
+      "change": "2026-10-19 quarterly survey release: down from 17%; most interviews preceded renewed trade tensions. Expectations alone do not establish recession. Source: https://www.bankofcanada.ca/2026/10/business-outlook-survey-third-quarter-of-2026/"
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-12-19 · 2 p.m. · Centennial Theatre, 2300 Lonsdale Avenue, North Vancouver",
+      "title": "A Very Merry Heistmas mixes piano and comedy",
+      "description": "Nico Rhodes and Patrick Courtin bring their holiday show to Centennial Theatre for an afternoon of music and comedy. The program includes a rock-and-roll Nutcracker and Handel on melodicas; the two-hour performance has reserved seating.",
+      "url": "https://www.showpass.com/a-very-merry-heistmas/"
+    }
+  ],
+  "meetups": [
+    {
+      "date": "2026-12-04 · 2–4:30 p.m. · Planview Vancouver, 555 West Hastings Street, Suite 2360, Vancouver",
+      "title": "A practical afternoon on AI-agent security",
+      "description": "Planview’s platform engineering team hosts a discussion of prompt injection and the limits of pattern-matching security for AI agents. The afternoon covers layered defences and gives developers and security practitioners time to compare approaches.",
+      "url": "https://luma.com/dewf0me9"
+    },
+    {
+      "date": "2026-12-05 · 9 a.m.–7 p.m. · Unit 400, 322 Water Street, Vancouver",
+      "title": "Build an agent and present a demo",
+      "description": "Cognition and Keiki invite builders to develop an agent around a practical business problem and present a working demonstration. Bring a laptop and an idea; registration requires host approval, and each team member must apply separately.",
+      "url": "https://luma.com/vanspace-bkv7"
+    }
+  ],
+  "dining": [
+    {
+      "date": "November 2026 · Chilakilas by Los Sapos, 152 Lonsdale Avenue, North Vancouver",
+      "title": "Los Sapos plans a North Vancouver restaurant",
+      "description": "Los Sapos lists a November opening for Chilakilas on Lonsdale, describing it as a full-service restaurant with a different menu and a full bar. Check with the restaurant for its opening status before making the trip.",
+      "url": "https://lossapostacos.com/contact"
+    }
+  ],
+  "watchers": []
+}
