@@ -1,0 +1,118 @@
+{
+  "date": "2026-11-23",
+  "status": "published",
+  "intro": "Monday brings a BC flood-recovery estimate, a major cybersecurity acquisition and updates for developers managing infrastructure. Friday’s market close, a local AI demo night and a downtown lunch menu round out the morning.",
+  "weather": {
+    "title": "Vancouver four-day forecast",
+    "summary": "2026-11-23: 9.4/5.5°C; Moderate rain. 2026-11-24: 10.8/7.6°C; Moderate rain. 2026-11-25: 10.1/8.9°C; Slight rain. 2026-11-26: 10.2/8.6°C; Slight rain showers. Source: https://api.open-meteo.com/v1/forecast?latitude=49.2827&longitude=-123.1207&daily=temperature_2m_max,temperature_2m_min,weather_code&timezone=America%2FVancouver&forecast_days=4",
+    "high": 9.4,
+    "low": 5.5
+  },
+  "stories": [
+    {
+      "section": "LOCAL · Flood recovery",
+      "title": "Pemberton counts the cost of flooding",
+      "summary": "Pemberton Mayor Mike Richman estimates November flooding damaged 50 to 60 homes and caused $5 million to $6 million in damage to village dikes. Crews are still assessing the full extent of repairs.",
+      "url": "https://vanhere.com/en/news/6759-pemberton-dikes-take-5m-to-6m-in-flood-damage-mayor-says",
+      "tag": "BC recovery"
+    },
+    {
+      "section": "TECHNOLOGY · Browser security",
+      "title": "Firefox update fixes high-impact vulnerabilities",
+      "summary": "Mozilla says Firefox 160.0.1 fixes two high-impact vulnerabilities, including an Android graphics privilege-escalation issue and a memory flaw involving audio and video playback. Users and administrators should update through their usual distribution channel.",
+      "url": "https://www.mozilla.org/en-US/security/advisories/mfsa2026-130/",
+      "tag": "Security update"
+    },
+    {
+      "section": "TECHNOLOGY · Developer infrastructure",
+      "title": "GitHub expands credential-free audit streaming",
+      "summary": "GitHub Enterprise Cloud customers using data residency can now stream enterprise audit logs to Amazon S3 with OpenID Connect. The expansion allows authentication without storing long-lived AWS credentials on GitHub.",
+      "url": "https://github.blog/changelog/2026-11-19-s3-audit-log-streaming-with-openid-connect-expands-to-ghe-com/",
+      "tag": "Enterprise security"
+    },
+    {
+      "section": "TECHNOLOGY · Developer tools",
+      "title": "Red Hat runner images graduate from preview",
+      "summary": "GitHub-hosted larger runners with Red Hat Enterprise Linux 9 and 10 images are now generally available. Teams building or testing software for those environments can use the hosted images in their workflows.",
+      "url": "https://github.blog/changelog/2026-11-19-red-hat-enterprise-linux-runner-images-now-generally-available/",
+      "tag": "Developer tools"
+    },
+    {
+      "section": "TECHNOLOGY · Developer tools",
+      "title": "Azure DevOps migrations reach general availability",
+      "summary": "GitHub has made Enterprise Live Migrations from Azure DevOps Services generally available for Enterprise Cloud with data residency. Teams can continue working while repositories sync, then coordinate the final cutover on their schedule.",
+      "url": "https://github.blog/changelog/2026-11-19-enterprise-live-migrations-from-azure-devops-generally-available/",
+      "tag": "Migration"
+    },
+    {
+      "section": "PROMOTION · Local AI",
+      "title": "Consider a Nekoni demo for local AI builders",
+      "summary": "The December 7 AI Builders Guild gathering is seeking five community members to demonstrate projects. Nekoni’s self-hosted local agent could fit the audience; register and consider offering a practical demo, with the repository at https://github.com/nekonihq/nekoni.",
+      "url": "https://luma.com/ekojkmms",
+      "tag": "Demo opportunity"
+    }
+  ],
+  "markets": [
+    {
+      "name": "S&P/TSX Composite",
+      "value": "33,189.85",
+      "change": "2026-11-20 regular-session close: down 2.47%. Source: https://stocksummarizer.com/market-wrap/2026-11-20-tsx/"
+    },
+    {
+      "name": "S&P 500",
+      "value": "6,910.39",
+      "change": "2026-11-20 regular-session close: down 3.70%. Source: https://www.investech.com/daily-data/"
+    },
+    {
+      "name": "Nasdaq Composite",
+      "value": "22,617.73",
+      "change": "2026-11-20 regular-session close: down 5.28%. Source: https://www.investech.com/daily-data/"
+    },
+    {
+      "name": "Bank of Canada policy rate",
+      "value": "2.50%",
+      "change": "2026-10-28 policy decision: the overnight target rose 0.25 percentage points. Source: https://www.bankofcanada.ca/2026/10/fad-press-release-2026-10-28/"
+    },
+    {
+      "name": "Canadian inflation",
+      "value": "October: 3.1% year over year",
+      "change": "2026-11-16 monthly CPI release: annual inflation matched September’s rate. Source: https://vancouver.citynews.ca/2026/11/16/inflation-october-canada-cost-of-living/"
+    },
+    {
+      "name": "Recession indicators",
+      "value": "6% of surveyed firms planning or budgeting for recession",
+      "change": "2026-10-19 quarterly survey release: down from 17%; most interviews preceded renewed trade tensions. Expectations alone do not establish a recession. Source: https://www.bankofcanada.ca/2026/10/business-outlook-survey-third-quarter-of-2026/"
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-12-31 · 10 p.m. · Science World, 1455 Quebec Street, Vancouver",
+      "title": "Cirque NYE plans a circus-themed countdown",
+      "description": "Science World hosts a New Year’s Eve party with music across three rooms and performances by aerialists, contortionists and dancers. The event is for guests aged 19 and older; government-issued identification and semi-formal dress are required.",
+      "url": "https://www.showpass.com/cirquenye2027/"
+    }
+  ],
+  "meetups": [
+    {
+      "date": "2026-12-07 · 6:30–9:30 p.m. · The Beaumont Studios, 316 West 5th Avenue, Vancouver",
+      "title": "AI builders gather for five live demos",
+      "description": "AI Builders Guild Vancouver invites developers, founders and other builders to an evening of short project demonstrations and networking. The organizer is seeking five community presenters; attendance is free, with registration through the event page.",
+      "url": "https://luma.com/ekojkmms"
+    },
+    {
+      "date": "2026-12-01 · 6:30–8:30 p.m. · Parker Street Studios, Vancouver",
+      "title": "AI Ethical Futures Lab maps questions for the year ahead",
+      "description": "BC + AI hosts a working session on recurring questions about agency, labour, privacy and public trust. Bring a laptop and a concrete example for discussion; requests to join require approval, and attendees can name their own price at checkout.",
+      "url": "https://luma.com/decem-ethics"
+    }
+  ],
+  "dining": [
+    {
+      "date": "From 2026-11-19 · Boulevard Kitchen & Oyster Bar, Sutton Place Hotel, Vancouver",
+      "title": "Boulevard brings back weekday lunch",
+      "description": "Chef Roger Ma’s lunch menu includes a pastrami Reuben burger and a poke bowl with uni. Lunch runs Monday to Friday from 11:30 a.m. to 1:30 p.m., with both à la carte dishes and a two-course option.",
+      "url": "https://maryinvancity.com/2026/11/17/boulevard-kitchen-new-lunch-menu-vancouver/"
+    }
+  ],
+  "watchers": []
+}
