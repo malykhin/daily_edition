@@ -1,0 +1,100 @@
+{
+  "date": "2026-11-24",
+  "status": "published",
+  "intro": "Tuesday brings a new permanent park, a warning for AI platform customers and fresh tools for robot perception. A market rebound, a rock choir, an Indigenous technology conference and a downtown holiday menu round out the morning.",
+  "weather": {
+    "title": "Vancouver four-day forecast",
+    "summary": "2026-11-24: 12.1/7.4°C; Moderate rain. 2026-11-25: 11.1/9.3°C; Moderate rain. 2026-11-26: 11.4/8.3°C; Moderate rain showers. 2026-11-27: 8.8/7.4°C; Light drizzle. Source: https://api.open-meteo.com/v1/forecast?latitude=49.2827&longitude=-123.1207&daily=temperature_2m_max,temperature_2m_min,weather_code&timezone=America%2FVancouver&forecast_days=4",
+    "high": 12.1,
+    "low": 7.4
+  },
+  "stories": [
+    {
+      "section": "LOCAL · Parks",
+      "title": "Gore and Union green space becomes a permanent park",
+      "summary": "Vancouver council has approved permanent park status for the city-owned green space at 722 Gore Avenue, previously reserved for road use. Future improvements will go through the Park Board’s planning process.",
+      "url": "https://vancouver.citynews.ca/2026/11/21/green-space-new-park-van/",
+      "tag": "Public space"
+    },
+    {
+      "section": "LOCAL · City council",
+      "title": "Council begins revisiting housing and park policies",
+      "summary": "Vancouver’s new council has debated motions to revisit the previous council’s supportive-housing pause, Park Board dissolution and living-wage employer certification. The discussions begin a process of reconsideration across several city policies.",
+      "url": "https://vancouver.citynews.ca/2026/11/19/vancouver-city-council-looks-to-improve-housing/?rssa=&zoom=3",
+      "tag": "City policy"
+    },
+    {
+      "section": "TECHNOLOGY · Robotics",
+      "title": "Ai2 releases tools for tracking objects during robot work",
+      "summary": "Ai2 introduced RoboTrack, including a benchmark of annotated manipulation videos, synthetic training data and two tracking models. The team reports improved tracking on robot benchmarks and demonstrates the approach guiding pipette handling.",
+      "url": "https://huggingface.co/blog/allenai/robotrack",
+      "tag": "Robotics research"
+    },
+    {
+      "section": "TECHNOLOGY · Developer tools",
+      "title": "GitHub previews issue statuses and repository boards",
+      "summary": "GitHub’s public preview adds issue statuses from backlog to in review, plus board layouts within repositories. Some actions update statuses automatically, and agents can read or set them through supported APIs and the MCP server.",
+      "url": "https://github.blog/changelog/2026-11-23-issue-statuses-and-repository-boards-are-in-public-preview/",
+      "tag": "Public preview"
+    },
+    {
+      "section": "TECHNOLOGY · Security",
+      "title": "GitHub narrows Slack webhook secret alerts",
+      "summary": "GitHub has adjusted its secret-scanning detector to exclude URLs that do not match Slack’s incoming-webhook format. The change is intended to reduce false positives for teams reviewing potential exposed credentials.",
+      "url": "https://github.blog/changelog/2026-11-23-secret-scanning-reduces-false-positives-for-slack/",
+      "tag": "Security update"
+    },
+    {
+      "section": "ECONOMY · Markets",
+      "title": "US stocks rebound as Nvidia reinstates Huang",
+      "summary": "The S&P 500 rose 4.73% Monday and the Nasdaq Composite gained 6.51% as technology shares rallied after Nvidia reinstated Jensen Huang as chief executive. Both indexes posted their strongest session since April 2025.",
+      "url": "https://www.metatradingclub.com/close-recap-nov-23-2026-nvidia-huang-stock-market-rally/",
+      "tag": "Monday close"
+    }
+  ],
+  "markets": [
+    {
+      "name": "S&P/TSX Composite",
+      "value": "34,081.44",
+      "change": "2026-11-23 regular-session close: up 2.69%. Source: https://stocksummarizer.com/market-wrap/2026-11-23-tsx/"
+    },
+    {
+      "name": "S&P 500",
+      "value": "7,237.17",
+      "change": "2026-11-23 regular-session close: up 4.73%. Source: https://www.metatradingclub.com/close-recap-nov-23-2026-nvidia-huang-stock-market-rally/"
+    },
+    {
+      "name": "Nasdaq Composite",
+      "value": "24,089.56",
+      "change": "2026-11-23 regular-session close: up 6.51%. Source: https://www.metatradingclub.com/close-recap-nov-23-2026-nvidia-huang-stock-market-rally/"
+    },
+    {
+      "name": "Bank of Canada policy rate",
+      "value": "2.50%",
+      "change": "2026-10-28 policy decision: overnight target rose 0.25 percentage points. Source: https://www.bankofcanada.ca/2026/10/fad-press-release-2026-10-28/"
+    },
+    {
+      "name": "Recession indicators",
+      "value": "6% of surveyed firms planning or budgeting for recession",
+      "change": "2026-10-19 quarterly survey release: down from 17%; most interviews preceded renewed trade tensions. Expectations alone do not establish recession. Source: https://www.bankofcanada.ca/2026/10/business-outlook-survey-third-quarter-of-2026/"
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-12-18 · 7:30 p.m. · Centennial Theatre, 2300 Lonsdale Avenue, North Vancouver",
+      "title": "Vancouver Rock Choir brings 150 voices to the stage",
+      "description": "The choir joins a live band for a program of rock songs associated with artists including Chilliwack, Stevie Nicks and Nirvana. Proceeds support Lookout Housing and Health Society; reserved seats may be released to walk-ins after 7:20 p.m.",
+      "url": "https://www.showpass.com/the-vancouver-rock-choir/?source_channel=discovery"
+    }
+  ],
+  "meetups": [
+    {
+      "date": "2027-01-26 · Sheraton Vancouver Airport Hotel, 7551 Westminster Highway, Richmond",
+      "title": "Indigenous Tech Conference returns for three days",
+      "description": "Tech Circle’s January 26–28 conference brings together Indigenous innovators, community leaders and technology organizations. The program includes an Indigenous startup expo, discussions of data sovereignty, hands-on AI and cybersecurity labs, and sessions on language technology.",
+      "url": "https://luma.com/IITC"
+    }
+  ],
+  "dining": [],
+  "watchers": []
+}
