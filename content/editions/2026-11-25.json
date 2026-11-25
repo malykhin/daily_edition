@@ -1,0 +1,107 @@
+{
+  "date": "2026-11-25",
+  "status": "published",
+  "intro": "Wednesday brings a South Coast travel warning, a robot-training walkthrough and changes to GitHub notifications. Tuesday’s market close, a January concert, an AI community gathering and a North Vancouver menu offer more to plan around.",
+  "weather": {
+    "title": "Vancouver four-day forecast",
+    "summary": "2026-11-25: 12.0/9.7°C; Heavy rain. 2026-11-26: 10.9/8.1°C; Moderate rain. 2026-11-27: 8.9/7.8°C; Light drizzle. 2026-11-28: 8.5/5.5°C; Overcast. Source: https://api.open-meteo.com/v1/forecast?latitude=49.2827&longitude=-123.1207&daily=temperature_2m_max,temperature_2m_min,weather_code&timezone=America%2FVancouver&forecast_days=4",
+    "high": 12.0,
+    "low": 9.7
+  },
+  "stories": [
+    {
+      "section": "LOCAL · Travel",
+      "title": "BC warns of wind and flooding on South Coast routes",
+      "summary": "BC is advising drivers to prepare for wind, debris and possible flooding through Thursday in coastal areas including Metro Vancouver and Howe Sound. Road closures could come with little notice; check DriveBC before travelling.",
+      "url": "https://news.gov.bc.ca/releases/2026MOTI0108-001144",
+      "tag": "Travel advisory"
+    },
+    {
+      "section": "TECHNOLOGY · Robotics",
+      "title": "A walking robot learns to steer around obstacles",
+      "summary": "An Nvidia tutorial describes training an obstacle-avoidance controller for the Microduck robot in simulation while keeping its walking policy fixed. It covers simulated sensing, policy export and deployment on the physical robot.",
+      "url": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
+      "tag": "Robotics"
+    },
+    {
+      "section": "TECHNOLOGY · Developer tools",
+      "title": "GitHub plans a notification migration",
+      "summary": "GitHub will begin migrating GitHub.com notifications on December 1 over the course of a week. The company says the change is intended to make subscriptions more predictable and correct unexpected notification behaviour.",
+      "url": "https://github.blog/changelog/2026-11-24-more-predictable-notifications-on-github-com/",
+      "tag": "December change"
+    },
+    {
+      "section": "TECHNOLOGY · AI evaluation",
+      "title": "A guide examines how to maintain agent benchmarks",
+      "summary": "Hugging Face published a guide to building and maintaining evaluations for AI agents, from defining tasks and checking scores to reviewing claims and releasing components. A worked example applies the process to an agentic physics-lab task.",
+      "url": "https://huggingface.co/blog/agentic-evals",
+      "tag": "AI research"
+    },
+    {
+      "section": "TECHNOLOGY · Testing",
+      "title": "GitHub flags invalid coverage report formats",
+      "summary": "GitHub’s code coverage upload action now fails when a report is not in the supported Cobertura XML format. Developers whose workflows fail can configure their test framework to produce that format or convert the report before uploading.",
+      "url": "https://github.blog/changelog/2026-11-23-code-coverage-uploads-now-flag-invalid-report-formats/",
+      "tag": "Developer tools"
+    },
+    {
+      "section": "ECONOMY · Markets",
+      "title": "US indexes diverge after Monday’s rally",
+      "summary": "The S&P 500 fell 0.50% and the Nasdaq Composite dropped 1.48% Tuesday, while the Dow gained 0.85%. The split followed Monday’s broad rebound and left investors with a mixed close across major US indexes.",
+      "url": "https://stockmarketwatch.com/digest/2026-11-24",
+      "tag": "Tuesday close"
+    }
+  ],
+  "markets": [
+    {
+      "name": "S&P/TSX Composite",
+      "value": "33,962.25",
+      "change": "2026-11-24 regular-session close: down 0.35%. Source: https://canadanewsmedia.ca/tsx-closes-down-120-points-as-mining-tech-stocks-fall/"
+    },
+    {
+      "name": "S&P 500",
+      "value": "7,201.09",
+      "change": "2026-11-24 regular-session close: down 0.50%. Source: https://stockmarketwatch.com/digest/2026-11-24"
+    },
+    {
+      "name": "Nasdaq Composite",
+      "value": "23,733.54",
+      "change": "2026-11-24 regular-session close: down 1.48%. Source: https://stockmarketwatch.com/digest/2026-11-24"
+    },
+    {
+      "name": "Bank of Canada policy rate",
+      "value": "2.50%",
+      "change": "2026-10-28 policy decision: the overnight target rose 0.25 percentage points. Source: https://www.bankofcanada.ca/2026/10/fad-press-release-2026-10-28/"
+    },
+    {
+      "name": "Recession indicators",
+      "value": "6% of surveyed firms planning or budgeting for recession",
+      "change": "2026-10-19 quarterly survey release: down from 17%; most interviews preceded renewed trade tensions. Expectations do not establish recession. Source: https://www.bankofcanada.ca/2026/10/business-outlook-survey-third-quarter-of-2026/"
+    }
+  ],
+  "events": [
+    {
+      "date": "2027-01-23 · 6:30 p.m. · Kerrisdale Presbyterian Church, 2733 West 41st Avenue, Vancouver",
+      "title": "A candlelit concert enters Peaky Blinders territory",
+      "description": "Candlelight: Peaky Blinders brings an evening of live music to Kerrisdale Presbyterian Church. The January 23 performance is listed for 6:30 p.m.; the event page has tickets for advance planning.",
+      "url": "https://www.showpass.com/candlelight-peaky-blinders-affp3/"
+    }
+  ],
+  "meetups": [
+    {
+      "date": "2026-12-16 · 6 p.m. · H.R. MacMillan Space Centre, Vancouver",
+      "title": "Vancouver AI community meets at the Space Centre",
+      "description": "BC + AI’s monthly gathering welcomes builders, researchers, artists, students and founders to exchange ideas and show work. Doors open at 6 p.m., with the program starting at 7; registration is through the organizer.",
+      "url": "https://luma.com/dec-vanai"
+    }
+  ],
+  "dining": [
+    {
+      "date": "From 2026-11-13 · Loam Bistro, 230 Esplanade West, North Vancouver",
+      "title": "Loam adds a weekend small-plates menu",
+      "description": "Loam Bistro’s Golden Hour runs Friday through Sunday from 3 to 5 p.m. The new menu includes chili-garlic prawns, banana-leaf fish and beef tartare toast; the restaurant plans to rotate dishes seasonally.",
+      "url": "https://myvancity.ca/2026/11/04/loam-bistro-introduces-golden-hour-weekend-menu/"
+    }
+  ],
+  "watchers": []
+}
