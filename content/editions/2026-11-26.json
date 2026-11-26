@@ -1,0 +1,90 @@
+{
+  "date": "2026-11-26",
+  "status": "published",
+  "intro": "Thursday brings a housing application pause in Port Coquitlam, new tools for Linux security and experiments in AI voice and model serving. Wednesday’s market close, a January performance and a mountain dining menu offer more to plan around.",
+  "weather": {
+    "title": "Vancouver four-day forecast",
+    "summary": "2026-11-26: 11.9/8.1°C; Heavy rain. 2026-11-27: 9.6/7.3°C; Slight rain. 2026-11-28: 9.3/6.2°C; Light drizzle. 2026-11-29: 8.4/6.0°C; Dense drizzle. Source: https://api.open-meteo.com/v1/forecast?latitude=49.2827&longitude=-123.1207&daily=temperature_2m_max,temperature_2m_min,weather_code&timezone=America%2FVancouver&forecast_days=4",
+    "high": 11.9,
+    "low": 8.1
+  },
+  "stories": [
+    {
+      "section": "LOCAL · Housing",
+      "title": "Port Coquitlam pauses some new housing applications",
+      "summary": "Port Coquitlam council voted to suspend consideration of new applications relying on BC’s small-scale housing rules. Mayor Brad West says applications already in the system are unaffected; staff will review the city’s zoning for smaller homes.",
+      "url": "https://thecanadiancharger.com/canada/port-coquitlam-moves-scrap-provincial-small-scale-housing/",
+      "tag": "Housing policy"
+    },
+    {
+      "section": "TECHNOLOGY · Security",
+      "title": "OpenAI and Cisco open-source a Linux protection runtime",
+      "summary": "OpenAI and Cisco introduced Shirudo, an open-source runtime for testing and deploying temporary protections on running Linux systems. It uses eBPF to target vulnerable behaviour while operators prepare patches, with security teams controlling deployment.",
+      "url": "https://openai.com/index/introducing-shirudo/",
+      "tag": "Open source"
+    },
+    {
+      "section": "TECHNOLOGY · Open data",
+      "title": "Nvidia releases document-training datasets",
+      "summary": "Nvidia published three synthetic datasets used to train Nemotron 3.5 Parse, covering charts, tables and multilingual document pages. Images, annotations and generation documentation give developers material for fine-tuning document-reading models and creating variations.",
+      "url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+      "tag": "AI datasets"
+    },
+    {
+      "section": "TECHNOLOGY · Voice agents",
+      "title": "IBM demonstrates a multilingual farming assistant",
+      "summary": "IBM Research describes a voice agent built with the CUGA harness that answers farming questions using an English agricultural handbook. It returns spoken answers in the question’s language and displays source pages so users can check the response.",
+      "url": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga",
+      "tag": "Agent prototype"
+    },
+    {
+      "section": "TECHNOLOGY · Model serving",
+      "title": "A coding agent tunes inference on a single GPU",
+      "summary": "A Hugging Face experiment used a coding agent to explore serving configurations for Inkling 2 Mini on one RTX PRO 6000 GPU. The walkthrough shares measurements and deployment lessons, including approaches that did not work.",
+      "url": "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb",
+      "tag": "Inference"
+    },
+    {
+      "section": "ECONOMY · Markets",
+      "title": "Toronto stocks recover from a steep morning drop",
+      "summary": "The S&P/TSX Composite closed up 217.69 points Wednesday after falling more than 700 points earlier in the session. US indexes also recovered much of their intraday losses, though the S&P 500 and Nasdaq still finished lower.",
+      "url": "https://canadanewsmedia.ca/tsx-closes-up-218-points-after-early-700-point-drop/",
+      "tag": "Wednesday close"
+    }
+  ],
+  "markets": [
+    {
+      "name": "S&P/TSX Composite",
+      "value": "34,179.99",
+      "change": "2026-11-25 regular-session close: up 0.64%. Source: https://canadanewsmedia.ca/tsx-closes-up-218-points-after-early-700-point-drop/"
+    },
+    {
+      "name": "Bank of Canada policy rate",
+      "value": "2.50%",
+      "change": "2026-10-28 policy decision: overnight target rose 0.25 percentage points. Source: https://www.bankofcanada.ca/2026/10/fad-press-release-2026-10-28/"
+    },
+    {
+      "name": "Recession indicators",
+      "value": "6% of surveyed firms planning or budgeting for recession",
+      "change": "2026-10-19 quarterly survey release: down from 17%; most interviews preceded renewed trade tensions. Expectations do not establish a recession. Source: https://www.bankofcanada.ca/2026/10/business-outlook-survey-third-quarter-of-2026/"
+    }
+  ],
+  "events": [
+    {
+      "date": "2027-01-27 · Roundhouse Community Arts & Recreation Centre, 181 Roundhouse Mews, Vancouver",
+      "title": "Creation Paradigm brings a looping performance to PuSh",
+      "description": "Joshua Serafin’s Creation Paradigm runs at the Roundhouse January 27–31 as part of the PuSh International Performing Arts Festival. The highly visual performance runs on a 25-minute loop; the organizer notes that it contains nudity.",
+      "url": "https://pushfestival.ca/shows/creation-paradigm/"
+    }
+  ],
+  "meetups": [],
+  "dining": [
+    {
+      "date": "From 2026-11-19 · The Observatory, Grouse Mountain, North Vancouver",
+      "title": "The Observatory introduces its winter menu",
+      "description": "Chef Alex Uza’s new alpine-inspired menu includes game hen and bone-in pork schnitzel, alongside seasonal cocktails and a refreshed wine list. Grouse Mountain says reservations include mountain admission from 4 p.m.",
+      "url": "https://www.grousemountain.com/press_releases/grouse-mountain-unveils-new-culinary-direction-and-winter-menu-at-the-observatory"
+    }
+  ],
+  "watchers": []
+}
