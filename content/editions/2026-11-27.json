@@ -1,0 +1,107 @@
+{
+  "date": "2026-11-27",
+  "status": "published",
+  "intro": "Friday brings new priorities for BC’s cabinet, a performance dashboard for local AI and Firefox security fixes. Toronto’s latest close, a January performance and a new downtown café offer more to explore.",
+  "weather": {
+    "title": "Vancouver four-day forecast",
+    "summary": "2026-11-27: 9.8/6.0°C; Light drizzle. 2026-11-28: 9.0/4.4°C; Fog. 2026-11-29: 8.2/5.2°C; Slight rain. 2026-11-30: 9.9/6.7°C; Moderate rain showers. Source: https://api.open-meteo.com/v1/forecast?latitude=49.2827&longitude=-123.1207&daily=temperature_2m_max,temperature_2m_min,weather_code&timezone=America%2FVancouver&forecast_days=4",
+    "high": 9.8,
+    "low": 6.0
+  },
+  "stories": [
+    {
+      "section": "LOCAL · Provincial policy",
+      "title": "BC cabinet receives regulatory overhaul priorities",
+      "summary": "Premier Lorne Doerkson has directed his cabinet to pursue faster permitting for mines and LNG facilities and scrap the CleanBC climate plan. Ministers must take requests for new funding through Treasury Board’s affordability review.",
+      "url": "https://vancouver.citynews.ca/2026/11/26/cons-first-cabinet-meeting/",
+      "tag": "BC government"
+    },
+    {
+      "section": "TECHNOLOGY · Local AI",
+      "title": "A dashboard tracks llama.cpp performance on AMD hardware",
+      "summary": "The llama.cpp team introduced a public dashboard comparing prompt processing and text generation across builds, models and quantizations on two AMD hardware configurations. Developers can inspect the underlying results and follow performance as software changes.",
+      "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+      "tag": "Open benchmarks"
+    },
+    {
+      "section": "TECHNOLOGY · AI agents",
+      "title": "A tutorial trains four agents to share information",
+      "summary": "A Hugging Face walkthrough trains a shared small model to coordinate four agents on a number-sorting task. It publishes the training setup and results, giving developers a contained example for studying communication and team rewards.",
+      "url": "https://huggingface.co/blog/training-swarms",
+      "tag": "Agent research"
+    },
+    {
+      "section": "TECHNOLOGY · Developer tools",
+      "title": "Copilot code review billing will change by default",
+      "summary": "From December 30, eligible Copilot code reviews will default to organization billing where no billing choice has been made. GitHub says Copilot Business and Enterprise administrators can select member billing before then to retain the current arrangement.",
+      "url": "https://github.blog/changelog/2026-11-25-copilot-code-review-billing-will-default-to-the-organization/",
+      "tag": "Billing change"
+    },
+    {
+      "section": "TECHNOLOGY · Security",
+      "title": "Mozilla publishes Firefox 161 security fixes",
+      "summary": "Mozilla released Firefox 161 with fixes for security vulnerabilities and also published advisories for extended-support releases. Firefox users and administrators can check their installed version and update through their usual browser or distribution channel.",
+      "url": "https://www.mozilla.org/en-US/security/advisories/mfsa2026-131/",
+      "tag": "Security update"
+    },
+    {
+      "section": "ECONOMY · Markets",
+      "title": "Resource shares lift Toronto stocks",
+      "summary": "The S&P/TSX Composite rose 246.89 points Thursday, with energy and materials helping lead the advance. US stock markets were closed for Thanksgiving, leaving Toronto to trade without a regular Wall Street session.",
+      "url": "https://vancouver.citynews.ca/2026/11/26/sp-tsx-composite-up-more-than-200-points-as-price-of-oil-moves-higher/",
+      "tag": "Thursday close"
+    }
+  ],
+  "markets": [
+    {
+      "name": "S&P/TSX Composite",
+      "value": "34,426.88",
+      "change": "2026-11-26 regular-session close: up 0.72%. Source: https://stocksummarizer.com/market-wrap/2026-11-26-tsx/"
+    },
+    {
+      "name": "S&P 500",
+      "value": "7,182.78",
+      "change": "2026-11-25 regular-session close: down 0.25%; US markets closed Thursday. Source: https://deanfi.com/insights/marketpulse/2026-11-25/"
+    },
+    {
+      "name": "Nasdaq Composite",
+      "value": "23,585.80",
+      "change": "2026-11-25 regular-session close: down 0.62%; US markets closed Thursday. Source: https://deanfi.com/insights/marketpulse/2026-11-25/"
+    },
+    {
+      "name": "Bank of Canada policy rate",
+      "value": "2.50%",
+      "change": "2026-10-28 policy decision: overnight target increased by 0.25 percentage points. Source: https://www.bankofcanada.ca/2026/10/fad-press-release-2026-10-28/"
+    },
+    {
+      "name": "Recession indicators",
+      "value": "6% of surveyed firms planning or budgeting for recession",
+      "change": "2026-10-19 quarterly survey release: down from 17%; most interviews preceded renewed trade tensions. Expectations do not establish a recession. Source: https://www.bankofcanada.ca/2026/10/business-outlook-survey-third-quarter-of-2026/"
+    }
+  ],
+  "events": [
+    {
+      "date": "2027-01-20 · 7:30 p.m. · ANNEX, 823 Seymour Street, Vancouver",
+      "title": "Opera for the Dead opens at PuSh",
+      "description": "Mindy Meng Wang and Monica Lim bring Chinese mourning traditions into conversation with electronic music and interactive visuals. The 40-minute concert also plays January 21, when a touch tour and live audio description are scheduled.",
+      "url": "https://pushfestival.ca/shows/opera-for-the-dead/"
+    }
+  ],
+  "meetups": [
+    {
+      "date": "2027-01-26 · Sheraton Vancouver Airport Hotel, 7551 Westminster Highway, Richmond",
+      "title": "Indigenous Tech Conference returns for three days",
+      "description": "Tech Circle’s January 26–28 conference brings together Indigenous innovators, community leaders and technology organizations. The program includes a startup expo, discussions of data sovereignty, hands-on AI and cybersecurity labs, and sessions on language technology.",
+      "url": "https://luma.com/IITC"
+    }
+  ],
+  "dining": [
+    {
+      "date": "From 2026-11-28 · Sula Cafe, 1312 Burrard Street, Vancouver",
+      "title": "Sula Cafe opens a second location downtown",
+      "description": "Sula Cafe’s Burrard location is scheduled to open officially Saturday after a soft opening. The South Asian café offers several styles of chai, coffee and French pastries with South Asian influences, with seating for up to 18 guests.",
+      "url": "https://westernrestaurantnews.com/news-releases"
+    }
+  ],
+  "watchers": []
+}
