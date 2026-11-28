@@ -1,0 +1,90 @@
+{
+  "date": "2026-11-28",
+  "status": "published",
+  "intro": "Saturday brings a water-use request in Squamish, fresh tools for generative media and a deadline for GitHub report users. A dance performance, an Indigenous technology conference and Gastown reservations offer ways to plan ahead.",
+  "weather": {
+    "title": "Vancouver four-day forecast",
+    "summary": "2026-11-28: 9.7/5.8°C; Overcast. 2026-11-29: 9.9/5.3°C; Dense drizzle. 2026-11-30: 9.2/7.2°C; Moderate rain. 2026-12-01: 8.1/6.7°C; Slight rain. Source: https://api.open-meteo.com/v1/forecast?latitude=49.2827&longitude=-123.1207&daily=temperature_2m_max,temperature_2m_min,weather_code&timezone=America%2FVancouver&forecast_days=4",
+    "high": 9.7,
+    "low": 5.8
+  },
+  "stories": [
+    {
+      "section": "LOCAL · Water",
+      "title": "Squamish asks residents to cut indoor water use",
+      "summary": "Squamish is asking residents to limit indoor water use until further notice to help manage sewer flows after heavy weather. More rain is expected, and peak periods could add pressure to the system.",
+      "url": "https://vancouver.citynews.ca/2026/11/27/district-of-squamish-asks-residents-to-limit-indoor-water-use-after-wet-b-c-weather/?rssa=&zoom=3",
+      "tag": "Sea to Sky"
+    },
+    {
+      "section": "TECHNOLOGY · Video generation",
+      "title": "A Trainium experiment speeds up video generation",
+      "summary": "A Hugging Face experiment ran LTX-2.5 video generation across 32 AWS Trainium3 NeuronCores, reporting 22 to 23 seconds for a 10-second clip after model loading. The walkthrough shares code and the parallel-processing changes behind the result.",
+      "url": "https://huggingface.co/blog/video-trainium3",
+      "tag": "AI infrastructure"
+    },
+    {
+      "section": "TECHNOLOGY · Open models",
+      "title": "Kandinsky Lab releases image, video and audio tokenizers",
+      "summary": "Kandinsky Lab introduced KVAE-3.0, a set of models that compress images, video and stereo audio into representations for generative systems. The team published model weights and inference code alongside its reconstruction and generation comparisons.",
+      "url": "https://huggingface.co/blog/kandinskylab/kvae-3",
+      "tag": "Open models"
+    },
+    {
+      "section": "TECHNOLOGY · Language models",
+      "title": "A training recipe targets compact language encoders",
+      "summary": "Researchers introduced ModernELECTRA and two compact EdgeCoder models, including a multilingual version covering 46 languages. Their walkthrough explains a training method intended to support both classification and embeddings, with examples for developers to try.",
+      "url": "https://huggingface.co/blog/knowledgator/modernelectra",
+      "tag": "AI research"
+    },
+    {
+      "section": "TECHNOLOGY · Developer tools",
+      "title": "GitHub usage exports gain a user ID column",
+      "summary": "Beginning December 1, several GitHub usage reports will add a user ID beside the username, shifting subsequent columns. GitHub advises teams that parse reports by column position to switch to header names before the change.",
+      "url": "https://github.blog/changelog/2026-11-23-usage-reports-will-include-a-user-id-column-starting-december-1/",
+      "tag": "Action by December 1"
+    }
+  ],
+  "markets": [
+    {
+      "name": "S&P/TSX Composite",
+      "value": "34,839.87",
+      "change": "2026-11-27 regular-session close: up 1.20%. Source: https://www.tsx.com/files/trading/daily-trading-report/Daily_Trading_Report_2026-11-27.pdf"
+    },
+    {
+      "name": "Bank of Canada policy rate",
+      "value": "2.50%",
+      "change": "2026-10-28 policy decision: overnight target increased by 0.25 percentage points. Source: https://www.bankofcanada.ca/2026/10/fad-press-release-2026-10-28/"
+    },
+    {
+      "name": "Recession indicators",
+      "value": "6% of surveyed firms planning or budgeting for recession",
+      "change": "2026-10-19 quarterly survey release: down from 17%; expectations alone do not establish a recession. Source: https://www.bankofcanada.ca/2026/10/business-outlook-survey-third-quarter-of-2026/"
+    }
+  ],
+  "events": [
+    {
+      "date": "2027-01-22 · 8 p.m. · Vancouver Playhouse, 600 Hamilton Street, Vancouver",
+      "title": "Rhino brings a shifting dreamscape to PuSh",
+      "description": "Vancouver-based Out Innerspace presents a dance work in which human and animal figures emerge from darkness. A post-show talkback follows the January 22 performance; the work also plays January 23 and contains haze and flashing lights.",
+      "url": "https://pushfestival.ca/shows/rhino/"
+    }
+  ],
+  "meetups": [
+    {
+      "date": "2027-01-26 · Sheraton Vancouver Airport Hotel, 7551 Westminster Highway, Richmond",
+      "title": "Indigenous Tech Conference plans three days of exchange",
+      "description": "Tech Circle’s January 26–28 conference brings Indigenous innovators, founders and community leaders together for an expo, panels and workshops. The program includes hands-on AI and cybersecurity labs, as well as sessions on language and technology.",
+      "url": "https://luma.com/IITC"
+    }
+  ],
+  "dining": [
+    {
+      "date": "December 2026 · The Moon, 59 Powell Street, Vancouver",
+      "title": "December reservations open at The Moon",
+      "description": "The Gastown restaurant has opened December reservations for its dining room and martini bar. The dining room serves seasonal plates Thursday through Sunday; the separate bar offers snacks and desserts, with the same drinks list in both rooms.",
+      "url": "https://www.themoonyvr.com/faq"
+    }
+  ],
+  "watchers": []
+}
